@@ -2,6 +2,7 @@ import pytest
 import unittest
 from pages.Home.login_pages import LoginPage
 from pages.Home.fangate_pages import FangatePage
+from pages.Home.signup_pages import SignupPage
 
 
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")
@@ -11,15 +12,17 @@ class CreateFangateTests(unittest.TestCase):
     def classSetup(self):
         self.fp = FangatePage(self.driver)
         self.lp = LoginPage(self.driver)
+        self.sp = SignupPage(self.driver)
+
 
     @pytest.mark.order2
     def test_CreateFangate(self):
         print("running createfnagate")
-        self.fp.devUnlock("testdev123")
-        self.lp.login("anil@baltech.in", "123456")
+        self.fp.devUnlock("BetterDevTest8675!")
+        self.lp.login("harry@baltech.in", "123456")
         #self.fp.createFangate(Fg="fangate")
-        self.fp.createFangate(Fg="linkgate")
-        #self.fp.createFangate(Fg="smartlink")
+        #self.fp.createFangate(Fg="linkgate")
+        self.fp.createFangate(Fg="smartlink")
 
 
         # result = self.lp.verifyLoginSuccessful()

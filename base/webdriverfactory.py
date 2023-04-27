@@ -44,7 +44,7 @@ class WebDriverFactory():
         baseURL = "https://dev2.hypeddit.com/"
         if self.browser == "iexplorer":
             # Set ie driver
-            edgedriver = "C:/Users/Anil/workspace_python/drivers/msedgedriver.exe"
+            edgedriver = "C:/workspace_python/drivers/msedgedriver.exe"
             os.environ["webdriver.edge.driver"] = edgedriver
             driver = webdriver.Edge(edgedriver)
             driver.set_window_size(1440, 900)
@@ -52,7 +52,7 @@ class WebDriverFactory():
             driver = webdriver.Firefox()
         elif self.browser == "chrome":
             # Set chrome driver
-            chromedriver = "C:/Users/Anil/workspace_python/drivers/chromedriver.exe"
+            chromedriver = "C:/workspace_python/drivers/chromedriver.exe"
             os.environ["webdriver.chrome.driver"] = chromedriver
             driver = webdriver.Chrome(chromedriver)
             driver.set_window_size(1440, 900)

@@ -41,6 +41,7 @@ class FangatePage(SeleniumDriver):
     # Title Section
     _artist_name = "artist_name"
     _track_title = "track_title"
+    
     _title_next_button = "next_box4_button"
     # Design Section
     _upload_coverart_button = "selectManualCoverart"
@@ -395,7 +396,7 @@ class FangatePage(SeleniumDriver):
         self.elementClick(self._genre_next_button)
 
     def uploadTrack(self):
-        self.sendKeys("C:\\Users\\Anil\\workspace_python\\hypeddit-Project\\Files\\2sec.mp3", self._choose_file)
+        self.sendKeys("D:\\workspace_python\\hypeddit-Project\\Files\\2sec.mp3", self._choose_file)
 
     def clickOnNextUpload(self):
         self.elementClick(self._upload_next_button)
@@ -673,7 +674,7 @@ class FangatePage(SeleniumDriver):
         self.elementClick(self._link_unlock_button_next_button)
 
     def designSendKeys(self):
-        self.sendKeys("C:\\Users\\Anil\\workspace_python\\hypeddit-Project\\Files\\Tulips.jpg", self._choose_coverart)
+        self.sendKeys("D:\\workspace_python\\hypeddit-Project\\Files\\Tulips.jpg", self._choose_coverart)
 
     # ------------------Smartlink ---------------------------------------------------
     def clickSmartlinkLink(self):
@@ -843,6 +844,7 @@ class FangatePage(SeleniumDriver):
     def createFangate(self, Fg, artistname="sunil", trackurl="https://soundcloud.com/makelogin/sleep-away",
                       artisttitle="verma", fbpixel=7, fbtoken=8):
         if Fg == "fangate":
+            time.sleep(2)
             self.waitFl(self._share_music_link, "link")
             self.clickShareMusicLink()
             time.sleep(1)
@@ -857,6 +859,7 @@ class FangatePage(SeleniumDriver):
             time.sleep(2)
             self.design()
         if Fg == "linkgate":
+            time.sleep(2)
             self.waitFl(self._share_music_link, "link")
             self.clickShareMusicLink()
             time.sleep(1)
@@ -868,6 +871,7 @@ class FangatePage(SeleniumDriver):
             self.linkDesignStep()
 
         if Fg == "smartlink":
+            time.sleep(2)
             self.waitFl(self._share_music_link, "link")
             self.clickShareMusicLink()
             time.sleep(1)
@@ -887,6 +891,7 @@ class FangatePage(SeleniumDriver):
             self.gateSteps(Fg)
         elif Fg == "smartlink":
             self.linkSteps()
+
 
         time.sleep(2)
         self.linkUrl()
@@ -1124,7 +1129,7 @@ class FangatePage(SeleniumDriver):
         self.facebookPixelSendKeys(fbpixel)
         time.sleep(1)
         self.facebookTokenSendKeys(fbtoken)
-        time.sleep(1)
+        time.sleep(15)
         self.clickOnNextTrackingPixels()
 
     def confirmation(self, Fg):

@@ -2,9 +2,10 @@ import time
 from base.selenium_driver import SeleniumDriver
 import utilities.custom_logger as c1
 import logging
+from pages.Home.locators import Locators
 
 
-class LoginPage(SeleniumDriver):
+class LoginPage(SeleniumDriver,Locators):
     log = c1.customLogger(logging.DEBUG)
 
     def __init__(self, driver):
@@ -63,13 +64,29 @@ class LoginPage(SeleniumDriver):
     def waitFl(self,loc,lid="id"):
         self.waitForElement(loc,lid,50,.5)
 
-    def login(self, email="", password=""):
-        self.waitFl(self._login_link, "link")
-        self.clickOnTheLink()
-        self.clearFields()
-        self.emailSendKeys(email)
-        self.passwordSendKeys(password)
-        self.clickOnTheLoginButton()
+    def clickLogout(self):
+        self.elementClick(self.logout_hypeddit(),'xpath')
+
+    def login(self, email="", password="",tag=0):
+
+        if tag in ("simple",0):
+            time.sleep(2)
+            self.waitFl(self._login_link, "link")
+            self.clickOnTheLink()
+            self.clearFields()
+            self.emailSendKeys(email)
+            self.passwordSendKeys(password)
+            self.clickOnTheLoginButton()
+        if tag == "simple":
+            self.clickLogout()
+
+            self.waitFl(self._trial_text, 'xpath')
+            self.openUrl("https://dev2.hypeddit.com/accountsettings")
+            self.click3DotMenu()
+            self.waitFl(self._logout_hypeddit, 'xpath')
+            self.clickLogout()
+
+
 
     def verifyLoginSuccessful(self):
         result = self.isElementPresent(self._stats_visits)
@@ -87,9 +104,9 @@ class LoginPage(SeleniumDriver):
         element.clear()
 
     def signup(self, firstname, lastname, email, password):
-        self.driver.get("https://hypeddit.com")
+        self.driver.get("https://dev2.hypeddit.com/")
         time.sleep(10)
-        self.driver.get("https://hypeddit.com")
+        self.driver.get("https://dev2.hypeddit.com/")
         self.clickOnTheLink()
         self.clickOnTheSignupLink()
         self.clearFields_signup()

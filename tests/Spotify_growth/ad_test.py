@@ -19,8 +19,8 @@ class AdTests(unittest.TestCase):
     @pytest.mark.order2
     def test_AdCreate(self):
         print("running createfnagate")
-        self.fp.devUnlock("testdev123")
-        self.lp.login("anil@baltech.in", "123456")
+        self.fp.devUnlock("BetterDevTest8675!")
+        self.lp.login("harry@baltech.in", "123456")
         self.ap.createAd()
         #self.ep.editAd()
 

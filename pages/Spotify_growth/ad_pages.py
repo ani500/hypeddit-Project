@@ -1,4 +1,7 @@
 import time
+
+import pytest
+
 from base.selenium_driver import SeleniumDriver
 import utilities.custom_logger as c1
 import logging
@@ -14,18 +17,22 @@ class AdPage(SeleniumDriver):
 
 
     # Locators
+    _promote_music = "//a[@href='https://dev2.hypeddit.com/promotemusic']"
+    _ad_templates = "//a[@href='https://dev2.hypeddit.com/ads/templates']"
+    _spotify_growth_track = "//a[@href='https://dev2.hypeddit.com/ads/create/spotify-growth-track']"
+
     _goal_next_button = "next_box_button_choose-type"
 
     _page_caret = "//button[@class='btn dropdown-toggle btn-default']//span[text()='Select page']"
-    _select_page = "//ul[@class='dropdown-menu inner']//span[text()='Bal page']"
+    _select_page = "//ul[@class='dropdown-menu inner']//span[text()='Musical']"
     _fbaccount_caret = "//button[@data-id='ads_account_id']//span[text()='Select account']"
-    _select_fbaccount = "//ul[@class='dropdown-menu inner']//span[text()='800501724708840 [Balchand Tester]']"
+    _select_fbaccount = "//ul[@class='dropdown-menu inner']//span[text()='myaddaccount [439792928095444]']"
     _igaccount_caret = "//button[@data-id='instagram_account_id']//span[text()='Select account']"
     _select_igaccount = "//ul[@class='dropdown-menu inner']//span[text()='phoolpareta']"
-    _pixelaccount_caret = "//button[@data-id='facebook_pixel_id']//span[text()='Select account']"
-    _select_pixelaccount = "//ul[@class='dropdown-menu inner']//span[text()='747158949894786 [My Pixel]']"
+    _pixelaccount_caret = "//button[@data-id='facebook_pixel_id']//span[text()='Select pixel']"
+    _select_pixelaccount = "//ul[@class='dropdown-menu inner']//span[text()='second pixel [1242408256319578]']"
 
-    _accounts_next_button = "next_box_button_facebook-account-connect"
+    _accounts_next_button = "next_box_facebook-account-connect"
 
     _spotify_url = "track_url"
     _artist_name = "artist_name"
@@ -35,12 +42,12 @@ class AdPage(SeleniumDriver):
     _music_next_button = "next_box_button_music"
 
     _ad_inputManualCoverart = "inputManualCoverart"
-    _ad_inputFilemp3 = "inputFilemp3"
+    _ad_inputFileAudioAsset = "inputFileAudioAsset"
     _ad_inputFilemp4 = "inputFilemp4"
     _ad_next_button = "next_box_button_audio-video"
 
     _countries_caret = "//button[@class='btn dropdown-toggle btn-default']//span[text()='Tier One Countries']"
-    _select_countries = "//ul[@class='dropdown-menu inner']//span[text()='Tier Two Countries']"
+    _select_countries = "//ul[@class='dropdown-menu inner']//span[text()='All Countries']"
     _countries_next_button = "next_box_button_countries"
 
     _ad_spotify_artists = "add_spotify_artist"
@@ -58,7 +65,7 @@ class AdPage(SeleniumDriver):
 
     _advance_gender_caret = "//button[@class='btn dropdown-toggle btn-default']//span[text()='All']"
     _select_gender = "//ul[@class='dropdown-menu inner']//span[text()='Men']"
-    _head_link_override = "headline_text_override"
+    _head_link_override = "headline_top_text_override"
     _advance_next_button = "next_box_button_advanced"
 
     _common_terms = "//div[@class='checkbox']//label[@for='common_terms']"
@@ -69,21 +76,38 @@ class AdPage(SeleniumDriver):
     _hypeddit_terms_id = "hypeddit_terms"
     _save_draft_button = "next_box_button_confirmation"
 
-    _loader_image = "//img[@title='Loading']"
+    _loader_image = "//img[@title='45 sec']"
     _music_loader_image = "//div[@class='loader select-loading'][contains(@style,'display: block')]"
+
     _interest_loader_image = "//div[@id='related_artists_interest_main'][contains(@class,'hide')]"
+    _interest_loader_profile = "//div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]"
+    _interest_generate_profile = "//div[@id='spotify_search_div_loading'][contains(@class,'hide')]"
+
+    _interest_select_profile_1 = "//li[@data-userid='61JrslREXq98hurYL2hYoc']"
+    _interest_select_profile_2 = "//li[@data-userid='3gBKY0y3dFFVRqicLnVZYz']"
+    _interest_select_profile_3 = "//li[@data-userid='5as8A4G47Ohu9NSWs3Je8U']"
 
     #facebook Window Locators
     _facebook_button = "AdsFacebookLogin"
-    _facebook_confirm_button = "//span[text()='Continue as Balchand Tester']"
+    _facebook_confirm_button = "//span[text()='Continue as Anil Sharma']"
     _facebook_email = "email"
     _facebook_pass = "pass"
-    _facebook_login_button = "//input[@value='Log In']"
+    _facebook_login_button = "//input[@value='Log in']"
     #budget locators
     _schedule_radio_button = "//div[@class='checkbox']//label[@for='ad_scheduled']"
     _time_zone_caret = "//button[@class='btn dropdown-toggle btn-default']//span[text()='Alaska (GMT-09:00)']"
     _select_zone = "//div[@class='btn-group bootstrap-select form-control dropup open']//span[text()='Arizona (GMT-07:00)']"
 
+
+
+    def clickPromoteLink(self):
+        self.elementClick(self._promote_music, "xpath")
+
+    def clickAdTemplateButton(self):
+        self.elementClick(self._ad_templates, "xpath")
+
+    def clickSpotifyGrowth(self):
+        self.elementClick(self._spotify_growth_track, "xpath")
 
 
     def clickGoalNextButton(self):
@@ -140,7 +164,7 @@ class AdPage(SeleniumDriver):
         self.elementClick(self._music_next_button)
 
     def mp3SendKeys(self, filePathmp3):
-        self.sendKeys(filePathmp3, self._ad_inputFilemp3)
+        self.sendKeys(filePathmp3, self._ad_inputFileAudioAsset)
 
     def mp4SendKeys(self, filePathmp4):
         self.sendKeys(filePathmp4, self._ad_inputFilemp4)
@@ -165,6 +189,15 @@ class AdPage(SeleniumDriver):
 
     def clickInterestNextButton(self):
         self.elementClick(self._interest_next_button)
+
+    def clickInterestArtist1(self):
+        self.elementClick(self._interest_select_profile_1, "xpath")
+
+    def clickInterestArtist2(self):
+        self.elementClick(self._interest_select_profile_2, "xpath")
+
+    def clickInterestArtist3(self):
+        self.elementClick(self._interest_select_profile_3, "xpath")
 
     def clickOnBudget(self):
         self.elementClick(self._budget_caret, "xpath")
@@ -238,9 +271,16 @@ class AdPage(SeleniumDriver):
 
 
     def createAd(self):
-        self.driver.get("https://dev2.hypeddit.com/ads/create/spotify_growth_track")
+        #self.driver.get("https://dev2.hypeddit.com/ads/create/spotify_growth_track")
+        self.waitFl(self._promote_music,"xpath")
+        self.clickPromoteLink()
+        self.waitFl(self._ad_templates,"xpath")
+        self.clickAdTemplateButton()
+        self.waitFl(self._spotify_growth_track,"xpath")
+        self.clickSpotifyGrowth()
 
-        self.goal()
+
+        #self.goal()
 
         self.accountprofile()
         self.music()
@@ -268,9 +308,9 @@ class AdPage(SeleniumDriver):
         time.sleep(2)
         self.switchWindowHander(0)
         time.sleep(2)
-        self.fbEmailSendKeys("testing010web@gmail.com")
+        self.fbEmailSendKeys("anilangira@gmail.com")
         time.sleep(2)
-        self.fbPassSendKeys("KUL@o5678")
+        self.fbPassSendKeys("KUL@m5678")
         time.sleep(2)
         self.clickFbLoginButton()
         self.waitFl(self._facebook_confirm_button,"xpath")
@@ -288,25 +328,26 @@ class AdPage(SeleniumDriver):
         self.waitFl(self._fbaccount_caret, "xpath")
         self.clickOnFbPageAccount()
         self.selectFbPageAccount()
-        self.waitFl(self._igaccount_caret, "xpath")
-        self.clickOnIgPageAccount()
-        self.selectIgPageAccount()
+        #self.waitFl(self._igaccount_caret, "xpath")
+        #self.clickOnIgPageAccount()
+        #self.selectIgPageAccount()
         self.waitFl(self._pixelaccount_caret, "xpath")
         self.clickOnPixelAccount()
         self.selectPixelAccount()
         self.clickAccountNextButton()
 
+
     def music(self):
         self.spUrlSendKeys("USNRS1229743")
-        self.clickArtistField()
+        #self.clickArtistField()
 
         for i in range(51):
             if i > 49:
                 break
             time.sleep(2)
             if self.checkLoaderElement(self._music_loader_image,"xpath") == False:
-                self.artistSendKeys("verma")
-                self.titleSendKeys("sharma")
+                #self.artistSendKeys("verma")
+                #self.titleSendKeys("sharma")
                 self.waitFl(self._genre_caret, "xpath")
                 self.clickOnGenre()
                 self.selectGenre()
@@ -317,7 +358,7 @@ class AdPage(SeleniumDriver):
 
     def ad(self):
         self.mp3SendKeys("C:\\Users\\Anil\\workspace_python\\hypeddit-Project\\Files\\45 sec.mp3")
-        self.mp4SendKeys("C:\\Users\\Anil\\workspace_python\\hypeddit-Project\\Files\\Hazard Lights - SGE Cover - Preview 1.mp4")
+        #self.mp4SendKeys("C:\\Users\\Anil\\workspace_python\\hypeddit-Project\\Files\\Hazard Lights - SGE Cover - Preview 1.mp4")
         time.sleep(4)
         for i in range(500):
             if i > 49:
@@ -337,22 +378,50 @@ class AdPage(SeleniumDriver):
         self.clickCountriesNextButton()
 
     def interest(self):
+        self.waitFl(self._ad_spotify_artists)
+        self.spArtistSendKeys("lata")
+        for i in range(51):
+            if i > 49:
+                break
+            time.sleep(2)
+            if self.checkLoaderElement(self._interest_loader_profile, "xpath") == False:
+                self.clickInterestArtist1()
+                break
+
+        self.spArtistSendKeys("lata")
+        for i in range(51):
+            if i > 49:
+                break
+            time.sleep(2)
+            if self.checkLoaderElement(self._interest_loader_profile, "xpath") == False:
+                self.clickInterestArtist2()
+                break
+
+        self.spArtistSendKeys("lata")
+        for i in range(51):
+            if i > 49:
+                break
+            time.sleep(2)
+            if self.checkLoaderElement(self._interest_loader_profile, "xpath") == False:
+                self.clickInterestArtist3()
+                break
+
         self.clickGenerateInterestButton()
 
         for i in range(51):
             if i > 49:
                 break
             time.sleep(2)
-            if self.checkLoaderElement(self._interest_loader_image, "xpath") == False:
+            if self.checkLoaderElement(self._interest_generate_profile, "xpath") == False:
                 self.clickInterestNextButton()
                 break
 
 
     def budget(self):
-        self.waitFl(self._budget_caret, "xpath")
-        self.clickOnBudget()
-        self.selectBudgetAmount()
-        time.sleep(15)
+        #self.waitFl(self._budget_caret, "xpath")
+        #self.clickOnBudget()
+        #self.selectBudgetAmount()
+        #time.sleep(15)
 
         self.clickBudgetNextButton()
 

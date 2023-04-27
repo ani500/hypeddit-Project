@@ -3259,3 +3259,111 @@ interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431
 webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
 1658929900418	Marionette	INFO	Stopped listening on port 53893
 JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 284: TypeError: this._builder is undefined
+1671540286870	geckodriver	INFO	Listening on 127.0.0.1:52405
+1671540289903	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52406" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileLOwoQe"
+1671540291516	Marionette	INFO	Marionette enabled
+1671540291522	Marionette	INFO	Listening on port 52426
+Read port: 52426
+WebDriver BiDi listening on ws://127.0.0.1:52406
+1671540291693	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileLOwoQe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52406/devtools/browser/06a6f2fa-56a2-41ca-a8b4-d9e733a33980
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+1671540309341	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1671540421692	Marionette	INFO	Stopped listening on port 52426
+1671540510217	geckodriver	INFO	Listening on 127.0.0.1:52571
+1671540513232	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52572" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileEqP8ph"
+1671540513605	Marionette	INFO	Marionette enabled
+1671540513610	Marionette	INFO	Listening on port 52582
+Read port: 52582
+WebDriver BiDi listening on ws://127.0.0.1:52572
+1671540513713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileEqP8ph\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52572/devtools/browser/bc368076-ab61-47a0-b074-61fe631908ee
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+1671540528652	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://player.vimeo.com/video/276950823, line 1: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 1: unreachable code after return statement
+1671540600763	Marionette	INFO	Stopped listening on port 52582
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1671710650740	geckodriver	INFO	Listening on 127.0.0.1:52603
+1671710653818	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52604" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile3nuIx7"
+1671710654788	Marionette	INFO	Marionette enabled
+1671710654796	Marionette	INFO	Listening on port 52614
+Read port: 52614
+WebDriver BiDi listening on ws://127.0.0.1:52604
+1671710654962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile3nuIx7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52604/devtools/browser/12482456-22af-4a4c-83df-64d51cfbc3b2
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+1671710672887	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://player.vimeo.com/video/276950823, line 1: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 1: unreachable code after return statement
+1671710816139	Marionette	INFO	Stopped listening on port 52614
+1671710836965	geckodriver	INFO	Listening on 127.0.0.1:52783
+1671710840040	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52784" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilelHny4n"
+1671710840741	Marionette	INFO	Marionette enabled
+1671710840748	Marionette	INFO	Listening on port 52794
+WebDriver BiDi listening on ws://127.0.0.1:52784
+Read port: 52794
+1671710841095	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilelHny4n\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52784/devtools/browser/8c586cf0-af70-469e-a4a4-69e7aacb1842
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+1671710856331	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1671710884825	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+xhrSendProcessor@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=k7hU-8uMDdq-czxhl8E2F5FU3H6EquV5EPlRczVNIipg7NWkeU_NAR0lWDcO9w8-KoEXP_2DyEjJZZqLgnOzUw:3342:24
+window.XMLHttpRequest.prototype.send@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=k7hU-8uMDdq-czxhl8E2F5FU3H6EquV5EPlRczVNIipg7NWkeU_NAR0lWDcO9w8-KoEXP_2DyEjJZZqLgnOzUw:3350:33
+send@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:14953
+ajax@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:10712
+validateHypeTrackUrl@https://dev2.hypeddit.com/js/smartlink.js?v=104.0.49:3677:11
+validateTrackUrl@https://dev2.hypeddit.com/js/smartlink.js?v=104.0.49:2933:105
+processLinkUrl@https://dev2.hypeddit.com/js/smartlink.js?v=104.0.49:2188:36
+success@https://dev2.hypeddit.com/js/smartlink.js?v=104.0.49:3490:47
+j@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:2:26925
+fireWith@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:2:27738
+x@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:11253
+send/b/<@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:14765
+xhrSendProcessor@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=k7hU-8uMDdq-czxhl8E2F5FU3H6EquV5EPlRczVNIipg7NWkeU_NAR0lWDcO9w8-KoEXP_2DyEjJZZqLgnOzUw:3342:24
+window.XMLHttpRequest.prototype.send@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=k7hU-8uMDdq-czxhl8E2F5FU3H6EquV5EPlRczVNIipg7NWkeU_NAR0lWDcO9w8-KoEXP_2DyEjJZZqLgnOzUw:3350:33
+send@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:14953
+ajax@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:10712
+validateTrackUrlApi@https://dev2.hypeddit.com/js/smartlink.js?v=104.0.49:3173:11
+validateTrackUrl@https://dev2.hypeddit.com/js/smartlink.js?v=104.0.49:2952:40
+processLinkUrl@https://dev2.hypeddit.com/js/smartlink.js?v=104.0.49:2188:36
+success@https://dev2.hypeddit.com/js/smartlink.js?v=104.0.49:3490:47
+j@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:2:26925
+fireWith@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:2:27738
+x@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:11253
+send/b/<@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:14765
+JavaScript warning: https://player.vimeo.com/video/276950823, line 1: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 1: unreachable code after return statement
+1671711013809	Marionette	INFO	Stopped listening on port 52794

@@ -52,6 +52,7 @@ class SeleniumDriver():
         except:
             self.log.info("Cannot clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
             print_stack()
+            # raise RuntimeError("Test Case Aborted")
 
     def sendKeys(self, text, locator, locatorType="id"):
         try:
@@ -137,6 +138,9 @@ class SeleniumDriver():
             print("Hello")
             self.driver.switch_to.window(handles[0])
             print(self.driver.title)
+
+    def openUrl(self,url):
+        self.driver.get(url)
 
 
 
