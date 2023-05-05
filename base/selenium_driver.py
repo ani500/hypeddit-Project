@@ -33,25 +33,25 @@ class SeleniumDriver():
 
     def getElement(self, locator, locatorType="id"):
         element = None
-        try:
-            locatorType = locatorType.lower()
-            byType = self.getByType(locatorType)
-            element = self.driver.find_element(byType, locator)
-            self.log.info("Element Found Locator :" + locator + "LocatorType :" + locatorType)
-            print("Element Found Locator :" + locator + "LocatorType :" + locatorType)
-        except:
-            self.log.info("Element Not Found Locator :" + locator + "LocatorType :" + locatorType)
-            print("Element not Found Locator :" + locator + "LocatorType :" + locatorType)
+        #try:
+        locatorType = locatorType.lower()
+        byType = self.getByType(locatorType)
+        element = self.driver.find_element(byType, locator)
+        self.log.info("Element Found Locator :" + locator + "LocatorType :" + locatorType)
+        print("Element Found Locator :" + locator + "LocatorType :" + locatorType)
+        #except:
+            #self.log.info("Element Not Found Locator :" + locator + "LocatorType :" + locatorType)
+            #print("Element not Found Locator :" + locator + "LocatorType :" + locatorType)
         return element
 
     def elementClick(self, locator, locatorType="id"):
-        try:
-            element = self.getElement(locator, locatorType)
-            element.click()
-            self.log.info("Clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
-        except:
-            self.log.info("Cannot clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
-            print_stack()
+        #try:
+        element = self.getElement(locator, locatorType)
+        element.click()
+        self.log.info("Clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
+        #except:
+        self.log.info("Cannot clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
+        print_stack()
             # raise RuntimeError("Test Case Aborted")
 
     def sendKeys(self, text, locator, locatorType="id"):

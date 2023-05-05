@@ -32,7 +32,7 @@ class AdPage(SeleniumDriver):
     _pixelaccount_caret = "//button[@data-id='facebook_pixel_id']//span[text()='Select pixel']"
     _select_pixelaccount = "//ul[@class='dropdown-menu inner']//span[text()='second pixel [1242408256319578]']"
 
-    _accounts_next_button = "next_box_facebook-account-connect"
+    _accounts_next_button = "next_box_button_facebook-account-connect"
 
     _spotify_url = "track_url"
     _artist_name = "artist_name"
@@ -46,7 +46,7 @@ class AdPage(SeleniumDriver):
     _ad_inputFilemp4 = "inputFilemp4"
     _ad_next_button = "next_box_button_audio-video"
 
-    _countries_caret = "//button[@class='btn dropdown-toggle btn-default']//span[text()='Tier One Countries']"
+    _countries_caret = "//button[@class='btn dropdown-toggle btn-default']//span[text()='Tier One Countries ']"
     _select_countries = "//ul[@class='dropdown-menu inner']//span[text()='All Countries']"
     _countries_next_button = "next_box_button_countries"
 
@@ -310,7 +310,7 @@ class AdPage(SeleniumDriver):
         time.sleep(2)
         self.fbEmailSendKeys("anilangira@gmail.com")
         time.sleep(2)
-        self.fbPassSendKeys("KUL@m5678")
+        self.fbPassSendKeys("KUL@o5678")
         time.sleep(2)
         self.clickFbLoginButton()
         self.waitFl(self._facebook_confirm_button,"xpath")
@@ -323,16 +323,21 @@ class AdPage(SeleniumDriver):
 
 
         self.waitFl(self._page_caret, "xpath")
+        time.sleep(2)
         self.clickOnFbPage()
+        time.sleep(2)
         self.selectFbPage()
+        time.sleep(2)
         self.waitFl(self._fbaccount_caret, "xpath")
         self.clickOnFbPageAccount()
+        time.sleep(2)
         self.selectFbPageAccount()
         #self.waitFl(self._igaccount_caret, "xpath")
         #self.clickOnIgPageAccount()
         #self.selectIgPageAccount()
         self.waitFl(self._pixelaccount_caret, "xpath")
         self.clickOnPixelAccount()
+        time.sleep(2)
         self.selectPixelAccount()
         self.clickAccountNextButton()
 
@@ -357,7 +362,8 @@ class AdPage(SeleniumDriver):
 
 
     def ad(self):
-        self.mp3SendKeys("C:\\Users\\Anil\\workspace_python\\hypeddit-Project\\Files\\45 sec.mp3")
+        time.sleep(10)
+        self.mp3SendKeys("D:\\workspace_python\\hypeddit-Project\\Files\\45 sec.mp3")
         #self.mp4SendKeys("C:\\Users\\Anil\\workspace_python\\hypeddit-Project\\Files\\Hazard Lights - SGE Cover - Preview 1.mp4")
         time.sleep(4)
         for i in range(500):
