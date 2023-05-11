@@ -33,25 +33,25 @@ class SeleniumDriver():
 
     def getElement(self, locator, locatorType="id"):
         element = None
-        #try:
-        locatorType = locatorType.lower()
-        byType = self.getByType(locatorType)
-        element = self.driver.find_element(byType, locator)
-        self.log.info("Element Found Locator :" + locator + "LocatorType :" + locatorType)
-        print("Element Found Locator :" + locator + "LocatorType :" + locatorType)
-        #except:
-            #self.log.info("Element Not Found Locator :" + locator + "LocatorType :" + locatorType)
-            #print("Element not Found Locator :" + locator + "LocatorType :" + locatorType)
+        try:
+            locatorType = locatorType.lower()
+            byType = self.getByType(locatorType)
+            element = self.driver.find_element(byType, locator)
+            self.log.info("Element Found Locator :" + locator + "LocatorType :" + locatorType)
+            print("Element Found Locator :" + locator + "LocatorType :" + locatorType)
+        except:
+            self.log.info("Element Not Found Locator :" + locator + "LocatorType :" + locatorType)
+            print("Element not Found Locator :" + locator + "LocatorType :" + locatorType)
         return element
 
     def elementClick(self, locator, locatorType="id"):
-        #try:
-        element = self.getElement(locator, locatorType)
-        element.click()
-        self.log.info("Clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
-        #except:
-        self.log.info("Cannot clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
-        print_stack()
+        try:
+            element = self.getElement(locator, locatorType)
+            element.click()
+            self.log.info("Clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
+        except:
+            self.log.info("Cannot clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
+            #print_stack()
             # raise RuntimeError("Test Case Aborted")
 
     def sendKeys(self, text, locator, locatorType="id"):
@@ -109,20 +109,20 @@ class SeleniumDriver():
         return element
 
     def checkRadioElementClick(self, locator, locatorType, idlocator, idlocatorType="id"):
-        try:
-            elementxpath = self.getElement(locator, locatorType)
-            elementid = self.getElement(idlocator, idlocatorType)
-            result = elementid.is_selected()
+        #try:
+        elementxpath = self.getElement(locator, locatorType)
+        elementid = self.getElement(idlocator, idlocatorType)
+        result = elementid.is_selected()
 
-            if result is not True:
-                elementxpath.click()
-                self.log.info("Clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
-            else:
-                self.log.info("Element already Checked :" + locator + "LocatorType :" + locatorType)
+        if result is not True:
+            elementxpath.click()
+            self.log.info("Clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
+        else:
+            self.log.info("Element already Checked :" + locator + "LocatorType :" + locatorType)
 
-        except:
-            self.log.info("Cannot clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
-            print_stack()
+        #except:
+            #self.log.info("Cannot clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
+            #print_stack()
 
     def switchWindowHander(self, m):
         handles = self.driver.window_handles
