@@ -23,6 +23,8 @@ class AdTests(unittest.TestCase):
         self.lp.login("anil@baltech.in", "1234567")
 
 
+        self.ap.createAd(AdType='track')
         self.ap.createAd(AdType='playlist')
+        self.ap.createAd(AdType='artist')
         #self.ep.editAd()
 

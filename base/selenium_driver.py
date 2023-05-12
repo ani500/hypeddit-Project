@@ -109,20 +109,20 @@ class SeleniumDriver():
         return element
 
     def checkRadioElementClick(self, locator, locatorType, idlocator, idlocatorType="id"):
-        #try:
-        elementxpath = self.getElement(locator, locatorType)
-        elementid = self.getElement(idlocator, idlocatorType)
-        result = elementid.is_selected()
+        try:
+            elementxpath = self.getElement(locator, locatorType)
+            elementid = self.getElement(idlocator, idlocatorType)
+            result = elementid.is_selected()
 
-        if result is not True:
-            elementxpath.click()
-            self.log.info("Clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
-        else:
-            self.log.info("Element already Checked :" + locator + "LocatorType :" + locatorType)
+            if result is not True:
+                elementxpath.click()
+                self.log.info("Clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
+            else:
+                self.log.info("Element already Checked :" + locator + "LocatorType :" + locatorType)
 
-        #except:
-            #self.log.info("Cannot clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
-            #print_stack()
+        except:
+            self.log.info("Cannot clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
+            print_stack()
 
     def switchWindowHander(self, m):
         handles = self.driver.window_handles
