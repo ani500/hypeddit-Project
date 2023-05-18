@@ -6,6 +6,7 @@ from base.selenium_driver import SeleniumDriver
 import utilities.custom_logger as c1
 import logging
 import time
+from datetime import date
 
 
 class AdPage(SeleniumDriver):
@@ -17,12 +18,12 @@ class AdPage(SeleniumDriver):
         self.driver = driver
 
     # Locators
-    _promote_music = "//a[@href='https://dev2.hypeddit.com/promotemusic']"
-    _ad_templates = "//a[@href='https://dev2.hypeddit.com/ads/templates']"
-    _spotify_growth_track = "//a[@href='https://dev2.hypeddit.com/ads/create/spotify-growth-track']"
-    _spotify_growth_playlist = "//a[@href='https://dev2.hypeddit.com/ads/create/spotify-growth-playlist']"
-    _spotify_growth_artist = "//a[@href='https://dev2.hypeddit.com/ads/create/spotify-growth-artist']"
-    _spotify_growth_email = "//a[@href='https://dev2.hypeddit.com/ads/create/grow-my-fan-emails']"
+    _promote_music = "//a[@href='https://hypeddit.com/promotemusic']"
+    _ad_templates = "//a[@href='https://hypeddit.com/ads/templates']"
+    _spotify_growth_track = "//a[@href='https://hypeddit.com/ads/create/spotify-growth-track']"
+    _spotify_growth_playlist = "//a[@href='https://hypeddit.com/ads/create/spotify-growth-playlist']"
+    _spotify_growth_artist = "//a[@href='https://hypeddit.com/ads/create/spotify-growth-artist']"
+    _spotify_growth_email = "//a[@href='https://hypeddit.com/ads/create/grow-my-fan-emails']"
 
     _goal_next_button = "next_box_button_choose-type"
 
@@ -316,7 +317,7 @@ class AdPage(SeleniumDriver):
             self.clickSpotifyGrowthEmail()
 
         if AdType == 'presave_reward':
-            self.driver.get("https://dev2.hypeddit.com/ads/create/spotify-growth-presave-reward")
+            self.driver.get("https://hypeddit.com/ads/create/spotify-growth-presave-reward")
 
         #self.accountprofile()
         self.clickAccountNextButton()
@@ -393,7 +394,15 @@ class AdPage(SeleniumDriver):
                 "https://soundcloud.com/purifiedrec/serra-9-deviu-feat-phoebe-tsen?in_system_playlist=personalized-tracks%3A%3Atesting-user-724105926%3A1344956383")
 
         if AdType == 'presave_reward':
+            #today = date.today()
+            #today.day
             self.spUrlSendKeys("USNRS1229743")
+            #_release_date = 'release_datetime'
+            #self.clickReleaseDate()
+
+
+
+
 
         for i in range(200):
             if i > 198:
