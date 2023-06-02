@@ -3553,3 +3553,12 @@
 12/22/2022 05:40:06 PM - FangatePage - INFO: Cannot clicked on the Element Locator :gate_custom_fbpixel_buttonLocatorType :id
 12/22/2022 05:40:11 PM - FangatePage - INFO: Element Not Found Locator :btn_create_fangateLocatorType :id
 12/22/2022 05:40:11 PM - FangatePage - INFO: Cannot clicked on the Element Locator :btn_create_fangateLocatorType :id
+05/26/2023 12:44:08 PM - FangatePage - INFO: Element Not Found Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+05/26/2023 12:44:08 PM - FangatePage - INFO: Not Wirte to the Element Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+05/26/2023 12:44:08 PM - FangatePage - INFO: Element Not Found Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+05/26/2023 12:44:08 PM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+05/26/2023 12:44:10 PM - LoginPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+05/26/2023 12:44:10 PM - LoginPage - INFO: Element not appeared on the web page
+05/26/2023 12:44:10 PM - LoginPage - INFO: Element Not Found Locator :LoginLocatorType :link
+05/26/2023 12:44:10 PM - LoginPage - INFO: Cannot clicked on the Element Locator :LoginLocatorType :link
+05/26/2023 12:44:10 PM - LoginPage - INFO: Element Not Found Locator :login_emailLocatorType :id

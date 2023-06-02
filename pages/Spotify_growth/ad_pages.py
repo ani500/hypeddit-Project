@@ -318,8 +318,8 @@ class AdPage(SeleniumDriver):
         if AdType == 'presave_reward':
             self.driver.get("https://dev2.hypeddit.com/ads/create/spotify-growth-presave-reward")
 
-        #self.accountprofile()
-        self.clickAccountNextButton()
+        self.accountprofile()
+        #self.clickAccountNextButton()
         self.music(AdType)
         self.ad()
 

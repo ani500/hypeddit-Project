@@ -19,10 +19,10 @@ class CreateFangateTests(unittest.TestCase):
     def test_CreateFangate(self):
         print("running createfnagate")
         self.fp.devUnlock("BetterDevTest8675!")
-        self.lp.login("anil@baltech.in", "1234567")
+        self.lp.login("myfreshaccount@baltech.in", "123456")
 
         #self.fp.createFangate(Fg="fangate")
-        self.fp.createFangate(Fg="linkgate")
+        #self.fp.createFangate(Fg="linkgate")
         self.fp.createFangate(Fg="smartlink")
 
 

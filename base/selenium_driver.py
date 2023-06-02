@@ -143,6 +143,20 @@ class SeleniumDriver():
         self.driver.get(url)
 
 
+    def getElements(self, locator, locatorType):
+        try:
+            elementList = self.driver.find_elements(locatorType, locator)
+            if len(elementList) > 0:
+                self.log.info("Element Found Locator :" + locator + "LocatorType :" + locatorType)
+                return elementList
+            else:
+                self.log.info("Element Not Found Locator :" + locator + "LocatorType :" + locatorType)
+                return False
+        except:
+            self.log.info("Element Not Found Locator :" + locator + "LocatorType :" + locatorType)
+            return False
+
+
 
 
 
