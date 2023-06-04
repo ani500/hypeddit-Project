@@ -30,6 +30,7 @@ class exchangePage(SeleniumDriver):
     _sp_login_button = "//span[contains(text(),'Log In')]"
     _sp_agree_button = "//p[contains(text(),'Agree')]"
 
+
     _final_download_button = "//a[@onclick='return downloadUnlimitedGate()']"
 
     def searchButtonsClick(self):
@@ -128,14 +129,47 @@ class exchangePage(SeleniumDriver):
         self.switchWindowHander(0)
         print("handler switched")
 
+
         self.waitFl(self._download_button)
         self.firstDownloadButtonClick()
 
-        self.waitFl(self._email_name)
-        self.fNameSendKeys("anil")
-        self.emailSendKeys(email)
+        if self.waitFl(self._email_to_download):
+            self.waitFl(self._email_name)
+            self.fNameSendKeys("anil")
+            self.emailSendKeys(email)
+            self.emailButtonClick()
 
-        self.emailButtonClick()
+        if self.waitFl(self._sp_button, 'xpath'):
+            self.spButtonClick()
+            self.switchWindowHander(0)
+            self.waitFl(self._sp_username)
+            self.spUserNameSendKeys("ashu121@baltech.in")
+            self.spPasswordSendKeys("test123456")
+            self.waitFl(self._sp_login_button, 'xpath')
+            self.spButtonClick()
+            self.waitFl(self._sp_agree_button, 'xpath')
+            self.spAgreeClick()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         self.waitFl(self._final_download_button, "xpath")
         self.finalDownloadButtonClick()
@@ -148,7 +182,7 @@ class exchangePage(SeleniumDriver):
         self.elementClick(self._download_button)
 
     def waitFl(self, loc, lid="id"):
-        self.waitForElement(loc, lid, 20, .5)
+        return self.waitForElement(loc, lid, 20, .5)
 
     def fNameSendKeys(self, name):
         self.sendKeys(name, self._email_name)
@@ -161,3 +195,20 @@ class exchangePage(SeleniumDriver):
 
     def finalDownloadButtonClick(self):
         self.elementClick(self._final_download_button, "xpath")
+
+    def spButtonClick(self):
+        self.elementClick(self._sp_button, 'xpath')
+
+    def spUserNameSendKeys(self, uname):
+        self.sendKeys(email, self._sp_username,uname)
+
+    def spPasswordSendKeys(self, pwd):
+        self.sendKeys(email, self._sp_password, pwd)
+
+    def spButtonClick(self):
+        self.elementClick(self._sp_login_button, 'xpath')
+
+    def spAgreeClick(self):
+        self.elementClick(self._sp_agree_button, 'xpath')
+
+

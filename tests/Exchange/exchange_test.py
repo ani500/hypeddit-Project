@@ -21,20 +21,20 @@ class ExchangeTests(unittest.TestCase):
     def test_Exchange(self):
         print("running exchange")
         self.fp.devUnlock("BetterDevTest8675!")
-        self.lp.login("anildev@baltech.in", "123456")
+        self.lp.login("dinu@baltech.in", "123456")
         self.ep.openExchangePage()
 
         self.ep.exchangeClickButton()
-        self.ep.fangatePreview("testing008web@gmail.com")
+        self.ep.fangatePreview("testing009web@gmail.com")
 
         self.ep.exchangeClickButton()
-        self.ep.fangatePreview("testing008web@gmail.com")
+        self.ep.fangatePreview("testing009web@gmail.com")
 
-        self.ep.exchangeClickButton()
-        self.ep.fangatePreview("testing008web@gmail.com")
-
-        self.ep.exchangeClickButton()
-        self.ep.fangatePreview("testing008web@gmail.com")
+        # self.ep.exchangeClickButton()
+        # self.ep.fangatePreview("testing008web@gmail.com")
+        #
+        # self.ep.exchangeClickButton()
+        # self.ep.fangatePreview("testing008web@gmail.com")
 
 
         # self.ep.exchangeClickButton()
