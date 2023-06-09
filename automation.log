@@ -1570,3 +1570,33 @@
 06/09/2023 07:15:17 PM - AdPage - INFO: Element Not Found Locator ://li[@data-userid='61JrslREXq98hurYL2hYoc']LocatorType :xpath
 06/09/2023 07:15:17 PM - AdPage - INFO: Cannot clicked on the Element Locator ://li[@data-userid='61JrslREXq98hurYL2hYoc']LocatorType :xpath
 06/09/2023 07:15:17 PM - AdPage - INFO: Element Found Locator :add_spotify_artistLocatorType :id
+06/09/2023 07:19:25 PM - FangatePage - INFO: Element Found Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+06/09/2023 07:19:25 PM - FangatePage - INFO: Send Keys Successfully Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+06/09/2023 07:19:25 PM - FangatePage - INFO: Element Found Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+06/09/2023 07:19:32 PM - FangatePage - INFO: Clicked on the Element Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+06/09/2023 07:19:34 PM - LoginPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+06/09/2023 07:19:35 PM - LoginPage - INFO: Element appeared on the web page
+06/09/2023 07:19:35 PM - LoginPage - INFO: Element Found Locator :LoginLocatorType :link
+06/09/2023 07:19:35 PM - LoginPage - INFO: Clicked on the Element Locator :LoginLocatorType :link
+06/09/2023 07:19:35 PM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+06/09/2023 07:19:35 PM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+06/09/2023 07:19:35 PM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+06/09/2023 07:19:36 PM - LoginPage - INFO: Send Keys Successfully Locator :login_emailLocatorType :id
+06/09/2023 07:19:36 PM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+06/09/2023 07:19:36 PM - LoginPage - INFO: Send Keys Successfully Locator :login_passwordLocatorType :id
+06/09/2023 07:19:36 PM - LoginPage - INFO: Element Found Locator :login_buttonLocatorType :id
+06/09/2023 07:19:45 PM - LoginPage - INFO: Clicked on the Element Locator :login_buttonLocatorType :id
+06/09/2023 07:19:45 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+06/09/2023 07:19:45 PM - AdPage - INFO: Element appeared on the web page
+06/09/2023 07:19:45 PM - AdPage - INFO: Element Found Locator ://a[@href='https://dev2.hypeddit.com/promotemusic']LocatorType :xpath
+06/09/2023 07:19:45 PM - AdPage - INFO: Cannot clicked on the Element Locator ://a[@href='https://dev2.hypeddit.com/promotemusic']LocatorType :xpath
+06/09/2023 07:19:45 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+06/09/2023 07:19:45 PM - AdPage - INFO: Element appeared on the web page
+06/09/2023 07:19:45 PM - AdPage - INFO: Element Found Locator ://a[@href='https://dev2.hypeddit.com/ads/templates']LocatorType :xpath
+06/09/2023 07:19:45 PM - AdPage - INFO: Cannot clicked on the Element Locator ://a[@href='https://dev2.hypeddit.com/ads/templates']LocatorType :xpath
+06/09/2023 07:19:45 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+06/09/2023 07:19:47 PM - AdPage - INFO: Element not appeared on the web page
+06/09/2023 07:19:49 PM - AdPage - INFO: Element Not Found Locator ://a[@href='https://dev2.hypeddit.com/ads/create/spotify-growth-track']LocatorType :xpath
+06/09/2023 07:19:49 PM - AdPage - INFO: Cannot clicked on the Element Locator ://a[@href='https://dev2.hypeddit.com/ads/create/spotify-growth-track']LocatorType :xpath
+06/09/2023 07:19:49 PM - AdPage - INFO: Element Not Found Locator :AdsFacebookLoginLocatorType :id
+06/09/2023 07:19:49 PM - AdPage - INFO: Cannot clicked on the Element Locator :AdsFacebookLoginLocatorType :id
