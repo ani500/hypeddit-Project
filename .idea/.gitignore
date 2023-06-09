@@ -3,4 +3,7 @@
 /workspace.xml
 /utilities
 /tests/Spotify_growth/__pycache__/ad_test.cpython-311-pytest-7.2.0.pyc
+/automation.log
+/geckodriver.log
+/tests/__pycache__/conftest.cpython-311-pytest-7.2.0.pyc
 
