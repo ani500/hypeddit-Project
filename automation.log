@@ -486,3 +486,109 @@
 06/08/2023 07:04:21 PM - exchangePage - INFO: Element appeared on the web page
 06/08/2023 07:04:21 PM - exchangePage - INFO: Element Found Locator ://a[@onclick='return downloadUnlimitedGate()']LocatorType :xpath
 06/08/2023 07:04:21 PM - exchangePage - INFO: Clicked on the Element Locator ://a[@onclick='return downloadUnlimitedGate()']LocatorType :xpath
+06/09/2023 11:40:07 AM - FangatePage - INFO: Element Found Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+06/09/2023 11:40:07 AM - FangatePage - INFO: Send Keys Successfully Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+06/09/2023 11:40:07 AM - FangatePage - INFO: Element Found Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+06/09/2023 11:40:12 AM - FangatePage - INFO: Clicked on the Element Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+06/09/2023 11:40:14 AM - LoginPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+06/09/2023 11:40:15 AM - LoginPage - INFO: Element appeared on the web page
+06/09/2023 11:40:15 AM - LoginPage - INFO: Element Found Locator :LoginLocatorType :link
+06/09/2023 11:40:16 AM - LoginPage - INFO: Clicked on the Element Locator :LoginLocatorType :link
+06/09/2023 11:40:16 AM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+06/09/2023 11:40:16 AM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+06/09/2023 11:40:16 AM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+06/09/2023 11:40:16 AM - LoginPage - INFO: Send Keys Successfully Locator :login_emailLocatorType :id
+06/09/2023 11:40:16 AM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+06/09/2023 11:40:16 AM - LoginPage - INFO: Send Keys Successfully Locator :login_passwordLocatorType :id
+06/09/2023 11:40:16 AM - LoginPage - INFO: Element Found Locator :login_buttonLocatorType :id
+06/09/2023 11:40:23 AM - LoginPage - INFO: Clicked on the Element Locator :login_buttonLocatorType :id
+06/09/2023 11:40:44 AM - exchangePage - INFO: Element Not Found Locator ://a[@class='button exchange-dw-tooltip button-primary download-ready']LocatorType :xpath
+06/09/2023 11:40:47 AM - exchangePage - INFO: Element Not Found Locator ://a[@class='button exchange-dw-tooltip button-primary download-ready']LocatorType :xpath
+06/09/2023 11:40:50 AM - exchangePage - INFO: Element Not Found Locator ://a[@class='button exchange-dw-tooltip button-primary download-ready']LocatorType :xpath
+06/09/2023 11:40:54 AM - exchangePage - INFO: Element Not Found Locator ://a[@class='button exchange-dw-tooltip button-primary download-ready']LocatorType :xpath
+06/09/2023 11:40:56 AM - exchangePage - INFO: Element Found Locator ://a[@class='button exchange-dw-tooltip button-primary download-ready']LocatorType :xpath
+06/09/2023 11:41:01 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:41:01 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:41:01 AM - exchangePage - INFO: Element Found Locator :downloadProcessLocatorType :id
+06/09/2023 11:41:02 AM - exchangePage - INFO: Clicked on the Element Locator :downloadProcessLocatorType :id
+06/09/2023 11:41:02 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:41:02 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:41:02 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:41:02 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:41:02 AM - exchangePage - INFO: Element Found Locator :email_nameLocatorType :id
+06/09/2023 11:41:02 AM - exchangePage - INFO: Send Keys Successfully Locator :email_nameLocatorType :id
+06/09/2023 11:41:02 AM - exchangePage - INFO: Element Found Locator :email_addressLocatorType :id
+06/09/2023 11:41:02 AM - exchangePage - INFO: Send Keys Successfully Locator :email_addressLocatorType :id
+06/09/2023 11:41:02 AM - exchangePage - INFO: Element Found Locator :email_to_downloads_nextLocatorType :id
+06/09/2023 11:41:02 AM - exchangePage - INFO: Clicked on the Element Locator :email_to_downloads_nextLocatorType :id
+06/09/2023 11:41:02 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:41:03 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:41:03 AM - exchangePage - INFO: Element Found Locator ://div[@id='step_sp']//a[@id='login_to_sp']LocatorType :xpath
+06/09/2023 11:41:03 AM - exchangePage - INFO: Clicked on the Element Locator ://div[@id='step_sp']//a[@id='login_to_sp']LocatorType :xpath
+06/09/2023 11:41:05 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:41:05 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:41:05 AM - exchangePage - INFO: Element Found Locator :login-usernameLocatorType :id
+06/09/2023 11:41:05 AM - exchangePage - INFO: Send Keys Successfully Locator :login-usernameLocatorType :id
+06/09/2023 11:41:05 AM - exchangePage - INFO: Element Found Locator :login-passwordLocatorType :id
+06/09/2023 11:41:05 AM - exchangePage - INFO: Send Keys Successfully Locator :login-passwordLocatorType :id
+06/09/2023 11:41:05 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:41:06 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:41:06 AM - exchangePage - INFO: Element Found Locator ://span[contains(text(),'Log In')]LocatorType :xpath
+06/09/2023 11:41:06 AM - exchangePage - INFO: Clicked on the Element Locator ://span[contains(text(),'Log In')]LocatorType :xpath
+06/09/2023 11:41:06 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:41:07 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:41:07 AM - exchangePage - INFO: Element Found Locator ://p[contains(text(),'Agree')]LocatorType :xpath
+06/09/2023 11:41:07 AM - exchangePage - INFO: Clicked on the Element Locator ://p[contains(text(),'Agree')]LocatorType :xpath
+06/09/2023 11:41:17 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:41:17 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:41:17 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:41:17 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:41:17 AM - exchangePage - INFO: Element Found Locator :sc_comment_textLocatorType :id
+06/09/2023 11:41:17 AM - exchangePage - INFO: Send Keys Successfully Locator :sc_comment_textLocatorType :id
+06/09/2023 11:41:17 AM - exchangePage - INFO: Element Found Locator ://div[@id='step_sc']//a[@id='login_to_sc']LocatorType :xpath
+06/09/2023 11:41:17 AM - exchangePage - INFO: Clicked on the Element Locator ://div[@id='step_sc']//a[@id='login_to_sc']LocatorType :xpath
+06/09/2023 11:41:19 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:41:19 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:41:19 AM - exchangePage - INFO: Element Found Locator :usernameLocatorType :id
+06/09/2023 11:41:20 AM - exchangePage - INFO: Send Keys Successfully Locator :usernameLocatorType :id
+06/09/2023 11:41:20 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:41:20 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:41:20 AM - exchangePage - INFO: Element Found Locator :passwordLocatorType :id
+06/09/2023 11:41:20 AM - exchangePage - INFO: Send Keys Successfully Locator :passwordLocatorType :id
+06/09/2023 11:41:20 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:41:41 AM - exchangePage - INFO: Element not appeared on the web page
+06/09/2023 11:41:41 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:41:41 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:41:41 AM - exchangePage - INFO: Element Found Locator :submit_signinLocatorType :id
+06/09/2023 11:41:41 AM - exchangePage - INFO: Clicked on the Element Locator :submit_signinLocatorType :id
+06/09/2023 11:41:51 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:41:51 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:41:51 AM - exchangePage - INFO: Element Found Locator ://a[@onclick='return downloadUnlimitedGate()']LocatorType :xpath
+06/09/2023 11:41:51 AM - exchangePage - INFO: Clicked on the Element Locator ://a[@onclick='return downloadUnlimitedGate()']LocatorType :xpath
+06/09/2023 11:42:05 AM - exchangePage - INFO: Element Not Found Locator ://a[@class='button exchange-dw-tooltip button-primary download-ready']LocatorType :xpath
+06/09/2023 11:42:06 AM - exchangePage - INFO: Element Found Locator ://a[@class='button exchange-dw-tooltip button-primary download-ready']LocatorType :xpath
+06/09/2023 11:42:06 AM - exchangePage - INFO: Element Found Locator ://a[@class='button exchange-dw-tooltip button-primary download-ready']LocatorType :xpath
+06/09/2023 11:42:06 AM - exchangePage - INFO: Element Found Locator ://a[@class='button exchange-dw-tooltip button-primary download-ready']LocatorType :xpath
+06/09/2023 11:42:08 AM - exchangePage - INFO: Element Found Locator ://a[@class='button exchange-dw-tooltip button-primary download-ready']LocatorType :xpath
+06/09/2023 11:42:13 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:42:13 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:42:13 AM - exchangePage - INFO: Element Found Locator :downloadProcessLocatorType :id
+06/09/2023 11:42:13 AM - exchangePage - INFO: Clicked on the Element Locator :downloadProcessLocatorType :id
+06/09/2023 11:42:13 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:42:14 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:42:14 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:42:14 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:42:14 AM - exchangePage - INFO: Element Found Locator :email_nameLocatorType :id
+06/09/2023 11:42:14 AM - exchangePage - INFO: Send Keys Successfully Locator :email_nameLocatorType :id
+06/09/2023 11:42:14 AM - exchangePage - INFO: Element Found Locator :email_addressLocatorType :id
+06/09/2023 11:42:14 AM - exchangePage - INFO: Send Keys Successfully Locator :email_addressLocatorType :id
+06/09/2023 11:42:14 AM - exchangePage - INFO: Element Found Locator :email_to_downloads_nextLocatorType :id
+06/09/2023 11:42:14 AM - exchangePage - INFO: Clicked on the Element Locator :email_to_downloads_nextLocatorType :id
+06/09/2023 11:42:14 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:42:35 AM - exchangePage - INFO: Element not appeared on the web page
+06/09/2023 11:42:35 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:42:57 AM - exchangePage - INFO: Element not appeared on the web page
+06/09/2023 11:42:57 AM - exchangePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/09/2023 11:42:57 AM - exchangePage - INFO: Element appeared on the web page
+06/09/2023 11:42:57 AM - exchangePage - INFO: Element Found Locator ://a[@onclick='return downloadUnlimitedGate()']LocatorType :xpath
+06/09/2023 11:42:57 AM - exchangePage - INFO: Clicked on the Element Locator ://a[@onclick='return downloadUnlimitedGate()']LocatorType :xpath
