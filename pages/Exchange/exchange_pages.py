@@ -30,7 +30,6 @@ class exchangePage(SeleniumDriver):
     _sp_login_button = "//span[contains(text(),'Log In')]"
     _sp_agree_button = "//p[contains(text(),'Agree')]"
 
-
     _final_download_button = "//a[@onclick='return downloadUnlimitedGate()']"
 
     def searchButtonsClick(self):
@@ -106,13 +105,13 @@ class exchangePage(SeleniumDriver):
         # pyautogui.moveTo(100, 100, duration=1)
         if not self.searchButtonsClick():
             pyautogui.click(791, 501)  # Click Yt track
-            #time.sleep(1)
+            # time.sleep(1)
         if not self.searchButtonsClick():
             pyautogui.click(564, 452)  # Click Mixcloud track
-            #time.sleep(1)
+            # time.sleep(1)
         if not self.searchButtonsClick():
             pyautogui.click(461, 456)  # Click Sc track
-            #time.sleep(1)
+            # time.sleep(1)
         if not self.searchButtonsClick():
             pyautogui.click(616, 465)  # Click Spotify track
 
@@ -129,7 +128,6 @@ class exchangePage(SeleniumDriver):
         self.switchWindowHander(0)
         print("handler switched")
 
-
         self.waitFl(self._download_button)
         self.firstDownloadButtonClick()
 
@@ -140,43 +138,27 @@ class exchangePage(SeleniumDriver):
             self.emailButtonClick()
 
         if self.waitFl(self._sp_button, 'xpath'):
+            print('in sp')
             self.spButtonClick()
             self.switchWindowHander(0)
             self.waitFl(self._sp_username)
             self.spUserNameSendKeys("ashu121@baltech.in")
             self.spPasswordSendKeys("test123456")
             self.waitFl(self._sp_login_button, 'xpath')
-            self.spButtonClick()
+            self.spIframeButtonClick()
             self.waitFl(self._sp_agree_button, 'xpath')
             self.spAgreeClick()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            time.sleep(5)
+            self.switchWindowHander(1)
+            time.sleep(5)
 
         self.waitFl(self._final_download_button, "xpath")
         self.finalDownloadButtonClick()
-
         time.sleep(5)
         self.switchWindowHander(1)
-        time.sleep(5)
+        print("final switched")
+
+
 
     def firstDownloadButtonClick(self):
         self.elementClick(self._download_button)
@@ -200,15 +182,13 @@ class exchangePage(SeleniumDriver):
         self.elementClick(self._sp_button, 'xpath')
 
     def spUserNameSendKeys(self, uname):
-        self.sendKeys(email, self._sp_username,uname)
+        self.sendKeys(uname,self._sp_username)
 
     def spPasswordSendKeys(self, pwd):
-        self.sendKeys(email, self._sp_password, pwd)
+        self.sendKeys(pwd,self._sp_password)
 
-    def spButtonClick(self):
+    def spIframeButtonClick(self):
         self.elementClick(self._sp_login_button, 'xpath')
 
     def spAgreeClick(self):
         self.elementClick(self._sp_agree_button, 'xpath')
-
-
