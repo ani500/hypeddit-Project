@@ -22,7 +22,7 @@ class CreateFangateTests(unittest.TestCase):
         self.lp.login("myfreshaccount@baltech.in", "123456")
 
         #self.fp.createFangate(Fg="fangate")
-        #self.fp.createFangate(Fg="linkgate")
+        #elf.fp.createFangate(Fg="linkgate")
         self.fp.createFangate(Fg="smartlink")
 
 

@@ -49,7 +49,7 @@ class WebDriverFactory():
             driver = webdriver.Edge(edgedriver)
             driver.set_window_size(1440, 900)
         elif self.browser == "firefox":
-            driver = webdriver.Firefox()
+            driver = webdriver.Firefox(executable_path='C:/Users/Arnav/workspace_python/drivers/geckodriver')
         elif self.browser == "chrome":
             # Set chrome driver
             chromedriver = "C:/users/Arnav/workspace_python/drivers/chromedriver.exe"
@@ -57,7 +57,7 @@ class WebDriverFactory():
             driver = webdriver.Chrome(chromedriver)
             driver.set_window_size(1440, 900)
         else:
-            driver = webdriver.Firefox()
+            driver = webdriver.Firefox(executable_path='C:/Users/Arnav/workspace_python/drivers/geckodriver')
         # Setting Driver Implicit Time out for An Element
         driver.implicitly_wait(3)
         # Maximize the window

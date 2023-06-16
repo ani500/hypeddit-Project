@@ -396,7 +396,7 @@ class FangatePage(SeleniumDriver):
         self.elementClick(self._genre_next_button)
 
     def uploadTrack(self):
-        self.sendKeys("D:\\workspace_python\\hypeddit-Project\\Files\\2sec.mp3", self._choose_file)
+        self.sendKeys("C:\\Users\\Arnav\\workspace_python\\hypeddit-Project\\Files\\2sec.mp3", self._choose_file)
 
     def clickOnNextUpload(self):
         self.elementClick(self._upload_next_button)
@@ -674,7 +674,7 @@ class FangatePage(SeleniumDriver):
         self.elementClick(self._link_unlock_button_next_button)
 
     def designSendKeys(self):
-        self.sendKeys("D:\\workspace_python\\hypeddit-Project\\Files\\Tulips.jpg", self._choose_coverart)
+        self.sendKeys("C:\\Users\\Arnav\\workspace_python\\hypeddit-Project\\Files\\Tulips.jpg", self._choose_coverart)
 
     # ------------------Smartlink ---------------------------------------------------
     def clickSmartlinkLink(self):
