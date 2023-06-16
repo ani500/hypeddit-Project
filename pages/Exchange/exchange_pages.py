@@ -24,12 +24,17 @@ class exchangePage(SeleniumDriver):
     _email_to_download = "email_to_downloads_next"
 
     _sp_button = "//div[@id='step_sp']//a[@id='login_to_sp']"
-
     _sp_username = "login-username"
     _sp_password = "login-password"
     _sp_login_button = "//span[contains(text(),'Log In')]"
     _sp_agree_button = "//p[contains(text(),'Agree')]"
 
+    _sc_button = "//div[@id='step_sc']//a[@id='login_to_sc']"
+    _sc_comment = "sc_comment_text"
+    _recaptcha = "//label[@id='recaptcha-anchor-label']"
+    _sc_username = "username"
+    _sc_password = "password"
+    _sc_submit_button = "submit_signin"
 
     _final_download_button = "//a[@onclick='return downloadUnlimitedGate()']"
 
@@ -106,13 +111,13 @@ class exchangePage(SeleniumDriver):
         # pyautogui.moveTo(100, 100, duration=1)
         if not self.searchButtonsClick():
             pyautogui.click(791, 501)  # Click Yt track
-            #time.sleep(1)
+            # time.sleep(1)
         if not self.searchButtonsClick():
             pyautogui.click(564, 452)  # Click Mixcloud track
-            #time.sleep(1)
+            # time.sleep(1)
         if not self.searchButtonsClick():
             pyautogui.click(461, 456)  # Click Sc track
-            #time.sleep(1)
+            # time.sleep(1)
         if not self.searchButtonsClick():
             pyautogui.click(616, 465)  # Click Spotify track
 
@@ -129,54 +134,62 @@ class exchangePage(SeleniumDriver):
         self.switchWindowHander(0)
         print("handler switched")
 
-
         self.waitFl(self._download_button)
         self.firstDownloadButtonClick()
 
+        # Email step
         if self.waitFl(self._email_to_download):
             self.waitFl(self._email_name)
             self.fNameSendKeys("anil")
             self.emailSendKeys(email)
             self.emailButtonClick()
 
+        # Sp step
         if self.waitFl(self._sp_button, 'xpath'):
+            print('in sp')
             self.spButtonClick()
             self.switchWindowHander(0)
             self.waitFl(self._sp_username)
             self.spUserNameSendKeys("ashu121@baltech.in")
             self.spPasswordSendKeys("test123456")
             self.waitFl(self._sp_login_button, 'xpath')
-            self.spButtonClick()
+            self.spIframeButtonClick()
             self.waitFl(self._sp_agree_button, 'xpath')
             self.spAgreeClick()
+            time.sleep(5)
+            self.switchWindowHander(1)
+            time.sleep(5)
 
 
+        # Sc Step
 
+        if self.waitFl(self._sc_button, 'xpath'):
+            self.waitFl(self._sc_comment)
+            self.scCommentSendKeys("Nice")
+            self.scButtonClick()
+            self.switchWindowHander(0)
+            self.waitFl(self._sc_username)
+            self.scUserNameSendKeys("testing002web@gmail.com")
+            self.waitFl(self._sc_password)
+            self.scPasswordSendKeys("123456")
 
+            if self.waitFl(self._recaptcha, 'xpath'):
+                time.sleep(30)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            self.waitFl(self._sc_submit_button)
+            self.scIframeButtonClick()
+            time.sleep(5)
+            self.switchWindowHander(1)
+            time.sleep(5)
 
 
         self.waitFl(self._final_download_button, "xpath")
         self.finalDownloadButtonClick()
-
         time.sleep(5)
         self.switchWindowHander(1)
-        time.sleep(5)
+        print("final switched")
+
+
 
     def firstDownloadButtonClick(self):
         self.elementClick(self._download_button)
@@ -200,15 +213,31 @@ class exchangePage(SeleniumDriver):
         self.elementClick(self._sp_button, 'xpath')
 
     def spUserNameSendKeys(self, uname):
-        self.sendKeys(email, self._sp_username,uname)
+        self.sendKeys(uname,self._sp_username)
 
     def spPasswordSendKeys(self, pwd):
-        self.sendKeys(email, self._sp_password, pwd)
+        self.sendKeys(pwd,self._sp_password)
 
-    def spButtonClick(self):
+    def spIframeButtonClick(self):
         self.elementClick(self._sp_login_button, 'xpath')
 
     def spAgreeClick(self):
         self.elementClick(self._sp_agree_button, 'xpath')
 
+    # Sc Functions:
 
+
+    def scButtonClick(self):
+        self.elementClick(self._sc_button, 'xpath')
+
+    def scUserNameSendKeys(self, uname):
+        self.sendKeys(uname, self._sc_username)
+
+    def scPasswordSendKeys(self, pwd):
+        self.sendKeys(pwd, self._sc_password)
+
+    def scCommentSendKeys(self, comm):
+        self.sendKeys(comm, self._sc_comment)
+
+    def scIframeButtonClick(self):
+        self.elementClick(self._sc_submit_button)
