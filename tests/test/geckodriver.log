@@ -1,0 +1,667 @@
+1687341972459	geckodriver	INFO	Listening on 127.0.0.1:61761
+1687341975529	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61762" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofilepUZnDS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687341978104	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687341978117	Marionette	INFO	Listening on port 61780
+Read port: 61780
+WebDriver BiDi listening on ws://127.0.0.1:61762
+1687341978417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61762/devtools/browser/6752aad7-f2f0-4686-8150-2e8347440895
+[GFX1-]: Failed to create a D3D11 content device: 0x887a0031
+JavaScript warning: https://www.google.com/js/th/kIU7Dnjt7cuOEQgpBtbUVnmdXpyYzgDR0B1Wt-nxWZk.js line 2 > eval line 3264 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687342010710	Marionette	INFO	Stopped listening on port 61780
+Dynamically enable window occlusion 1
+console.error: "DEPRECATION WARNING: Calling FileUtils.getDir(..., ..., true) causes main thread I/O and should be avoided especially during startup/shutdown\nYou may find more details about this deprecation at: https://bugzilla.mozilla.org/show_bug.cgi?id=921157\nresource://gre/modules/FileUtils.sys.mjs 62 FileUtils_getDir\nresource://gre/modules/UpdateService.sys.mjs 1056 getUpdateDirCreate\nresource://gre/modules/UpdateService.sys.mjs 1095 getUpdateFile\nresource://gre/modules/UpdateService.sys.mjs 4449 UM__loadXMLFileIntoArray\nresource://gre/modules/UpdateService.sys.mjs 4282 UpdateManager\nresource://gre/modules/XPCOMUtils.sys.mjs 137 defineLazyServiceGetter/<\nresource://gre/modules/UpdateService.sys.mjs 3381 get _pingSuffix\nresource://gre/modules/UpdateService.sys.mjs 3424 AUS__checkForBackgroundUpdates\nresource://gre/modules/UpdateService.sys.mjs 3369 AUS_notify\nresource://gre/modules/UpdateTimerManager.sys.mjs 205 TM_notify/</<\n"
+console.error: "DEPRECATION WARNING: Calling FileUtils.getDir(..., ..., true) causes main thread I/O and should be avoided especially during startup/shutdown\nYou may find more details about this deprecation at: https://bugzilla.mozilla.org/show_bug.cgi?id=921157\nresource://gre/modules/FileUtils.sys.mjs 62 FileUtils_getDir\nresource://gre/modules/UpdateService.sys.mjs 1056 getUpdateDirCreate\nresource://gre/modules/UpdateService.sys.mjs 1095 getUpdateFile\nresource://gre/modules/UpdateService.sys.mjs 774 getCanApplyUpdates\nresource://gre/modules/UpdateService.sys.mjs 3432 AUS__checkForBackgroundUpdates\nresource://gre/modules/UpdateService.sys.mjs 3369 AUS_notify\nresource://gre/modules/UpdateTimerManager.sys.mjs 205 TM_notify/</<\n"
+1687342010840	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2147500036, errorCode: 2, reason: error
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+1687342033980	geckodriver	INFO	Listening on 127.0.0.1:61976
+1687342037047	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61977" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileS8Dh9r"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687342037672	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687342037686	Marionette	INFO	Listening on port 61991
+Read port: 61991
+WebDriver BiDi listening on ws://127.0.0.1:61977
+1687342037958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61977/devtools/browser/522c600a-620c-48ad-b276-567ddc4157c9
+1687342054763	Marionette	INFO	Stopped listening on port 61991
+Dynamically enable window occlusion 1
+1687342693485	geckodriver	INFO	Listening on 127.0.0.1:63466
+1687342696540	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63467" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofilezpFN7L"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687342699329	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687342699338	Marionette	INFO	Listening on port 63488
+WebDriver BiDi listening on ws://127.0.0.1:63467
+Read port: 63488
+1687342700547	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63467/devtools/browser/ad488333-883d-442c-be11-9410d1fb49f1
+[GFX1-]: Failed to create a D3D11 content device: 0x887a0031
+JavaScript warning: https://www.google.com/js/th/kIU7Dnjt7cuOEQgpBtbUVnmdXpyYzgDR0B1Wt-nxWZk.js line 2 > eval line 3293 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687342732476	Marionette	INFO	Stopped listening on port 63488
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/cookie-banner-rules-list sync interrupted by shutdown
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.warn: services.settings: main/normandy-recipes-capabilities sync interrupted by shutdown
+console.warn: services.settings: main/sites-classification sync interrupted by shutdown
+console.warn: services.settings: main/anti-tracking-url-decoration sync interrupted by shutdown
+console.warn: services.settings: main/search-default-override-allowlist sync interrupted by shutdown
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: main/pioneer-study-addons-v1 sync interrupted by shutdown
+console.warn: services.settings: main/top-sites sync interrupted by shutdown
+console.warn: services.settings: main/doh-providers sync interrupted by shutdown
+console.warn: services.settings: main/addons-manager-settings sync interrupted by shutdown
+console.warn: services.settings: main/doh-config sync interrupted by shutdown
+console.warn: services.settings: main/devtools-devices sync interrupted by shutdown
+console.warn: services.settings: main/websites-with-shared-credential-backends sync interrupted by shutdown
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry-v2 sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"Extension shutdown: addons-restricted-domains@mozilla.com","state":{"state":"Startup: Run manifest, asyncEmitManifestEntry(\"background\")"},"filename":"resource://gre/modules/addons/XPIProvider.jsm","lineNumber":2664,"stack":["resource://gre/modules/addons/XPIProvider.jsm:startup/<:2664","resource://gre/modules/AsyncShutdown.sys.mjs:observe:575"]}] Barrier: profile-change-teardown
+FATAL ERROR: AsyncShutdown timeout in profile-change-teardown Conditions: [{"name":"Extension shutdown: addons-restricted-domains@mozilla.com","state":{"state":"Startup: Run manifest, asyncEmitManifestEntry(\"background\")"},"filename":"resource://gre/modules/addons/XPIProvider.jsm","lineNumber":2664,"stack":["resource://gre/modules/addons/XPIProvider.jsm:startup/<:2664","resource://gre/modules/AsyncShutdown.sys.mjs:observe:575"]}] At least one completion condition failed to complete within a reasonable amount of time. Causing a crash to ensure that we do not leave the user with an unresponsive process draining resources.
+[Parent 1144, Main Thread] ###!!! ABORT: file resource://gre/modules/addons/XPIProvider.jsm:2664
+Exiting due to channel error.
+nt	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63699/devtools/browser/e56ddec1-9a96-4e80-9ecd-c93d2f0d5cc7
+1687342774409	Marionette	INFO	Stopped listening on port 63714
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1687342895608	geckodriver	INFO	Listening on 127.0.0.1:64151
+1687342899241	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64152" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileLeYioR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687342900833	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687342900845	Marionette	INFO	Listening on port 64171
+Read port: 64171
+WebDriver BiDi listening on ws://127.0.0.1:64152
+1687342901122	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64152/devtools/browser/dee7cb01-e171-45b7-a72e-5fd18103b2f6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687342917295	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687343052644	Marionette	INFO	Stopped listening on port 64171
+Dynamically enable window occlusion 1
+1687344087430	geckodriver	INFO	Listening on 127.0.0.1:57524
+1687344090498	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57525" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofilendlQeN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687344091130	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687344091142	Marionette	INFO	Listening on port 57542
+Read port: 57542
+WebDriver BiDi listening on ws://127.0.0.1:57525
+1687344091439	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57525/devtools/browser/0a798536-2d36-4e67-bdc2-9333a024da4b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687344111063	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687344117818	Marionette	INFO	Stopped listening on port 57542
+Dynamically enable window occlusion 1
+1687344128241	geckodriver	INFO	Listening on 127.0.0.1:57716
+1687344131289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57717" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileQlJSAv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687344131905	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687344131917	Marionette	INFO	Listening on port 57734
+Read port: 57734
+WebDriver BiDi listening on ws://127.0.0.1:57717
+1687344132211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57717/devtools/browser/0cbab11f-37c9-4cec-9673-8cef1859993d
+1687344204872	Marionette	INFO	Stopped listening on port 57734
+Dynamically enable window occlusion 1
+[Parent 13024, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:593
+1687344391750	geckodriver	INFO	Listening on 127.0.0.1:58517
+1687344394811	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58518" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileivQLpX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687344398800	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687344398811	Marionette	INFO	Listening on port 58542
+Read port: 58542
+WebDriver BiDi listening on ws://127.0.0.1:58518
+1687344399076	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58518/devtools/browser/33d0ec25-65a6-4c0a-bce1-c78d40f4094a
+1687344455121	Marionette	INFO	Stopped listening on port 58542
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+"--remote-debugging-port" "58728" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofiledblKac"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687344446752	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687344446764	Marionette	INFO	Listening on port 58748
+WebDriver BiDi listening on ws://127.0.0.1:58728
+Read port: 58748
+Read port: 58748
+1687344449710	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58728/devtools/browser/08a6d2aa-b1c2-4163-bcdd-1dfb8b7b33af
+1687345464798	Marionette	INFO	Stopped listening on port 58748
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58892" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileDt4KXy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687344478486	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687344478498	Marionette	INFO	Listening on port 58916
+Read port: 58916
+WebDriver BiDi listening on ws://127.0.0.1:58892
+Read port: 58916
+Read port: 58916
+1687344481705	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58892/devtools/browser/702b6f18-2764-4c98-959a-6b4a3277c310
+1687344525129	Marionette	INFO	Stopped listening on port 58916
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1687344527152	geckodriver	INFO	Listening on 127.0.0.1:59114
+1687344530196	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59115" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileJDb0Mq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687344531067	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687344531077	Marionette	INFO	Listening on port 59132
+Read port: 59132
+WebDriver BiDi listening on ws://127.0.0.1:59115
+1687344531368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59115/devtools/browser/52a951c7-996c-4576-a637-17d44ae7a100
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687344547661	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687344550455	geckodriver	INFO	Listening on 127.0.0.1:59274
+1687344553518	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59275" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileWvjMOv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687344554194	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687344554210	Marionette	INFO	Listening on port 59291
+Read port: 59291
+WebDriver BiDi listening on ws://127.0.0.1:59275
+1687344554504	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59275/devtools/browser/969183e3-ede2-4a55-8f76-3dd04ff9e9b3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687344571018	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687344579851	Marionette	INFO	Stopped listening on port 59291
+Dynamically enable window occlusion 1
+1687344589122	geckodriver	INFO	Listening on 127.0.0.1:59453
+1687344592316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59454" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileTwsrzu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687344593597	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687344593610	Marionette	INFO	Listening on port 59473
+Read port: 59473
+WebDriver BiDi listening on ws://127.0.0.1:59454
+1687344593903	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59454/devtools/browser/84153394-b570-4fa6-8fbd-1c1e101b79c6
+1687344634561	Marionette	INFO	Stopped listening on port 59473
+Dynamically enable window occlusion 1
+1687345308847	geckodriver	INFO	Listening on 127.0.0.1:52581
+1687345311896	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52582" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileHe2bw3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687345313223	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687345313235	Marionette	INFO	Listening on port 52601
+Read port: 52601
+WebDriver BiDi listening on ws://127.0.0.1:52582
+1687345313502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52582/devtools/browser/ee952a91-c638-40d2-853a-95cd329bd383
+1687345465882	Marionette	INFO	Stopped listening on port 52601
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+"--remote-debugging-port" "52937" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileZKNpBx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687345416664	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687345416675	Marionette	INFO	Listening on port 52957
+Read port: 52957
+WebDriver BiDi listening on ws://127.0.0.1:52937
+1687345416979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52937/devtools/browser/f6b15135-091c-40ea-9aae-6ee605b323bd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687345434791	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687345473150	Marionette	INFO	Stopped listening on port 52957
+Dynamically enable window occlusion 1
+1687345493490	geckodriver	INFO	Listening on 127.0.0.1:53261
+1687345496505	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53262" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileNp9HE5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687345497134	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687345497146	Marionette	INFO	Listening on port 53279
+Read port: 53279
+Read port: 53279
+Read port: 53279
+WebDriver BiDi listening on ws://127.0.0.1:53262
+1687345500165	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53262/devtools/browser/1f8fa5bf-0e0d-4017-8629-d7e3500251f9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687345516048	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687345559357	Marionette	INFO	Stopped listening on port 53279
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1687345587746	geckodriver	INFO	Listening on 127.0.0.1:53614
+1687345590822	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53615" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileEiPf3d"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687345591498	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687345591510	Marionette	INFO	Listening on port 53630
+Read port: 53630
+WebDriver BiDi listening on ws://127.0.0.1:53615
+1687345591755	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53615/devtools/browser/f3776d76-f124-4240-9a61-a63edaea2273
+1687345631765	Marionette	INFO	Stopped listening on port 53630
+Dynamically enable window occlusion 1
+[Parent 8436, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:593
+1687346687590	geckodriver	INFO	Listening on 127.0.0.1:53381
+1687346690644	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53382" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofile1ZF3qG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687346691381	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687346691390	Marionette	INFO	Listening on port 53391
+WebDriver BiDi listening on ws://127.0.0.1:53382
+Read port: 53391
+Read port: 53391
+1687346693289	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53382/devtools/browser/6bb780b0-cdef-48e6-abdd-da03107bcef3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687346710046	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687346715619	Marionette	INFO	Stopped listening on port 53391
+Dynamically enable window occlusion 1
+1687346723943	geckodriver	INFO	Listening on 127.0.0.1:53503
+1687346728676	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53504" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileisULyt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687346729718	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687346729729	Marionette	INFO	Listening on port 53514
+Read port: 53514
+WebDriver BiDi listening on ws://127.0.0.1:53504
+1687346729990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53504/devtools/browser/b18c7be6-d8c7-4189-933a-c0641ee12cd1
+1687346789857	Marionette	INFO	Stopped listening on port 53514
+Dynamically enable window occlusion 1
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_untrustedmodules_ping
+1687346791758	geckodriver	INFO	Listening on 127.0.0.1:53626
+1687346794839	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53627" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileeXJyyU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687346795450	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687346795461	Marionette	INFO	Listening on port 53636
+Read port: 53636
+WebDriver BiDi listening on ws://127.0.0.1:53627
+1687346795739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53627/devtools/browser/cfe9f106-b92e-4185-8a6e-4a9c69de848f
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1687347081423	Marionette	INFO	Stopped listening on port 53636
+Dynamically enable window occlusion 1
+1687347201989	geckodriver	INFO	Listening on 127.0.0.1:53957
+1687347205774	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53958" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileaTOG0j"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687347206655	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687347206666	Marionette	INFO	Listening on port 53968
+Read port: 53968
+WebDriver BiDi listening on ws://127.0.0.1:53958
+1687347206989	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53958/devtools/browser/a37ae8d8-bfac-4f3f-ae30-830d5a72f502
+1687347218602	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687347219466	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687347227314	Marionette	INFO	Stopped listening on port 53968
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 5424, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:593
+1687347261254	geckodriver	INFO	Listening on 127.0.0.1:54073
+1687347264326	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54074" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileXbPXMi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687347264925	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687347264937	Marionette	INFO	Listening on port 54083
+Read port: 54083
+WebDriver BiDi listening on ws://127.0.0.1:54074
+1687347265217	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54074/devtools/browser/db9bdfa5-71cc-4b2b-ae8b-9e8caec39fe1
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yI/l/en_GB/5yUWfqF7exQ.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687347294566	Marionette	INFO	Stopped listening on port 54083
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1687347309943	geckodriver	INFO	Listening on 127.0.0.1:54184
+1687347313007	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54185" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileyaYFU9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687347313616	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687347313627	Marionette	INFO	Listening on port 54194
+Read port: 54194
+WebDriver BiDi listening on ws://127.0.0.1:54185
+1687347313898	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54185/devtools/browser/55f07174-3059-46c6-b431-3c3f7e08d5b7
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yI/l/en_GB/5yUWfqF7exQ.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: GFX: D3D11 skip BeginFrame with device-removed.
+[GFX1]: Failed to map tile: 0x887a0005
+[GFX1-]: MapTile failed aValidRect: Rect(x=3, y=85, w=17, h=809)
+[GFX1]: Device reset due to WR device: 0x887a0007
+[GFX1-]: GFX: RenderThread detected a device reset in PostUpdate
+1687348773807	Marionette	INFO	Stopped listening on port 54194
+Dynamically enable window occlusion 1
+[Parent 1184, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+1687350116357	geckodriver	INFO	Listening on 127.0.0.1:55906
+1687350119792	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55907" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofiles0A5po"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687350122428	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687350122441	Marionette	INFO	Listening on port 55917
+Read port: 55917
+WebDriver BiDi listening on ws://127.0.0.1:55907
+1687350122770	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55907/devtools/browser/1bc4dfbb-d1a0-4ad5-99a5-64fd5394befb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687350139753	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687350157918	Marionette	INFO	Stopped listening on port 55917
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  blocklists/addons-bloomfilters Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.error: (new AbortError("IndexedDB: main/cookie-banner-rules-list getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1687350359264	geckodriver	INFO	Listening on 127.0.0.1:56137
+1687350362322	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56138" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileWpixJg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687350363154	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687350363165	Marionette	INFO	Listening on port 56146
+Read port: 56146
+WebDriver BiDi listening on ws://127.0.0.1:56138
+1687350363417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56138/devtools/browser/5e1bb9e9-d185-4b2e-964b-4e1932f4be3f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687350380081	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687350394206	Marionette	INFO	Stopped listening on port 56146
+Dynamically enable window occlusion 1
+1687350394297	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2147500036, errorCode: 2, reason: error
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+1687350415886	geckodriver	INFO	Listening on 127.0.0.1:56249
+1687350418940	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56250" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofile1h3CLS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687350421831	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687350421843	Marionette	INFO	Listening on port 56261
+Read port: 56261
+WebDriver BiDi listening on ws://127.0.0.1:56250
+1687350422099	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56250/devtools/browser/7400828b-93b0-4071-8a75-81d9c97f115b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687350434972	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687350457231	Marionette	INFO	Stopped listening on port 56261
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.warn: services.settings: main/search-telemetry-v2 sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 111))
+1687350505526	geckodriver	INFO	Listening on 127.0.0.1:56389
+1687350508592	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56390" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileyahyFH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687350509199	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687350509214	Marionette	INFO	Listening on port 56398
+Read port: 56398
+WebDriver BiDi listening on ws://127.0.0.1:56390
+1687350509459	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56390/devtools/browser/4c6080c3-8940-4124-bb13-0de7586deada
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687350525262	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687350548413	Marionette	INFO	Stopped listening on port 56398
+Dynamically enable window occlusion 1
+1687350639500	geckodriver	INFO	Listening on 127.0.0.1:56553
+1687350642545	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56554" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofilehlIEiK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687350644750	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687350644762	Marionette	INFO	Listening on port 56563
+Read port: 56563
+WebDriver BiDi listening on ws://127.0.0.1:56554
+1687350645007	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56554/devtools/browser/4ecc150b-b2a7-4a9d-8072-14e1945b791b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687350662376	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687350671558	Marionette	INFO	Stopped listening on port 56563
+Dynamically enable window occlusion 1
+1687351099717	geckodriver	INFO	Listening on 127.0.0.1:56962
+1687351102777	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56963" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileExsVFg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687351103426	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687351103437	Marionette	INFO	Listening on port 56971
+Read port: 56971
+WebDriver BiDi listening on ws://127.0.0.1:56963
+1687351103703	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56963/devtools/browser/97951a49-f3db-432b-9a33-29b3e02198ba
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687351119347	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687351166345	Marionette	INFO	Stopped listening on port 56971
+Dynamically enable window occlusion 1
+1687354695052	geckodriver	INFO	Listening on 127.0.0.1:62674
+1687354698161	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62675" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofilemsOLZ3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687354700228	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687354700248	Marionette	INFO	Listening on port 62687
+Read port: 62687
+WebDriver BiDi listening on ws://127.0.0.1:62675
+1687354703586	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62675/devtools/browser/d4bd8d56-e6a5-4041-a924-22c47ea3ed85
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687354722502	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687354732945	Marionette	INFO	Stopped listening on port 62687
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: StorageError: Storage error: Error: IndexedDB: blocklists/addons-bloomfilters list() IndexedDB:  execute() The application is shutting down
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.sys.mjs:157:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:928:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:575:17
+
+console.warn: services.settings: blocklists/gfx sync interrupted by shutdown
+console.error: (new Error("IndexedDB: main/partitioning-exempt-urls getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))
+1687357716053	geckodriver	INFO	Listening on 127.0.0.1:65016
+1687357719099	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65017" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofile0lE2j1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687357720155	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687357720168	Marionette	INFO	Listening on port 65026
+Read port: 65026
+WebDriver BiDi listening on ws://127.0.0.1:65017
+1687357720510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65017/devtools/browser/874649bc-0540-4323-8830-6c2a646560b5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687357735599	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687357785970	Marionette	INFO	Stopped listening on port 65026
+Dynamically enable window occlusion 1
+1687357945156	geckodriver	INFO	Listening on 127.0.0.1:65294
+1687357949446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65295" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileRK0AwR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687357950089	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687357950103	Marionette	INFO	Listening on port 65304
+Read port: 65304
+WebDriver BiDi listening on ws://127.0.0.1:65295
+1687357950473	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65295/devtools/browser/e626daa6-02c6-4893-917d-772f2a2c572d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687357965670	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687358080225	Marionette	INFO	Stopped listening on port 65304
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1687358234472	geckodriver	INFO	Listening on 127.0.0.1:49370
+1687358237537	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49371" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileE8GLzn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687358238161	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687358238174	Marionette	INFO	Listening on port 49380
+WebDriver BiDi listening on ws://127.0.0.1:49371
+Read port: 49380
+1687358238758	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49371/devtools/browser/72964b0f-ec7f-42ee-8f2d-ee403e5b4e1d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687358252226	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1687364378037	Marionette	INFO	Stopped listening on port 49380
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53616" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileiJyras"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687364028208	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687364028219	Marionette	INFO	Listening on port 53626
+Read port: 53626
+WebDriver BiDi listening on ws://127.0.0.1:53616
+Read port: 53626
+Read port: 53626
+Read port: 53626
+1687364032185	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53616/devtools/browser/c53ce6e0-e5c9-484f-9926-b31a9642d9a0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687364045321	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687364368174	Marionette	INFO	Stopped listening on port 53626
+Dynamically enable window occlusion 1

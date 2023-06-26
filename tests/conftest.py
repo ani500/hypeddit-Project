@@ -16,12 +16,12 @@ def oneTimeSetUp(request, browser):
     print("Running one time setUp")
 
     wdf = WebDriverFactory(browser)
-    driver = wdf.getWebDriverInstance()
+    driver1 = wdf.getWebDriverInstance()
 
     if request.cls is not None:
-        request.cls.driver = driver
-    yield driver
-    driver.quit()
+        request.cls.driver1 = driver1
+    yield driver1
+    driver1.quit()
     print("Running one time tearDown")
 
 

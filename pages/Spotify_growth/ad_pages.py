@@ -53,6 +53,7 @@ class AdPage(SeleniumDriver):
     _ad_inputFileAudioAsset = "inputFileAudioAsset"
     _ad_inputFilemp4 = "inputFilemp4"
     _ad_next_button = "next_box_button_audio-video"
+    _ad_inputFileAudioUpload = "inputFileAudioUpload"
 
     _countries_caret = "//button[@class='btn dropdown-toggle btn-default']//span[text()='Tier One Countries ']"
     _select_countries = "//ul[@class='dropdown-menu inner']//span[text()='All Countries']"
@@ -91,6 +92,9 @@ class AdPage(SeleniumDriver):
     _interest_loader_profile = "//div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]"
     _interest_generate_profile = "//div[@id='spotify_search_div_loading'][contains(@class,'hide')]"
 
+    _artist_name_music_reward = "artist_name"
+    _artist_name_loader_reward = "//div[@id='artist_name_loader'][contains(@class,'select-loading hide')]"
+
     _interest_select_profile_1 = "//li[@data-userid='61JrslREXq98hurYL2hYoc']"
     _interest_select_profile_2 = "//li[@data-userid='5OHhhP4Nxp1z0BCHYCkDAK']"
     _interest_select_profile_3 = "//li[@data-userid='5as8A4G47Ohu9NSWs3Je8U']"
@@ -106,6 +110,12 @@ class AdPage(SeleniumDriver):
     _time_zone_caret = "//button[@class='btn dropdown-toggle btn-default']//span[text()='Alaska (GMT-09:00)']"
     _select_zone = "//div[@class='btn-group bootstrap-select form-control dropup open']//span[text()='Arizona (GMT-07:00)']"
 
+    #  Calender Locators
+    _music_calendar = "release_datetime"
+    _date_select_music ="//div[contains(@class,'xdsoft_datetimepicker xdsoft_ xdsoft_noselect ') and contains(@style,'display: block')]//following-sibling::tr[4]//following-sibling::td[6]"
+
+    # Music Rewards
+    _title_music_reward = "title"
     def clickPromoteLink(self):
         self.elementClick(self._promote_music, "xpath")
 
@@ -156,7 +166,16 @@ class AdPage(SeleniumDriver):
         self.elementClick(self._accounts_next_button)
 
     def spUrlSendKeys(self, spUrl):
+        self.waitFl(self._spotify_url)
         self.sendKeys(spUrl, self._spotify_url)
+
+    def clickMusicDateField(self):
+        self.waitFl(self._music_calendar)
+        self.elementClick(self._music_calendar)
+
+    def selectMusicDate(self):
+        self.waitFl(self._date_select_music, 'xpath')
+        self.elementClick(self._date_select_music,'xpath')
 
     def spPlaylistUrlSendKeys(self, spUrl):
         self.sendKeys(spUrl, self._spotify_playlist_url)
@@ -194,6 +213,9 @@ class AdPage(SeleniumDriver):
     def mp3SendKeys(self, filePathmp3):
         self.sendKeys(filePathmp3, self._ad_inputFileAudioAsset)
 
+    def mp3SendKeysReward(self, filePathmp4):
+        self.sendKeys(filePathmp4, self._ad_inputFileAudioUpload)
+
     def mp4SendKeys(self, filePathmp4):
         self.sendKeys(filePathmp4, self._ad_inputFilemp4)
 
@@ -211,6 +233,10 @@ class AdPage(SeleniumDriver):
 
     def spArtistSendKeys(self, artistName):
         self.sendKeys(artistName, self._ad_spotify_artists)
+
+    def spArtistSendKeysMusicReward(self, artistName):
+        self.waitFl(self._artist_name_music_reward)
+        self.sendKeys(artistName, self._artist_name_music_reward)
 
     def clickGenerateInterestButton(self):
         self.elementClick(self._interest_button)
@@ -288,6 +314,10 @@ class AdPage(SeleniumDriver):
 
     def fbPassSendKeys(self, fbEmail):
         self.sendKeys(fbEmail, self._facebook_pass)
+
+    def sendKeysTitleMusic(self, title):
+        self.waitFl(self._title_music_reward)
+        self.sendKeys(title, self._title_music_reward)
 
     def clickFbLoginButton(self):
         self.elementClick(self._facebook_login_button, "xpath")
@@ -393,34 +423,56 @@ class AdPage(SeleniumDriver):
                 "https://soundcloud.com/purifiedrec/serra-9-deviu-feat-phoebe-tsen?in_system_playlist=personalized-tracks%3A%3Atesting-user-724105926%3A1344956383")
 
         if AdType == 'presave_reward':
+
             self.spUrlSendKeys("USNRS1229743")
+            self.clickMusicDateField()
+            self.selectMusicDate()
+            self.spArtistSendKeysMusicReward("lata")
+            for i in range(51):
+                if i > 49:
+                    break
+                time.sleep(2)
+                if self.checkLoaderElement(self._artist_name_loader_reward, "xpath") == True:
+                    self.clickInterestArtist1()
+                    break
 
-        for i in range(200):
-            if i > 198:
+            self.sendKeysTitleMusic("testtitle")
+
+
+
+        if AdType=="track" and AdType=="playlist" and AdType=="artist":
+
+            for i in range(200):
+                if i > 198:
+                    break
+                time.sleep(2)
+                if self.checkLoaderElement(self._music_loader_image, "xpath") == False:
+
+                    if AdType == 'playlist':
+                        self.spUrlSendKeys("https://open.spotify.com/track/7gFu2zjthH2zPbyl4uHLpr?si=e7a5fd99fcb54256")
+                        time.sleep(5)  # waiting for the loader to complete
                 break
-            time.sleep(2)
-            if self.checkLoaderElement(self._music_loader_image, "xpath") == False:
 
-                if AdType == 'playlist':
-                    self.spUrlSendKeys("https://open.spotify.com/track/7gFu2zjthH2zPbyl4uHLpr?si=e7a5fd99fcb54256")
-                    time.sleep(5)  # waiting for the loader to complete
+        self.waitFl(self._genre_caret, "xpath")
+        self.clickOnGenre()
+        self.selectGenre()
 
-                self.waitFl(self._genre_caret, "xpath")
-                self.clickOnGenre()
-                self.selectGenre()
-                if AdType == 'fanemail':
-                    self.waitFl(self._choose_file)
-                    self.uploadTrackArtist()
-                self.clickMusicNextButton()
-                break
+        if AdType == "presave_reward":
+            time.sleep(10)
+            self.mp3SendKeysReward("C:\\Users\\Arnav\workspace_python\\hypeddit-Project\\Files\\45 sec.mp3")
+        if AdType == 'fanemail':
+            self.waitFl(self._choose_file)
+            self.uploadTrackArtist()
+        time.sleep(10)
+        self.clickMusicNextButton()
 
     def ad(self):
-        time.sleep(10)
+        time.sleep(15)
         self.mp3SendKeys("C:\\Users\\Arnav\workspace_python\\hypeddit-Project\\Files\\45 sec.mp3")
         # self.mp4SendKeys("C:\\Users\\Anil\\workspace_python\\hypeddit-Project\\Files\\Hazard Lights - SGE Cover - Preview 1.mp4")
         time.sleep(4)
         for i in range(500):
-            if i > 49:
+            if i > 100:
                 break
             time.sleep(2)
             if self.checkLoaderElement(self._loader_image, "xpath") == False:

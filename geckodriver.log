@@ -1,0 +1,298 @@
+1687239771999	geckodriver	INFO	Listening on 127.0.0.1:53621
+1687239775779	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53622" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileaC6dmM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687239776582	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687239776597	Marionette	INFO	Listening on port 53639
+Read port: 53639
+WebDriver BiDi listening on ws://127.0.0.1:53622
+1687239776986	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53622/devtools/browser/ec405fe9-5e12-46fc-bd44-4e4bf4a09e13
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+[GFX1-]: Failed to create a D3D11 content device: 0x887a0031
+JavaScript warning: https://www.google.com/js/th/Lj5lmey1qHOFmMbfuxy9CdMOseEmwpJKbtoBBKxW9PI.js line 2 > eval line 4877 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687239802257	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=112.0.24, line 2822: unreachable code after return statement
+1687239832791	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yI/l/en_GB/5yUWfqF7exQ.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1687240259673	Marionette	INFO	Stopped listening on port 53639
+Dynamically enable window occlusion 1
+1687240323710	geckodriver	INFO	Listening on 127.0.0.1:54975
+1687240326758	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54976" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileWis04f"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687240328044	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687240328059	Marionette	INFO	Listening on port 54992
+Read port: 54992
+WebDriver BiDi listening on ws://127.0.0.1:54976
+1687240328372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54976/devtools/browser/9bbbfcb1-ee69-4ad2-8e0f-e095cbc0c310
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+[GFX1-]: Failed to create a D3D11 content device: 0x887a0031
+JavaScript warning: https://www.google.com/js/th/Lj5lmey1qHOFmMbfuxy9CdMOseEmwpJKbtoBBKxW9PI.js line 2 > eval line 4343 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687240348682	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1687240363615	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=112.0.24, line 2822: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yI/l/en_GB/5yUWfqF7exQ.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1687240647475	Marionette	INFO	Stopped listening on port 54992
+Dynamically enable window occlusion 1
+1687246351383	geckodriver	INFO	Listening on 127.0.0.1:53487
+1687246354777	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53488" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileEZ6Vgr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687246356185	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687246356197	Marionette	INFO	Listening on port 53507
+Read port: 53507
+WebDriver BiDi listening on ws://127.0.0.1:53488
+1687246356581	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53488/devtools/browser/30730459-e2df-45cf-a3e6-f98c16fe9a09
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+[GFX1-]: Failed to create a D3D11 content device: 0x887a0031
+JavaScript warning: https://www.google.com/js/th/BTPPf1EoKEaiOt0VlmXjKf8vkFXdFOQG-UQMlDOX4ig.js line 2 > eval line 4769 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687246380213	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://player.vimeo.com/video/276950823, line 117: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 117: unreachable code after return statement
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=112.0.24, line 2822: unreachable code after return statement
+1687246430657	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yI/l/en_GB/5yUWfqF7exQ.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1687246542864	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687246687322	Marionette	INFO	Stopped listening on port 53507
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1687246800075	geckodriver	INFO	Listening on 127.0.0.1:54827
+1687246803126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54828" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofiletiDkmi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687246803855	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687246803869	Marionette	INFO	Listening on port 54853
+Read port: 54853
+WebDriver BiDi listening on ws://127.0.0.1:54828
+1687246804184	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54828/devtools/browser/4d85cd0e-1f20-4c88-b01e-2b2b20bd9306
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+[GFX1-]: Failed to create a D3D11 content device: 0x887a0031
+JavaScript warning: https://www.google.com/js/th/BTPPf1EoKEaiOt0VlmXjKf8vkFXdFOQG-UQMlDOX4ig.js line 2 > eval line 293 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687246825903	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=112.0.24, line 2822: unreachable code after return statement
+1687246848305	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yI/l/en_GB/5yUWfqF7exQ.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1687246888598	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687247238315	Marionette	INFO	Stopped listening on port 54853
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1687356891710	geckodriver	INFO	Listening on 127.0.0.1:64277
+1687356894762	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64278" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofilemPogV7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687356895545	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687356895556	Marionette	INFO	Listening on port 64286
+WebDriver BiDi listening on ws://127.0.0.1:64278
+Read port: 64286
+Read port: 64286
+1687356897732	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64278/devtools/browser/ff618cd9-b56b-4225-be02-c17a222e2b90
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687356910009	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687356918727	Marionette	INFO	Stopped listening on port 64286
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1687357992114	geckodriver	INFO	Listening on 127.0.0.1:65412
+1687357995378	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65413" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofile2PZoLV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687357998190	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687357998199	Marionette	INFO	Listening on port 65427
+WebDriver BiDi listening on ws://127.0.0.1:65413
+Read port: 65427
+1687357999458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65413/devtools/browser/b3a4b406-5713-43c9-80ce-fee4f765014c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687358075498	Marionette	INFO	Stopped listening on port 65427
+Dynamically enable window occlusion 1
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:575:17
+
+console.error: (new AbortError("IndexedDB: main/personality-provider-recipe getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1687358092272	geckodriver	INFO	Listening on 127.0.0.1:49194
+1687358098075	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49195" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileirn4X2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687358098972	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687358098985	Marionette	INFO	Listening on port 49205
+WebDriver BiDi listening on ws://127.0.0.1:49195
+Read port: 49205
+Read port: 49205
+1687358101111	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49195/devtools/browser/0faa157b-01e3-4daa-a23a-80c1fe19d64d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687358116111	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687358189811	Marionette	INFO	Stopped listening on port 49205
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 10112, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:593
+1687358325135	geckodriver	INFO	Listening on 127.0.0.1:49521
+1687358328463	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49522" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofile0rtY2g"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687358329348	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687358329359	Marionette	INFO	Listening on port 49532
+Read port: 49532
+WebDriver BiDi listening on ws://127.0.0.1:49522
+1687358329679	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49522/devtools/browser/fa485a9a-2763-4db8-bb81-ec989cb3eaf2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687358347544	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:50025
+1687359109311	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50026" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofile1ZyZCk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687359110264	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687359110275	Marionette	INFO	Listening on port 50035
+Read port: 50035
+WebDriver BiDi listening on ws://127.0.0.1:50026
+1687359110561	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50026/devtools/browser/0cf0d843-4387-4ff8-8cbd-32aad4521b6a
+1687359121071	Marionette	INFO	Stopped listening on port 50035
+Dynamically enable window occlusion 1
+1687359133011	geckodriver	INFO	Listening on 127.0.0.1:50071
+1687359135596	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50072" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileiNgVvI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687359136347	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687359136359	Marionette	INFO	Listening on port 50081
+Read port: 50081
+WebDriver BiDi listening on ws://127.0.0.1:50072
+1687359136702	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50072/devtools/browser/8b15c6ce-d5a7-4f87-bb04-9f9659458f3a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+[GFX1-]: Failed to create a D3D11 content device: 0x887a0031
+JavaScript warning: https://www.google.com/js/th/kIU7Dnjt7cuOEQgpBtbUVnmdXpyYzgDR0B1Wt-nxWZk.js line 2 > eval line 5522 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687359158746	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687359161537	Marionette	INFO	Stopped listening on port 50081
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+!!! error running onStopped callback: TypeError: callback is not a function
+1687359161647	WebDriver BiDi	ERROR	Failed to stop protocol: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: chrome://remote/content/marionette/cert.sys.mjs :: allowAllCerts.disable :: line 51"  data: no] Stack trace: allowAllCerts.disable()@cert.sys.mjs:51
+destroy()@Session.sys.mjs:207
+deleteSession()@WebDriverBiDi.sys.mjs:142
+stop()@WebDriverBiDi.sys.mjs:230
+observe()@resource://gre/modules/AsyncShutdown.sys.mjs:575
+1687364188174	geckodriver	INFO	Listening on 127.0.0.1:53804
+1687364191247	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53805" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileRuzxzJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687364192282	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687364192293	Marionette	INFO	Listening on port 53814
+Read port: 53814
+WebDriver BiDi listening on ws://127.0.0.1:53805
+1687364192574	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53805/devtools/browser/b3cbab26-09bb-4ea8-a028-6a69bd99dd9a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687364245410	geckodriver	INFO	Listening on 127.0.0.1:53923
+1687364250535	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53924" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Arnav\\AppData\\Local\\Temp\\rust_mozprofileVo0eaC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687364251592	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687364251601	Marionette	INFO	Listening on port 53934
+Read port: 53934
+WebDriver BiDi listening on ws://127.0.0.1:53924
+1687364251919	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53924/devtools/browser/dd0515df-afa2-4fd7-8d1e-44166543fe57
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687364268896	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
