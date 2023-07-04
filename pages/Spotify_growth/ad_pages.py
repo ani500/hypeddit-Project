@@ -17,12 +17,12 @@ class AdPage(SeleniumDriver):
         self.driver = driver
 
     # Locators
-    _promote_music = "//a[@href='https://dev2.hypeddit.com/promotemusic']"
-    _ad_templates = "//a[@href='https://dev2.hypeddit.com/ads/templates']"
-    _spotify_growth_track = "//a[@href='https://dev2.hypeddit.com/ads/create/spotify-growth-track']"
-    _spotify_growth_playlist = "//a[@href='https://dev2.hypeddit.com/ads/create/spotify-growth-playlist']"
-    _spotify_growth_artist = "//a[@href='https://dev2.hypeddit.com/ads/create/spotify-growth-artist']"
-    _spotify_growth_email = "//a[@href='https://dev2.hypeddit.com/ads/create/grow-my-fan-emails']"
+    _promote_music = "//a[@href='https://hypeddit.com/promotemusic']"
+    _ad_templates = "//a[@href='https://hypeddit.com/ads/templates']"
+    _spotify_growth_track = "//a[@href='https://hypeddit.com/ads/create/spotify-growth-track']"
+    _spotify_growth_playlist = "//a[@href='https://hypeddit.com/ads/create/spotify-growth-playlist']"
+    _spotify_growth_artist = "//a[@href='https://hypeddit.com/ads/create/spotify-growth-artist']"
+    _spotify_growth_email = "//a[@href='https://hypeddit.com/ads/create/grow-my-fan-emails']"
 
     _goal_next_button = "next_box_button_choose-type"
 
@@ -346,7 +346,7 @@ class AdPage(SeleniumDriver):
             self.clickSpotifyGrowthEmail()
 
         if AdType == 'presave_reward':
-            self.driver.get("https://dev2.hypeddit.com/ads/create/spotify-growth-presave-reward")
+            self.driver.get("https://hypeddit.com/ads/create/spotify-growth-presave-reward")
 
         self.accountprofile()
         #self.clickAccountNextButton()
@@ -372,9 +372,9 @@ class AdPage(SeleniumDriver):
         time.sleep(2)
         self.switchWindowHander(0)
         time.sleep(2)
-        self.fbEmailSendKeys("anilangira@gmail.com")
+        self.fbEmailSendKeys("ashish.chaturvedi@baltech.in")
         time.sleep(2)
-        self.fbPassSendKeys("KUL@o5678")
+        self.fbPassSendKeys("hype123456")
         time.sleep(2)
         self.clickFbLoginButton()
         self.waitFl(self._facebook_confirm_button, "xpath")
@@ -459,7 +459,7 @@ class AdPage(SeleniumDriver):
 
         if AdType == "presave_reward":
             time.sleep(10)
-            self.mp3SendKeysReward("C:\\Users\\Arnav\workspace_python\\hypeddit-Project\\Files\\45 sec.mp3")
+            self.mp3SendKeysReward("D:\\workspace_python\\hypeddit-Project\\Files\\45 sec.mp3")
         if AdType == 'fanemail':
             self.waitFl(self._choose_file)
             self.uploadTrackArtist()
@@ -468,7 +468,7 @@ class AdPage(SeleniumDriver):
 
     def ad(self):
         time.sleep(15)
-        self.mp3SendKeys("C:\\Users\\Arnav\workspace_python\\hypeddit-Project\\Files\\45 sec.mp3")
+        self.mp3SendKeys("D:\\workspace_python\\hypeddit-Project\\Files\\45 sec.mp3")
         # self.mp4SendKeys("C:\\Users\\Anil\\workspace_python\\hypeddit-Project\\Files\\Hazard Lights - SGE Cover - Preview 1.mp4")
         time.sleep(4)
         for i in range(500):

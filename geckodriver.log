@@ -296,3 +296,784 @@ TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687865797392	geckodriver	INFO	Listening on 127.0.0.1:60565
+1687865800516	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60566" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilehHATlR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687865801606	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687865801613	Marionette	INFO	Listening on port 60577
+Read port: 60577
+WebDriver BiDi listening on ws://127.0.0.1:60566
+1687865801831	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60566/devtools/browser/700774d6-3f0b-4e54-8b25-84d0ccf700d9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687865815613	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687865827824	Marionette	INFO	Stopped listening on port 60577
+Dynamically enable window occlusion 1
+1687866108559	geckodriver	INFO	Listening on 127.0.0.1:60894
+1687866111637	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60895" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile3cfDII"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687866112029	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687866112035	Marionette	INFO	Listening on port 60904
+Read port: 60904
+WebDriver BiDi listening on ws://127.0.0.1:60895
+1687866112158	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60895/devtools/browser/c9ccae37-2613-4828-8126-5051a6b651de
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687866122076	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1687866171693	Marionette	INFO	Stopped listening on port 60904
+Dynamically enable window occlusion 1
+D:/workspace_python/drivers/geckodriver.exe: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver.exe --port <PORT>
+
+For more information try --help
+
+D:/workspace_python/drivers/geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver --port <PORT>
+
+For more information try --help
+
+1687870254966	geckodriver	INFO	Listening on 127.0.0.1:63630
+1687870258092	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63631" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileYBDZ3D"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687870258985	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687870258992	Marionette	INFO	Listening on port 63639
+Read port: 63639
+WebDriver BiDi listening on ws://127.0.0.1:63631
+1687870259183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63631/devtools/browser/9b0f8749-d790-49a9-80b1-a9f9d90b5afa
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687870271032	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1687874678425	Marionette	INFO	Stopped listening on port 63639
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64899" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile9ionls"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687871256677	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687871256681	Marionette	INFO	Listening on port 64908
+Read port: 64908
+WebDriver BiDi listening on ws://127.0.0.1:64899
+1687871256810	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64899/devtools/browser/f462ac42-9124-4b3c-9a73-cd5b97d81a0a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687871266911	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1687874679880	Marionette	INFO	Stopped listening on port 64908
+Dynamically enable window occlusion 1
+zrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65435" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilet2hNBE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687871765413	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687871765417	Marionette	INFO	Listening on port 65445
+Read port: 65445
+WebDriver BiDi listening on ws://127.0.0.1:65435
+1687871765535	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65435/devtools/browser/3634b012-b898-459e-8100-32d5a56d4094
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687871774993	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1687871797973	Marionette	INFO	Stopped listening on port 65445
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/language-dictionaries sync interrupted by shutdown
+console.warn: services.settings: main/password-recipes sync interrupted by shutdown
+console.warn: services.settings: main/password-rules sync interrupted by shutdown
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry-v2 sync interrupted by shutdown
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.warn: services.settings: main/cookie-banner-rules-list sync interrupted by shutdown
+console.warn: services.settings: security-state/cert-revocations sync interrupted by shutdown
+console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+1687871915937	geckodriver	INFO	Listening on 127.0.0.1:49297
+1687871919051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49298" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilee3ZspS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687871919754	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687871919759	Marionette	INFO	Listening on port 49308
+Read port: 49308
+WebDriver BiDi listening on ws://127.0.0.1:49298
+1687871919894	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49298/devtools/browser/240c8e65-c150-4e83-9da9-bb4ece5974b8
+1687871923741	Marionette	INFO	Stopped listening on port 49308
+Dynamically enable window occlusion 1
+1687930575040	geckodriver	INFO	Listening on 127.0.0.1:60577
+1687930578123	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60578" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileDue5UM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687930578889	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687930578895	Marionette	INFO	Listening on port 60592
+WebDriver BiDi listening on ws://127.0.0.1:60578
+Read port: 60592
+1687930579075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60578/devtools/browser/92b3aa4d-b2cd-4205-ad59-4720a04d0f43
+1687930582678	Marionette	INFO	Stopped listening on port 60592
+Dynamically enable window occlusion 1
+1687934660170	geckodriver	INFO	Listening on 127.0.0.1:54374
+1687934663294	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54375" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileMk3qfr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687934664217	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687934664224	Marionette	INFO	Listening on port 54390
+Read port: 54390
+WebDriver BiDi listening on ws://127.0.0.1:54375
+1687934664419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54375/devtools/browser/e81df7aa-9d5e-4860-8db4-c6c85e3a76d4
+1687934673634	Marionette	INFO	Stopped listening on port 54390
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.google.com/js/th/PL4KOxJRKAJ5K5jApE3L9HXpIfC5FQxeQ0eBEvK16Jc.js line 2 > eval line 5106 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBDatabase::Msg_PBackgroundIDBTransactionConstructor Value error: message was deserialized, but contained an illegal value
+
+1687934753021	geckodriver	INFO	Listening on 127.0.0.1:54652
+1687934756106	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54653" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile6rp9RE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687934756457	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687934756462	Marionette	INFO	Listening on port 54668
+WebDriver BiDi listening on ws://127.0.0.1:54653
+Read port: 54668
+1687934756817	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54653/devtools/browser/9bd21273-6b55-4983-bbc9-afcd2b6c0c30
+1687934766103	Marionette	INFO	Stopped listening on port 54668
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript warning: https://www.google.com/js/th/PL4KOxJRKAJ5K5jApE3L9HXpIfC5FQxeQ0eBEvK16Jc.js line 2 > eval line 6621 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687934827162	geckodriver	INFO	Listening on 127.0.0.1:54896
+1687934830231	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54897" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileVcI79R"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687934830872	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687934830876	Marionette	INFO	Listening on port 54911
+Read port: 54911
+WebDriver BiDi listening on ws://127.0.0.1:54897
+1687934831005	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54897/devtools/browser/89af6b0e-09d2-499d-96d9-9126970adcfc
+1687934840701	Marionette	INFO	Stopped listening on port 54911
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.google.com/js/th/PL4KOxJRKAJ5K5jApE3L9HXpIfC5FQxeQ0eBEvK16Jc.js line 2 > eval line 1413 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBDatabase::Msg_PBackgroundIDBTransactionConstructor Value error: message was deserialized, but contained an illegal value
+
+1687934914258	geckodriver	INFO	Listening on 127.0.0.1:55159
+1687934917320	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55160" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileeEWrcG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687934917652	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687934917657	Marionette	INFO	Listening on port 55175
+Read port: 55175
+WebDriver BiDi listening on ws://127.0.0.1:55160
+1687934917776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55160/devtools/browser/1da7340e-a4e4-4222-92b2-b9bf9126716c
+JavaScript warning: https://www.google.com/js/th/PL4KOxJRKAJ5K5jApE3L9HXpIfC5FQxeQ0eBEvK16Jc.js line 2 > eval line 5403 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687934936399	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://hypeddit.com/js/ad.js?v=112.0.12, line 2824: unreachable code after return statement
+1687934958009	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yB/l/en_GB/kMnRYoLVLt3.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:309:29
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:309:29\n"
+1687935165793	Marionette	INFO	Stopped listening on port 55175
+Dynamically enable window occlusion 1
+1687935283900	geckodriver	INFO	Listening on 127.0.0.1:56141
+1687935286986	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56142" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileMfzUo0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687935287839	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687935287843	Marionette	INFO	Listening on port 56156
+WebDriver BiDi listening on ws://127.0.0.1:56142
+Read port: 56156
+1687935288224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56142/devtools/browser/87bf6129-da4d-465e-905d-a3fa24436d78
+JavaScript warning: https://www.google.com/js/th/PL4KOxJRKAJ5K5jApE3L9HXpIfC5FQxeQ0eBEvK16Jc.js line 2 > eval line 4093 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1687935312261	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://hypeddit.com/js/ad.js?v=112.0.12, line 2824: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yB/l/en_GB/kMnRYoLVLt3.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:309:29
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:309:29\n"
+1687935521708	Marionette	INFO	Stopped listening on port 56156
+Dynamically enable window occlusion 1
+1687935702551	geckodriver	INFO	Listening on 127.0.0.1:57217
+1687935705639	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57218" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileotwuEU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687935706334	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687935706339	Marionette	INFO	Listening on port 57232
+WebDriver BiDi listening on ws://127.0.0.1:57218
+Read port: 57232
+1687935706577	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57218/devtools/browser/95baf069-c07e-4669-bf72-8c00fcec9948
+JavaScript warning: https://www.google.com/js/th/BTPPf1EoKEaiOt0VlmXjKf8vkFXdFOQG-UQMlDOX4ig.js line 2 > eval line 7138 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://hypeddit.com/js/ad.js?v=112.0.12, line 2824: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yB/l/en_GB/kMnRYoLVLt3.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:309:29
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:309:29\n"
+1687935957052	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687935959829	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687935962594	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687935979015	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://hypeddit.com/js/ad.js?v=112.0.12, line 2824: unreachable code after return statement
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1687936031311	Marionette	INFO	Stopped listening on port 57232
+Dynamically enable window occlusion 1
+1687936291293	geckodriver	INFO	Listening on 127.0.0.1:58720
+1687936294354	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58721" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile45g3wK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687936294706	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687936294711	Marionette	INFO	Listening on port 58735
+WebDriver BiDi listening on ws://127.0.0.1:58721
+Read port: 58735
+1687936294957	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58721/devtools/browser/80dfb29f-2c83-481a-8eda-8ab1807564c3
+JavaScript warning: https://www.google.com/js/th/BTPPf1EoKEaiOt0VlmXjKf8vkFXdFOQG-UQMlDOX4ig.js line 2 > eval line 6778 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687936313240	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1687936317561	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1687936318829	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://hypeddit.com/js/ad.js?v=112.0.12, line 2824: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yB/l/en_GB/kMnRYoLVLt3.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:309:29
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:309:29\n"
+1687936654883	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687936657657	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687936660423	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687936693018	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://hypeddit.com/js/ad.js?v=112.0.12, line 2824: unreachable code after return statement
+1687936748017	Marionette	INFO	Stopped listening on port 58735
+Dynamically enable window occlusion 1
+[Parent 4476, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+1687937249003	geckodriver	INFO	Listening on 127.0.0.1:61290
+1687937252110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61291" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile7JPZml"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687937252991	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687937252998	Marionette	INFO	Listening on port 61306
+Read port: 61306
+WebDriver BiDi listening on ws://127.0.0.1:61291
+1687937253204	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61291/devtools/browser/e390c19a-9d3d-492b-97e9-73ff9ffdea47
+JavaScript warning: https://www.google.com/js/th/BTPPf1EoKEaiOt0VlmXjKf8vkFXdFOQG-UQMlDOX4ig.js line 2 > eval line 3413 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://hypeddit.com/js/ad.js?v=112.0.12, line 2824: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yB/l/en_GB/kMnRYoLVLt3.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:309:29
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:309:29\n"
+1687937571280	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687937574043	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687937576816	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://hypeddit.com/js/ad.js?v=112.0.12, line 2824: unreachable code after return statement
+1687937658573	Marionette	INFO	Stopped listening on port 61306
+Dynamically enable window occlusion 1
+1687937674823	geckodriver	INFO	Listening on 127.0.0.1:62397
+1687937677884	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62398" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileh6Ypcm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1687937678626	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1687937678631	Marionette	INFO	Listening on port 62412
+Read port: 62412
+WebDriver BiDi listening on ws://127.0.0.1:62398
+1687937678751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62398/devtools/browser/1823a991-735c-471d-93ba-cb074fc94e03
+JavaScript warning: https://www.google.com/js/th/BTPPf1EoKEaiOt0VlmXjKf8vkFXdFOQG-UQMlDOX4ig.js line 2 > eval line 7639 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+1687937698205	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://hypeddit.com/js/ad.js?v=112.0.12, line 2824: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/yB/l/en_GB/kMnRYoLVLt3.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:309:29
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:309:29\n"
+1687937871343	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687937982059	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687937984814	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687937987584	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1687938006838	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://hypeddit.com/js/ad.js?v=112.0.12, line 2824: unreachable code after return statement
+[Parent 20176, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+[Parent 20176, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787
+1687938059174	Marionette	INFO	Stopped listening on port 62412
+Dynamically enable window occlusion 1
+1688464446864	geckodriver	INFO	Listening on 127.0.0.1:59371
+1688464450970	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59372" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile6iUIQN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1688464452593	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1688464452608	Marionette	INFO	Listening on port 59391
+Read port: 59391
+WebDriver BiDi listening on ws://127.0.0.1:59372
+1688464452824	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59372/devtools/browser/f7dfd1b5-9386-4dad-aed1-9ae882cb7fea
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+1688464473516	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://www.google.com/js/th/CFvFRxUomQAyW1GPJHNEkK56m7mgxeT_n6tSkg-sd0M.js line 2 > eval line 1486 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 6319: ReferenceError: deezerapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 8998: ReferenceError: deezerapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 1669: ReferenceError: fb_send_to_messenger_timeout is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 1669: ReferenceError: fb_send_to_messenger_timeout is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 1669: ReferenceError: fb_send_to_messenger_timeout is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7598: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7742: ReferenceError: url is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7808: ReferenceError: url is not defined
+1688464696051	Marionette	INFO	Stopped listening on port 59391
+Dynamically enable window occlusion 1
+1688464942413	geckodriver	INFO	Listening on 127.0.0.1:60012
+1688464945507	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60013" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileo00n1G"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1688464946288	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1688464946293	Marionette	INFO	Listening on port 60022
+WebDriver BiDi listening on ws://127.0.0.1:60013
+Read port: 60022
+1688464946654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60013/devtools/browser/190d159d-004b-4e68-ac38-a862530960fd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript warning: https://www.google.com/js/th/7hBuaXuld1K_9xY5B6KNETn_lwk4PMoqFeS1ZbLm1R4.js line 2 > eval line 2002 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1688465176659	geckodriver	INFO	Listening on 127.0.0.1:60190
+1688465179497	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60191" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilenk41gp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1688465180053	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1688465180058	Marionette	INFO	Listening on port 60200
+Read port: 60200
+WebDriver BiDi listening on ws://127.0.0.1:60191
+1688465180169	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60191/devtools/browser/4e63bfe6-c832-4a35-8b92-0492b995fce1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript warning: https://www.google.com/js/th/7hBuaXuld1K_9xY5B6KNETn_lwk4PMoqFeS1ZbLm1R4.js line 2 > eval line 5730 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1688465194730	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 8072: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+1688465272234	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 6319: ReferenceError: deezerapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 8998: ReferenceError: deezerapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 1669: ReferenceError: fb_send_to_messenger_timeout is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 1669: ReferenceError: fb_send_to_messenger_timeout is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 1669: ReferenceError: fb_send_to_messenger_timeout is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7464: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7598: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7742: ReferenceError: url is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=112.0.27, line 7808: ReferenceError: url is not defined
+1688465401555	Marionette	INFO	Stopped listening on port 60200
+Dynamically enable window occlusion 1
+1688467773227	geckodriver	INFO	Listening on 127.0.0.1:60608
+1688467776348	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60609" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileThltX5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1688467777213	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1688467777220	Marionette	INFO	Listening on port 60617
+Read port: 60617
+WebDriver BiDi listening on ws://127.0.0.1:60609
+1688467777424	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60609/devtools/browser/9aa37130-7307-4fb6-9c9e-84b714a21b9c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript warning: https://www.google.com/js/th/7hBuaXuld1K_9xY5B6KNETn_lwk4PMoqFeS1ZbLm1R4.js line 2 > eval line 7055 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1688467793288	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1688467823942	Marionette	INFO	Stopped listening on port 60617
+Dynamically enable window occlusion 1
+1688467978674	geckodriver	INFO	Listening on 127.0.0.1:60760
+1688467981702	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60761" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileyREdTy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1688467982065	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1688467982069	Marionette	INFO	Listening on port 60768
+WebDriver BiDi listening on ws://127.0.0.1:60761
+Read port: 60768
+1688467982469	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60761/devtools/browser/acf319dc-e04a-4180-a633-84307601d45a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript warning: https://www.google.com/js/th/7hBuaXuld1K_9xY5B6KNETn_lwk4PMoqFeS1ZbLm1R4.js line 2 > eval line 7751 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1688467996385	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1688468153998	Marionette	INFO	Stopped listening on port 60768
+Dynamically enable window occlusion 1
+1688471482172	geckodriver	INFO	Listening on 127.0.0.1:61314
+1688471485271	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61315" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileW9hYuB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1688471486149	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1688471486156	Marionette	INFO	Listening on port 61322
+Read port: 61322
+WebDriver BiDi listening on ws://127.0.0.1:61315
+1688471486356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61315/devtools/browser/44761eea-af72-460e-a9ec-a93588d6c1da
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript warning: https://www.google.com/js/th/7hBuaXuld1K_9xY5B6KNETn_lwk4PMoqFeS1ZbLm1R4.js line 2 > eval line 4410 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1688471502981	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1688471550664	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 6332: ReferenceError: deezerapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 9011: ReferenceError: deezerapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 1669: ReferenceError: fb_send_to_messenger_timeout is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 1669: ReferenceError: fb_send_to_messenger_timeout is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 1669: ReferenceError: fb_send_to_messenger_timeout is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7684: ReferenceError: url is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7755: ReferenceError: url is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7821: ReferenceError: url is not defined
+1688471680183	Marionette	INFO	Stopped listening on port 61322
+Dynamically enable window occlusion 1
+1688474115235	geckodriver	INFO	Listening on 127.0.0.1:62122
+1688474118344	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62123" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile5CndJh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1688474128071	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1688474128079	Marionette	INFO	Listening on port 62130
+Read port: 62130
+WebDriver BiDi listening on ws://127.0.0.1:62123
+1688474128301	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62123/devtools/browser/842c3868-3110-40cc-8f72-676de833f294
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript warning: https://www.google.com/js/th/V7JOy9E5LPAmHC4-uXpPG1TUC0v77ajXJMI6Ew5elJ8.js line 2 > eval line 3309 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1688474147691	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1688474192717	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 6332: ReferenceError: deezerapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 9011: ReferenceError: deezerapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 1669: ReferenceError: fb_send_to_messenger_timeout is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 1669: ReferenceError: fb_send_to_messenger_timeout is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 1669: ReferenceError: fb_send_to_messenger_timeout is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7477: ReferenceError: instagramapi is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7684: ReferenceError: url is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7755: ReferenceError: url is not defined
+JavaScript error: https://dev2.hypeddit.com/js/trackObject.js?v=113.0.3, line 7821: ReferenceError: url is not defined
+1688474322117	Marionette	INFO	Stopped listening on port 62130
+Dynamically enable window occlusion 1
+[Parent 2248, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:787

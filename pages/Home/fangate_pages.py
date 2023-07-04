@@ -30,23 +30,23 @@ class FangatePage(SeleniumDriver):
     _link_gate_button = "//a[@href='https://dev2.hypeddit.com/gate/create/url']"
     # source Section
     _track_url = "track_url"
-    _source_next_button = "next_box1_button"
+    _source_next_button = "next_box_button_source"
     # Genre Section
     _genre_caret = "//button[@class='btn dropdown-toggle btn-default']//span[text()='Select genre']"
     _select_genre = "//ul[@class='dropdown-menu inner']//span[text()='Bass']"
-    _genre_next_button = "next_box2_button"
+    _genre_next_button = "next_box_button_genre"
     # Upload Section
     _choose_file = "inputFilemp3"
-    _upload_next_button = "next_box3_button"
+    _upload_next_button = "next_box_button_upload"
     # Title Section
     _artist_name = "artist_name"
     _track_title = "track_title"
     
-    _title_next_button = "next_box4_button"
+    _title_next_button = "next_box_button_title"
     # Design Section
     _upload_coverart_button = "selectManualCoverart"
     _dark_theme_radio_button =  "//div[@class='checkbox']//label[@for='dark_theme']"
-    _design_next_button = "next_box5_button"
+    _design_next_button = "next_box_button_design"
 
     # Gate Steps Section
     # -------------------Email------------------
@@ -396,7 +396,7 @@ class FangatePage(SeleniumDriver):
         self.elementClick(self._genre_next_button)
 
     def uploadTrack(self):
-        self.sendKeys("C:\\Users\\Arnav\\workspace_python\\hypeddit-Project\\Files\\2sec.mp3", self._choose_file)
+        self.sendKeys("D:\\workspace_python\\hypeddit-Project\\Files\\2sec.mp3", self._choose_file)
 
     def clickOnNextUpload(self):
         self.elementClick(self._upload_next_button)

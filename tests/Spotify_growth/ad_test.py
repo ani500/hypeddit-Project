@@ -20,7 +20,7 @@ class AdTests(unittest.TestCase):
     def test_AdCreate(self):
         print("running createfnagate")
         self.fp.devUnlock("BetterDevTest8675!")
-        self.lp.login("rookie3000@baltech.in", "123456")
+        self.lp.login("arnavangira@gmail.com", "Uid@1234567")
 
 
         #self.ap.createAd(AdType='track')

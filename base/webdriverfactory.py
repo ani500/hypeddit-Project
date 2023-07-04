@@ -11,6 +11,11 @@ Example:
 import traceback
 from selenium import webdriver
 import os
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.chrome import service
 
 
 class WebDriverFactory():
@@ -42,22 +47,26 @@ class WebDriverFactory():
             'WebDriver Instance'
         """
         baseURL = "https://dev2.hypeddit.com/"
-        if self.browser == "iexplorer":
+        if self.browser == "edge":
             # Set ie driver
-            edgedriver = "C:/workspace_python/drivers/msedgedriver.exe"
-            os.environ["webdriver.edge.driver"] = edgedriver
-            driver = webdriver.Edge(edgedriver)
+            driver = webdriver.Edge(EdgeChromiumDriverManager().install())
+            #edgedriver = "C:/workspace_python/drivers/msedgedriver.exe"
+            #os.environ["webdriver.edge.driver"] = edgedriver
+            #driver = webdriver.Edge(edgedriver)
             driver.set_window_size(1440, 900)
         elif self.browser == "firefox":
-            driver = webdriver.Firefox(executable_path='C:/Users/Arnav/workspace_python/drivers/geckodriver')
+            driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+            #driver = webdriver.Firefox(executable_path='C:/workspace_python/drivers/drivers/geckodriver')
         elif self.browser == "chrome":
             # Set chrome driver
-            chromedriver = "D:/workspace_python/drivers/chromedriver.exe"
-            os.environ["webdriver.chrome.driver"] = chromedriver
-            driver = webdriver.Chrome(chromedriver)
+            driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+            #chromedriver = "D:/workspace_python/drivers/chromedriver.exe"
+            #os.environ["webdriver.chrome.driver"] = chromedriver
+            #driver = webdriver.Chrome(chromedriver)
             driver.set_window_size(1440, 900)
         else:
-            driver = webdriver.Firefox(executable_path='C:/Users/Arnav/workspace_python/drivers/geckodriver')
+            driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+            #driver = webdriver.Firefox(executable_path='C:/workspace_python/drivers/drivers/geckodriver')
         # Setting Driver Implicit Time out for An Element
         driver.implicitly_wait(3)
         # Maximize the window

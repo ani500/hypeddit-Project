@@ -81,7 +81,7 @@ class LoginPage(SeleniumDriver,Locators):
             self.clickLogout()
 
             self.waitFl(self._trial_text, 'xpath')
-            self.openUrl("https://dev2.hypeddit.com/accountsettings")
+            self.openUrl("https://hypeddit.com/accountsettings")
             self.click3DotMenu()
             self.waitFl(self._logout_hypeddit, 'xpath')
             self.clickLogout()
@@ -104,9 +104,9 @@ class LoginPage(SeleniumDriver,Locators):
         element.clear()
 
     def signup(self, firstname, lastname, email, password):
-        self.driver.get("https://dev2.hypeddit.com/")
+        self.driver.get("https://hypeddit.com/")
         time.sleep(10)
-        self.driver.get("https://dev2.hypeddit.com/")
+        self.driver.get("https://hypeddit.com/")
         self.clickOnTheLink()
         self.clickOnTheSignupLink()
         self.clearFields_signup()
