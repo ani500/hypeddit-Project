@@ -26,8 +26,8 @@ class FangatePage(SeleniumDriver):
     _stats_visits = "stats_visit_total"
     # Locators Fangate
     _share_music_link = "Share Music"
-    _download_gate_button = "//a[@href='https://dev2.hypeddit.com/gate/create']"
-    _link_gate_button = "//a[@href='https://dev2.hypeddit.com/gate/create/url']"
+    _download_gate_button = "//a[@href='https://devtest.hypeddit.com/gate/create']"
+    _link_gate_button = "//a[@href='https://devtest.hypeddit.com/gate/create/url']"
     # source Section
     _track_url = "track_url"
     _source_next_button = "next_box_button_source"
@@ -74,7 +74,7 @@ class FangatePage(SeleniumDriver):
     _skippable_sc_id = "skippable_sc"
     _add_scoundcloud_artist = "add_soundcloud_artist"
     _add_soundcloud_track = "add_soundcloud_track"
-    _gate_step_next_button = "next_box6_button"
+    _gate_step_next_button = "next_box_button_gate-steps"
 
     # -------------------Youtube------------------
     _add_youtube_step = "add_youtube_button"
@@ -209,38 +209,38 @@ class FangatePage(SeleniumDriver):
     _edit_custom_link = "edit_custom_link"
     _page = "custom_link_artist"
     _optional = "custom_link_title"
-    _linkUrl_next_button = "next_panel_custom_link"
+    _linkUrl_next_button = "next_box_button_linkurl"
     # Release Settings Section
     # Release Settings Section
     _set_newRelease_public = "//div[@class='checkbox']//label[@for='set_newrelease_public']"
     _set_newRelease = "//div[@class='checkbox']//label[@for='set_newrelease']"
-    _release_settings_button = "next_newreleases_panel"
+    _release_settings_button = "next_box_button_newrelease"
     # Email Promotion Section
     _email_promotion_caret = "//button[@class='btn dropdown-toggle btn-default']//span[text()='Please select music']"
     _select_fangate = "//div[@class='dropdown-menu open']//span[text()='Automatically email my newest download gate']"
-    _email_promotion_next_button = "next_box9_button"
+    _email_promotion_next_button = "next_box_button_email-promotion"
     # Tracking Pixels Section
     _facebook_pixel = "facebook_pixel"
     _facebook_pixel_token = "facebook_pixel_token"
     _google_pixel = "google_pixel"
     _google_pixel_label = "google_pixel_label"
-    _tracking_pixels_next_button = "gate_custom_fbpixel_button"
+    _tracking_pixels_next_button = "next_box_button_pixel"
     # Confirmation Section
-    _create_fangate_button = "btn_create_fangate"
+    _create_fangate_button = "next_box_button_confirmation"
 
     # -----------------------Link Gate section----------------
     # Title Step
     _link_artist_name = "artist_name"
     _link_title = "track_title"
-    _link_titleSection_next_button = "next_box4_button"
+    _link_titleSection_next_button = "next_box_button_title"
 
     # Secret Link Step
     _link_custom_redir_url = "custom_redirection_url"
-    _link_SecretLink_next_button = "gate_secret_link_button"
+    _link_SecretLink_next_button = "next_box_button_secret-link"
     # Unlock Button Text Step
     _link_button_text_dropdown = "//button[@class='btn dropdown-toggle btn-default']//span[text()='Select button text']"
     _link_menu_select_dropdown = "//div[@class='dropdown-menu open']//span[text()='Download']"
-    _link_unlock_button_next_button = "next_box2_button"
+    _link_unlock_button_next_button = "next_box_button_unlock"
 
     # Design Section
     _choose_coverart = "inputManualCoverart"
@@ -249,8 +249,8 @@ class FangatePage(SeleniumDriver):
     _create_linkgate_button = "btn_create_linkgate"
 
     # -----------------Smartlink Section ---------------------
-    _smartlink_gate_button = "//a[@href='https://dev2.hypeddit.com/smartlink/create']"
-    _audio_preview_next_button = "next_box8_button"
+    _smartlink_gate_button = "//a[@href='https://devtest.hypeddit.com/smartlink/create']"
+    _audio_preview_next_button = "next_box_button_audio-preview"
 
     # Spotify Step
 
@@ -674,7 +674,7 @@ class FangatePage(SeleniumDriver):
         self.elementClick(self._link_unlock_button_next_button)
 
     def designSendKeys(self):
-        self.sendKeys("C:\\Users\\Arnav\\workspace_python\\hypeddit-Project\\Files\\Tulips.jpg", self._choose_coverart)
+        self.sendKeys("D:\\workspace_python\\hypeddit-Project\\Files\\Tulips.jpg", self._choose_coverart)
 
     # ------------------Smartlink ---------------------------------------------------
     def clickSmartlinkLink(self):
@@ -1137,6 +1137,7 @@ class FangatePage(SeleniumDriver):
             self.clickOnCreate()
         elif Fg == "smartlink":
             self.clickOnCreate()
+            time.sleep(60)
         else:
             self.clickOnCreatLinkGate()
 

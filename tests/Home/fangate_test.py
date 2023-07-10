@@ -1,3 +1,5 @@
+import time
+
 import pytest
 import unittest
 from pages.Home.login_pages import LoginPage
@@ -24,6 +26,7 @@ class CreateFangateTests(unittest.TestCase):
         self.fp.createFangate(Fg="fangate")
         #self.fp.createFangate(Fg="linkgate")
         #self.fp.createFangate(Fg="smartlink")
+        time.sleep(60)
 
 
         # result = self.lp.verifyLoginSuccessful()

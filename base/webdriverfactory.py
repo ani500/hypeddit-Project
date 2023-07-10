@@ -46,7 +46,7 @@ class WebDriverFactory():
         Returns:
             'WebDriver Instance'
         """
-        baseURL = "https://dev2.hypeddit.com/"
+        baseURL = "https://devtest.hypeddit.com/"
         if self.browser == "edge":
             # Set ie driver
             driver = webdriver.Edge(EdgeChromiumDriverManager().install())

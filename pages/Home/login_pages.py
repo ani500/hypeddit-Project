@@ -71,6 +71,7 @@ class LoginPage(SeleniumDriver,Locators):
 
         if tag in ("simple",0):
             time.sleep(2)
+            time.sleep(2)
             self.waitFl(self._login_link, "link")
             self.clickOnTheLink()
             self.clearFields()
