@@ -5,6 +5,7 @@ import unittest
 from pages.Home.login_pages import LoginPage
 from pages.Home.fangate_pages import FangatePage
 from pages.Home.signup_pages import SignupPage
+#from pages.Home.fangate_pages_old import FangatePage
 
 
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")
@@ -21,7 +22,7 @@ class CreateFangateTests(unittest.TestCase):
     def test_CreateFangate(self):
         print("running createfnagate")
         self.fp.devUnlock("BetterDevTest8675!")
-        self.lp.login("anil@baltech.in", "1234567")
+        self.lp.login("anil100121212@baltech.in", "123456")
 
         self.fp.createFangate(Fg="fangate")
         #self.fp.createFangate(Fg="linkgate")

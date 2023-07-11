@@ -1953,3 +1953,48 @@ JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreacha
 JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
 1688970801790	Marionette	INFO	Stopped listening on port 55782
 Dynamically enable window occlusion 1
+1689061563368	geckodriver	INFO	Listening on 127.0.0.1:59683
+1689061566439	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59684" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilehUK1dJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1689061567341	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1689061567451	Marionette	INFO	Listening on port 59691
+WebDriver BiDi listening on ws://127.0.0.1:59684
+Read port: 59691
+1689061567880	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59684/devtools/browser/c79be862-1005-48e1-8396-816d733d0246
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript warning: https://www.google.com/js/th/rL43kvhtVfQZ9Jo2nKMlf8e4yf2ohUdnUaT63cNr6lg.js line 2 > eval line 5783 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1689061611363	Marionette	INFO	Stopped listening on port 59691
+Dynamically enable window occlusion 1
+Exiting due to channel error.
+Exiting due to channel error.
+1689061649349	geckodriver	INFO	Listening on 127.0.0.1:59834
+1689061652415	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59835" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile0QA2qd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1689061652726	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1689061652803	Marionette	INFO	Listening on port 59842
+WebDriver BiDi listening on ws://127.0.0.1:59835
+Read port: 59842
+1689061652986	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59835/devtools/browser/8b52833e-9cae-4abb-be0e-92f2cc5c3ca6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript warning: https://www.google.com/js/th/rL43kvhtVfQZ9Jo2nKMlf8e4yf2ohUdnUaT63cNr6lg.js line 2 > eval line 3233 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1689061742703	Marionette	INFO	Stopped listening on port 59842
+Dynamically enable window occlusion 1
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:311:17
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:311:17\n"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
