@@ -246,7 +246,7 @@ class FangatePage(SeleniumDriver):
     _choose_coverart = "inputManualCoverart"
 
     # Confirmation Section Link gate
-    _create_linkgate_button = "btn_create_linkgate"
+    _create_linkgate_button = "next_box_button_confirmation"
 
     # -----------------Smartlink Section ---------------------
     _smartlink_gate_button = "//a[@href='https://dev2.hypeddit.com/smartlink/create']"
@@ -962,6 +962,128 @@ class FangatePage(SeleniumDriver):
         time.sleep(1)
         self.clickOnNextDesign()
 
+    _ad_soundcloud_artist = "add_soundcloud_artist"
+    _ad_soundcloud_loader = "//div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]"
+    _sc_select_profile_1 = "//li[@data-userid='173804369']"
+
+    def scArtistSendKeys(self, artistname):
+        self.waitFl(self._ad_soundcloud_artist)
+        self.sendKeys(artistname, self._ad_soundcloud_artist)
+
+    def checkLoaderElement(self, loc, ltype="id"):
+        return self.isElementPresent(loc, ltype)
+
+    def clickScArtist(self):
+        self.elementClick(self._sc_select_profile_1, "xpath")
+
+
+    def selectArtistSc(self):
+        self.scArtistSendKeys("lata")
+        for i in range(51):
+            if i > 49:
+                break
+            time.sleep(2)
+            if self.checkLoaderElement(self._ad_soundcloud_loader, "xpath") == True:
+                self.clickScArtist()
+                break
+
+    _add_spotify_artist = "add_spotify_artist"
+    _add_spotify_loader = "//div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]"
+    _sp_select_profile_1 = "//li[@data-userid='1D8jzmybTOgH82MsFsCxKf']"
+
+    def spArtistSendKeys(self, artistname):
+        self.waitFl(self._ad_soundcloud_artist)
+        self.sendKeys(artistname, self._add_spotify_artist)
+
+    # def checkLoaderElement(self, loc, ltype="id"):
+    #     return self.isElementPresent(loc, ltype)
+
+    def clickSpArtist(self):
+        self.elementClick(self._sp_select_profile_1, "xpath")
+
+    def selectArtistSp(self):
+        self.spArtistSendKeys("lata")
+        for i in range(51):
+            if i > 49:
+                break
+            time.sleep(2)
+            if self.checkLoaderElement(self._add_spotify_loader, "xpath") == True:
+                self.clickSpArtist()
+                break
+
+    _add_deezer_artist = "add_deezer_artist"
+    _add_deezer_loader = "//div[@id='add_deezer_loader'][contains(@class,'select-loading hide')]"
+    _dz_select_profile_1 = "//li[@data-userid='310646845']"
+
+    def dzArtistSendKeys(self, artistname):
+        self.waitFl(self._add_deezer_artist)
+        self.sendKeys(artistname, self._add_deezer_artist)
+
+    # def checkLoaderElement(self, loc, ltype="id"):
+    #     return self.isElementPresent(loc, ltype)
+
+    def clickDzArtist(self):
+        self.elementClick(self._dz_select_profile_1, "xpath")
+
+    def selectArtistDz(self):
+        self.dzArtistSendKeys("lata")
+        for i in range(51):
+            if i > 49:
+                break
+            time.sleep(2)
+            if self.checkLoaderElement(self._add_deezer_loader, "xpath") == True:
+                self.clickDzArtist()
+                break
+
+    _add_mixcloud_artist = "add_mixcloud_artist"
+    _add_mixcloud_loader = "//div[@id='add_mixcloud_loader'][contains(@class,'select-loading hide')]"
+    _mx_select_profile_1 = "//li[@data-userid='latae-korakoth']"
+
+    def mxArtistSendKeys(self, artistname):
+        self.waitFl(self._add_mixcloud_artist)
+        self.sendKeys(artistname, self._add_mixcloud_artist)
+
+    # def checkLoaderElement(self, loc, ltype="id"):
+    #     return self.isElementPresent(loc, ltype)
+
+    def clickMxArtist(self):
+        self.elementClick(self._mx_select_profile_1, "xpath")
+
+    def selectArtistMx(self):
+        self.mxArtistSendKeys("lata")
+        for i in range(51):
+            if i > 49:
+                break
+            time.sleep(2)
+            if self.checkLoaderElement(self._add_mixcloud_loader, "xpath") == True:
+                self.clickMxArtist()
+                break
+
+    _add_facebook = "add_facebook"
+    #_add_mixcloud_loader = "//div[@id='add_mixcloud_loader'][contains(@class,'select-loading hide')]"
+    _fb_select_profile_1 = "//ul[@id='facebook_artist_search']//li[@data-userid='904258603054194']"
+
+    def fbArtistSendKeys(self, artistname):
+        self.waitFl(self._add_facebook)
+        self.sendKeys(artistname, self._add_facebook)
+
+    # def checkLoaderElement(self, loc, ltype="id"):
+    #     return self.isElementPresent(loc, ltype)
+
+    def clickFbArtist(self):
+        self.elementClick(self._fb_select_profile_1, "xpath")
+
+    def selectArtistFb(self):
+        self.fbArtistSendKeys("Sonu")
+        self.waitFl(self._fb_select_profile_1, "xpath")
+        self.clickFbArtist()
+
+    _soundcloud_profile_add_button = "soundcloud_profile_add_button"
+
+    def scProfileClickButton(self):
+        self.waitFl(self._soundcloud_profile_add_button)
+        self.elementClick(self._soundcloud_profile_add_button)
+
     def gateSteps(self, Fg):
         # ----------------Email Step------------------------------
         time.sleep(3)
@@ -979,8 +1101,16 @@ class FangatePage(SeleniumDriver):
         self.clickScRepost()
         self.clickScSkippable()
         if Fg == "linkgate":
-            self.profileScSendKeys("https://soundcloud.com/makelogin")
+            #self.profileScSendKeys("https://soundcloud.com/makelogin")
+            self.selectArtistSc()
             self.trackScSendKeys("https://soundcloud.com/makelogin/sleep-away")
+
+        if Fg == "fangate":
+            #self.profileScSendKeys("https://soundcloud.com/makelogin")
+            self.scProfileClickButton()
+            self.selectArtistSc()
+            #self.trackScSendKeys("https://soundcloud.com/makelogin/sleep-away")
+
 
         # Skip Profile SC
         # Skip Title SC
@@ -1013,7 +1143,8 @@ class FangatePage(SeleniumDriver):
         self.clickSpFollow()
         self.clickSpSave()
         self.clickSpSkippable()
-        self.spProfileSendKeys("https://open.spotify.com/artist/11bBHpkCZPkktTsrXAZyql")
+        self.selectArtistSp()
+        #self.spProfileSendKeys("https://open.spotify.com/artist/11bBHpkCZPkktTsrXAZyql")
         self.spTrackSendKeys("https://open.spotify.com/track/0VbRRS6pOgCvepxNiAz2fY")
 
         # ---------------------Deezer Step------------------------------
@@ -1022,7 +1153,8 @@ class FangatePage(SeleniumDriver):
         self.clickDzFollow()
         self.clickDzSave()
         self.clickDzSkippable()
-        self.dzArtistSendKeys("https://www.deezer.com/us/artist/661247")
+        self.selectArtistDz()
+        #self.dzArtistSendKeys("https://www.deezer.com/us/artist/661247")
         self.dzTrackSendKeys("https://www.deezer.com/us/track/15211178")
 
         # ---------------------Mixcloud Step------------------------------
@@ -1032,7 +1164,8 @@ class FangatePage(SeleniumDriver):
         self.clickMcRepost()
         self.clickMcLike()
         self.clickMcSkippable()
-        self.mcProfileSendKeys("https://www.mixcloud.com/gabrydemartini")
+        self.selectArtistMx()
+        #self.mcProfileSendKeys("https://www.mixcloud.com/gabrydemartini")
         self.mcTrackSendKeys("https://www.mixcloud.com/felixdahousecat/chicago-blakkout-episode-14/")
 
         # ---------------------Twitter Step------------------------------
@@ -1087,7 +1220,8 @@ class FangatePage(SeleniumDriver):
         self.clickFbShare()
         self.clickFbLike()
         self.clickFbSkippable()
-        self.fbPageSendKeys("https://www.facebook.com/hypeddit")
+        self.selectArtistFb()
+        #self.fbPageSendKeys("https://www.facebook.com/hypeddit")
 
         # ---------------------Donation Step------------------------------
         time.sleep(3)
