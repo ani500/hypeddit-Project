@@ -78,6 +78,7 @@ class LoginPage(SeleniumDriver,Locators):
             self.emailSendKeys(email)
             self.passwordSendKeys(password)
             self.clickOnTheLoginButton()
+            time.sleep(10)
         if tag == "simple":
             self.clickLogout()
 

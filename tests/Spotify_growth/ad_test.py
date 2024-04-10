@@ -20,14 +20,12 @@ class AdTests(unittest.TestCase):
     def test_AdCreate(self):
         print("running createfnagate")
         self.fp.devUnlock("BetterDevTest8675!")
-        self.lp.login("mynewaccount@baltech.in", "123456")
+        self.lp.login("arnavangira500@gmail.com", "Uid@1234567")
 
 
-        self.ap.createAd(AdType='track')
-
-
-        #self.ap.createAd(AdType='playlist')
+        #self.ap.createAd(AdType='track')
         #self.ap.createAd(AdType='artist')
-        #self.ap.createAd(AdType='presave_reward')
+        self.ap.createAd(AdType='fanemail')
+        self.ap.createAd(AdType='presave_reward')
+        self.ap.createAd(AdType='presave_smartlink')
         #self.ep.editAd()
-

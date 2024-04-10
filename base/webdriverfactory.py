@@ -46,7 +46,7 @@ class WebDriverFactory():
         Returns:
             'WebDriver Instance'
         """
-        baseURL = "https://dev2.hypeddit.com/"
+        baseURL = "https://hypeddit.com/"
         if self.browser == "edge":
             # Set ie driver
             driver = webdriver.Edge(EdgeChromiumDriverManager().install())
@@ -60,6 +60,7 @@ class WebDriverFactory():
         elif self.browser == "chrome":
             # Set chrome driver
             driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+
             #chromedriver = "D:/workspace_python/drivers/chromedriver.exe"
             #os.environ["webdriver.chrome.driver"] = chromedriver
             #driver = webdriver.Chrome(chromedriver)
