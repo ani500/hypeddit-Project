@@ -9,7 +9,7 @@ Example:
     wdf.getWebDriverInstance()
 """
 import traceback
-from selenium import webdriver
+from seleniumwire import webdriver
 import os
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
@@ -46,7 +46,7 @@ class WebDriverFactory():
         Returns:
             'WebDriver Instance'
         """
-        baseURL = "https://hypeddit.com/"
+        baseURL = "https://dev2.hypeddit.com/"
         if self.browser == "edge":
             # Set ie driver
             driver = webdriver.Edge(EdgeChromiumDriverManager().install())

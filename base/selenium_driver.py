@@ -5,10 +5,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
 import logging
 import utilities.custom_logger as c1
+#from seleniumwire import webdriver
+
 
 
 class SeleniumDriver():
     log = c1.customLogger(logging.DEBUG)
+
     def __init__(self, driver):
 
         self.driver = driver
@@ -51,7 +54,7 @@ class SeleniumDriver():
             self.log.info("Clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
         except:
             self.log.info("Cannot clicked on the Element Locator :" + locator + "LocatorType :" + locatorType)
-            #print_stack()
+            # print_stack()
             # raise RuntimeError("Test Case Aborted")
 
     def sendKeys(self, text, locator, locatorType="id"):
@@ -139,9 +142,8 @@ class SeleniumDriver():
             self.driver.switch_to.window(handles[0])
             print(self.driver.title)
 
-    def openUrl(self,url):
+    def openUrl(self, url):
         self.driver.get(url)
-
 
     def getElements(self, locator, locatorType):
         try:
@@ -156,13 +158,7 @@ class SeleniumDriver():
             self.log.info("Element Not Found Locator :" + locator + "LocatorType :" + locatorType)
             return False
 
-
-
-
-
-
-
-
-
-
-
+    def getNetworkResponse(self):
+        for request in self.driver.requests:
+            if request.response:
+                print(request.response)

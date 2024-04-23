@@ -1,0 +1,1709 @@
+1713266587829	geckodriver	INFO	Listening on 127.0.0.1:50975
+1713266590887	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50976" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileVC7lnn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713266592024	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713266592150	Marionette	INFO	Listening on port 50992
+WebDriver BiDi listening on ws://127.0.0.1:50976
+Read port: 50992
+1713266592623	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1713266596228	Marionette	INFO	Stopped listening on port 50992
+Dynamically enable window occlusion 1
+1713266596263	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+console.error: "Could not load engine wikipedia@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for wikipedia@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine bing@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for bing@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine ddg@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for ddg@search.mozilla.org after shutdown was already granted"
+Exiting due to channel error.
+[GFX[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+1713266607577	geckodriver	INFO	Listening on 127.0.0.1:51043
+1713266611575	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51044" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile1bim2F"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713266613522	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713266613843	Marionette	INFO	Listening on port 51063
+WebDriver BiDi listening on ws://127.0.0.1:51044
+Read port: 51063
+1713266614044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.sys.mjs, line 34: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+1713266616929	Marionette	INFO	Stopped listening on port 51063
+Dynamically enable window occlusion 1
+1713266617138	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 643: TypeError: this.browsingContext is null
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 643: TypeError: this.browsingContext is null
+console.error: "Could not load engine google@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for google@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine wikipedia@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for wikipedia@search.mozilla.org after shutdown was already granted"
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+console.error: "Could not load engine bing@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for bing@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine ddg@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for ddg@search.mozilla.org after shutdown was already granted"
+console.error: SearchService: "Could not find a replacement default engine."
+console.error: WebExtensions: 
+  Message: [Exception... "#init: abandoning init due to shutting down"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource://gre/modules/SearchService.sys.mjs :: #init :: line 1376"  data: no]
+  Stack:
+    #init@resource://gre/modules/SearchService.sys.mjs:1376:27
+
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1376: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1376: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1376: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1254: Error: SearchService failed while it was initializing.
+JavaScript error: resource://activity-stream/lib/TopSitesFeed.sys.mjs, line 134: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "SearchService failed while it was initializing." {file: "resource://gre/modules/SearchService.sys.mjs" line: 1254}]'[JavaScript Error: "SearchService failed while it was initializing." {file: "resource://gre/modules/SearchService.sys.mjs" line: 1254}]' when calling method: [nsISearchService::defaultEngine]
+1713266649286	geckodriver	INFO	Listening on 127.0.0.1:51196
+1713266652379	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51197" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileu8FjSb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713266653613	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713266653784	Marionette	INFO	Listening on port 51213
+Read port: 51213
+WebDriver BiDi listening on ws://127.0.0.1:51197
+1713266653934	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51197/devtools/browser/01fd2ec2-5780-4c6e-9104-931c62b103ac
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713266683654	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.61, line 3454: unreachable code after return statement
+1713266786852	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713266790005	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713266792789	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.61, line 3454: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.4/js/player.module.js, line 2: Script terminated by timeout at:
+ra/<@https://f.vimeocdn.com/p/4.29.4/js/player.module.js:2:99954
+
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.4/js/player.module.js, line 2: Script terminated by timeout at:
+ra/<@https://f.vimeocdn.com/p/4.29.4/js/player.module.js:2:99954
+
+1713267093770	Marionette	INFO	Stopped listening on port 51213
+JavaScript warning: https://dev2.hypeddit.com/js/packages/wow.min.js, line 2: Script terminated by timeout at:
+f/<@https://dev2.hypeddit.com/js/packages/wow.min.js:2:100
+
+Dynamically enable window occlusion 1
+1713330841323	geckodriver	INFO	Listening on 127.0.0.1:59313
+1713330844515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59314" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilepBnk0Z"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713330846069	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713330846176	Marionette	INFO	Listening on port 59331
+Read port: 59331
+WebDriver BiDi listening on ws://127.0.0.1:59314
+1713330846434	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59314/devtools/browser/3b96ad63-25a9-404f-bb74-654df2cd3b80
+1713330853803	Marionette	INFO	Stopped listening on port 59331
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1713330873810	geckodriver	INFO	Listening on 127.0.0.1:59426
+1713330876888	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59427" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilemwb1by"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713330878050	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713330878124	Marionette	INFO	Listening on port 59443
+Read port: 59443
+WebDriver BiDi listening on ws://127.0.0.1:59427
+1713330878523	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59427/devtools/browser/273ad0e3-d512-4d24-a541-f9f60253a5fa
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+1713330908073	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.6/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.6/js/player.module.js:2:100594
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+1713331075092	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713331077899	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713331080753	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713331175845	geckodriver	INFO	Listening on 127.0.0.1:60090
+1713331178929	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60091" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile2opn4p"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713331180579	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713331180704	Marionette	INFO	Listening on port 60098
+WebDriver BiDi listening on ws://127.0.0.1:60091
+Read port: 60098
+1713331180904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60091/devtools/browser/d3991c0b-da26-41ba-bf01-a24d8f9847b5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713331210615	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.6/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.6/js/player.module.js:2:100594
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+1713331228350	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713331356957	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713331359753	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713331362523	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-MHWK3CV, line 95: Script terminated by timeout at:
+I@https://www.googletagmanager.com/gtm.js?id=GTM-MHWK3CV:95:489
+zw.prototype.Df/c<@https://www.googletagmanager.com/gtm.js?id=GTM-MHWK3CV:339:63
+Bb/<@https://www.googletagmanager.com/gtm.js?id=GTM-MHWK3CV:84:130
+Cw@https://www.googletagmanager.com/gtm.js?id=GTM-MHWK3CV:338:1078
+Ew@https://www.googletagmanager.com/gtm.js?id=GTM-MHWK3CV:339:227
+Ox@https://www.googletagmanager.com/gtm.js?id=GTM-MHWK3CV:359:208
+wy@https://www.googletagmanager.com/gtm.js?id=GTM-MHWK3CV:374:272
+zy@https://www.googletagmanager.com/gtm.js?id=GTM-MHWK3CV:378:9
+By@https://www.googletagmanager.com/gtm.js?id=GTM-MHWK3CV:379:43
+
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:357:17
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:357:17\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:570:17\n"
+1713331406174	Marionette	INFO	Stopped listening on port 60098
+Dynamically enable window occlusion 1
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))
+1713331426184	geckodriver	INFO	Listening on 127.0.0.1:60421
+1713331429297	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60422" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileEX5rI7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713331430040	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713331430207	Marionette	INFO	Listening on port 60429
+WebDriver BiDi listening on ws://127.0.0.1:60422
+Read port: 60429
+1713331430482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60422/devtools/browser/eca71931-0765-4d72-a5bc-cd115d5b18fd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713331460063	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+1713331474820	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+1713331696768	Marionette	INFO	Stopped listening on port 60429
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1713339641491	geckodriver	INFO	Listening on 127.0.0.1:63383
+1713339644578	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63384" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileWxrpT3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713339645704	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713339645825	Marionette	INFO	Listening on port 63391
+WebDriver BiDi listening on ws://127.0.0.1:63384
+Read port: 63391
+1713339646310	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63384/devtools/browser/eb7ad6e5-07af-41c8-a740-c32890ae0999
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713339675742	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.6/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.6/js/player.module.js:2:100594
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yB/r/b0htpsnRLtH.js?_nc_x=Ij3Wp8lg5Kz, line 80: Script terminated by timeout at:
+b.emitAndHold@https://static.xx.fbcdn.net/rsrc.php/v3/yB/r/b0htpsnRLtH.js?_nc_x=Ij3Wp8lg5Kz:80:945
+b.inform@https://static.xx.fbcdn.net/rsrc.php/v3/yB/r/b0htpsnRLtH.js?_nc_x=Ij3Wp8lg5Kz:82:1663
+a.inform@https://static.xx.fbcdn.net/rsrc.php/v3/yB/r/b0htpsnRLtH.js?_nc_x=Ij3Wp8lg5Kz:82:2681
+l/window.onunload<@https://static.xx.fbcdn.net/rsrc.php/v3/yB/r/b0htpsnRLtH.js?_nc_x=Ij3Wp8lg5Kz:323:867
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3/yB/r/b0htpsnRLtH.js?_nc_x=Ij3Wp8lg5Kz:69:10432
+d@https://static.xx.fbcdn.net/rsrc.php/v3/yB/r/b0htpsnRLtH.js?_nc_x=Ij3Wp8lg5Kz:329:2086
+
+1713339708601	Marionette	INFO	Stopped listening on port 63391
+Dynamically enable window occlusion 1
+1713340021291	geckodriver	INFO	Listening on 127.0.0.1:63752
+1713340024379	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63753" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileR4Y9vh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713340025234	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713340025316	Marionette	INFO	Listening on port 63760
+WebDriver BiDi listening on ws://127.0.0.1:63753
+Read port: 63760
+1713340025515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63753/devtools/browser/99191b07-f551-44d6-b7cf-ac88efeedce0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713340055270	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/y5/l/en_GB/QHboYVclAZ2.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1713340146025	Marionette	INFO	Stopped listening on port 63760
+Dynamically enable window occlusion 1
+1713340255866	geckodriver	INFO	Listening on 127.0.0.1:63987
+1713340258948	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63988" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileOPaSkm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713340259787	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713340259858	Marionette	INFO	Listening on port 63995
+Read port: 63995
+WebDriver BiDi listening on ws://127.0.0.1:63988
+1713340259923	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63988/devtools/browser/8db14214-0974-45d8-885d-ba8a5f864ca9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713340290050	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.6/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.6/js/player.module.js:2:100594
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/y5/l/en_GB/QHboYVclAZ2.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1713340365825	Marionette	INFO	Stopped listening on port 63995
+Dynamically enable window occlusion 1
+1713340816658	geckodriver	INFO	Listening on 127.0.0.1:64183
+1713340819742	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64184" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile05oqmT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713340820574	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713340820646	Marionette	INFO	Listening on port 64192
+WebDriver BiDi listening on ws://127.0.0.1:64184
+Read port: 64192
+1713340820827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64184/devtools/browser/61b9eb25-4b38-4131-8516-b19ee62fdfa3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713340850617	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.6/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.6/js/player.module.js:2:100594
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/y5/l/en_GB/QHboYVclAZ2.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:76108
+
+1713340928071	Marionette	INFO	Stopped listening on port 64192
+Dynamically enable window occlusion 1
+1713345082476	geckodriver	INFO	Listening on 127.0.0.1:64316
+1713345085733	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64317" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilezzOk5N"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713345087284	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713345087401	Marionette	INFO	Listening on port 64324
+WebDriver BiDi listening on ws://127.0.0.1:64317
+Read port: 64324
+1713345087812	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64317/devtools/browser/c103e317-697f-4dc8-8313-2cea19565014
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713345117421	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.6/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.6/js/player.module.js:2:100594
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+1713345133313	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/y5/l/en_GB/QHboYVclAZ2.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1713345275106	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713345277893	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+Exiting due to channel error.
+1713348793975	geckodriver	INFO	Listening on 127.0.0.1:50325
+1713348797026	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50326" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileCjaaDf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713348798193	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713348798335	Marionette	INFO	Listening on port 50333
+WebDriver BiDi listening on ws://127.0.0.1:50326
+Read port: 50333
+1713348798697	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50326/devtools/browser/e579f16d-4c1b-4ca2-98b1-8b51d5eec958
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713348828231	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.6/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.6/js/player.module.js:2:100594
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/y5/l/en_GB/QHboYVclAZ2.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1713349093345	geckodriver	INFO	Listening on 127.0.0.1:50563
+1713349096415	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50564" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileLnuN0Q"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713349097322	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713349097404	Marionette	INFO	Listening on port 50574
+WebDriver BiDi listening on ws://127.0.0.1:50564
+Read port: 50574
+1713349097594	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50564/devtools/browser/9454881a-b024-4c3e-ac09-1ab07beb8d22
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713349127359	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1713349659538	geckodriver	INFO	Listening on 127.0.0.1:50752
+1713349662635	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50753" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileErpVeJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713349663557	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713349663631	Marionette	INFO	Listening on port 50760
+WebDriver BiDi listening on ws://127.0.0.1:50753
+Read port: 50760
+1713349663827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50753/devtools/browser/a19c7853-dfa4-416f-8ac8-71bac9b6c450
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713349693591	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/y5/l/en_GB/QHboYVclAZ2.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.zdassets.com/web_widget/classic/latest/web-widget-main-7bc1c0f.js, line 2: Script terminated by timeout at:
+c@https://static.zdassets.com/web_widget/classic/latest/web-widget-main-7bc1c0f.js:2:854159
+d@https://static.zdassets.com/web_widget/classic/latest/web-widget-main-7bc1c0f.js:2:852155
+unload@https://static.zdassets.com/web_widget/classic/latest/web-widget-main-7bc1c0f.js:2:852844
+72738/i/<@https://static.zdassets.com/web_widget/classic/latest/web-widget-main-7bc1c0f.js:2:852037
+
+1713349774595	Marionette	INFO	Stopped listening on port 50760
+Dynamically enable window occlusion 1
+1713352137700	geckodriver	INFO	Listening on 127.0.0.1:51379
+1713352140812	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51380" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilelqocWI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713352141493	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713352141566	Marionette	INFO	Listening on port 51389
+WebDriver BiDi listening on ws://127.0.0.1:51380
+Read port: 51389
+1713352141769	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51380/devtools/browser/508a5886-8f5a-4deb-8cb3-09b60e5fc32b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713352171537	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.6/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.6/js/player.module.js:2:100594
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/y5/l/en_GB/QHboYVclAZ2.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1713352351168	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713352353983	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713352356792	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.6/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.6/js/player.module.js:2:100594
+
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713352530764	Marionette	INFO	Stopped listening on port 51389
+Dynamically enable window occlusion 1
+1713354039974	geckodriver	INFO	Listening on 127.0.0.1:52229
+1713354043034	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52230" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileIurHHY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713354044150	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713354044261	Marionette	INFO	Listening on port 52237
+Read port: 52237
+WebDriver BiDi listening on ws://127.0.0.1:52230
+1713354044618	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52230/devtools/browser/e18f4046-a9d8-44b3-8bd6-3be3d6d08662
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713354074207	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.6/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.6/js/player.module.js:2:100594
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/y5/l/en_GB/QHboYVclAZ2.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1713354298881	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713354301647	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713354304413	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+1713354444959	Marionette	INFO	Stopped listening on port 52237
+JavaScript warning: https://dev2.hypeddit.com/js/packages/wow.min.js, line 2: Script terminated by timeout at:
+f/<@https://dev2.hypeddit.com/js/packages/wow.min.js:2:100
+
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1713355028163	geckodriver	INFO	Listening on 127.0.0.1:52875
+1713355031257	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52876" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileGtKUES"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713355032197	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713355032274	Marionette	INFO	Listening on port 52883
+WebDriver BiDi listening on ws://127.0.0.1:52876
+Read port: 52883
+1713355032461	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52876/devtools/browser/018b1c5f-c689-4155-b16c-72a76a933e62
+1713355036835	Marionette	INFO	Stopped listening on port 52883
+Dynamically enable window occlusion 1
+1713355269659	geckodriver	INFO	Listening on 127.0.0.1:52943
+1713355272729	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52944" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile16jIG8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713355273286	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713355273359	Marionette	INFO	Listening on port 52951
+WebDriver BiDi listening on ws://127.0.0.1:52944
+Read port: 52951
+1713355273546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52944/devtools/browser/e3c60931-1785-40f1-939a-0e34c1bddfef
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713355303343	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1713356992019	geckodriver	INFO	Listening on 127.0.0.1:53291
+1713356995502	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53292" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileEHdjMm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713356997041	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713356997158	Marionette	INFO	Listening on port 53299
+WebDriver BiDi listening on ws://127.0.0.1:53292
+Read port: 53299
+1713356997576	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53292/devtools/browser/4b2bd090-c073-4ca2-8fc2-b8a00fa363df
+1713357003072	Marionette	INFO	Stopped listening on port 53299
+Dynamically enable window occlusion 1
+1713357094725	geckodriver	INFO	Listening on 127.0.0.1:53352
+1713357097819	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53353" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileL8Cpr6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713357098414	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713357098488	Marionette	INFO	Listening on port 53361
+WebDriver BiDi listening on ws://127.0.0.1:53353
+Read port: 53361
+1713357098854	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53353/devtools/browser/13956c1d-2bad-4fa2-8303-36377ff43afd
+1713357118733	Marionette	INFO	Stopped listening on port 53361
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/translations-models list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1713357213123	geckodriver	INFO	Listening on 127.0.0.1:53412
+1713357216184	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53413" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile4jmZgY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713357217695	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713357217767	Marionette	INFO	Listening on port 53420
+WebDriver BiDi listening on ws://127.0.0.1:53413
+Read port: 53420
+1713357217946	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53413/devtools/browser/638656c3-72ab-44f1-84b4-5fe63eff3d82
+1713357232994	Marionette	INFO	Stopped listening on port 53420
+Dynamically enable window occlusion 1
+1713357561083	geckodriver	INFO	Listening on 127.0.0.1:53531
+1713357564152	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53532" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilezVrvl3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713357564668	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713357564784	Marionette	INFO	Listening on port 53539
+WebDriver BiDi listening on ws://127.0.0.1:53532
+Read port: 53539
+1713357565047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53532/devtools/browser/4377a5d8-0bba-4a97-8e1b-b7cd6f0f767c
+1713357569584	Marionette	INFO	Stopped listening on port 53539
+Dynamically enable window occlusion 1
+1713357796420	geckodriver	INFO	Listening on 127.0.0.1:53650
+1713357799506	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53651" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileYSY3q2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713357799833	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713357799915	Marionette	INFO	Listening on port 53658
+WebDriver BiDi listening on ws://127.0.0.1:53651
+Read port: 53658
+1713357800104	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53651/devtools/browser/6036ffa6-a5fc-4b8f-99f3-b57deab6db89
+1713357803975	Marionette	INFO	Stopped listening on port 53658
+Dynamically enable window occlusion 1
+1713357853306	geckodriver	INFO	Listening on 127.0.0.1:53697
+1713357856376	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53698" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileNYkWjC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713357856703	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713357856777	Marionette	INFO	Listening on port 53705
+WebDriver BiDi listening on ws://127.0.0.1:53698
+Read port: 53705
+1713357856961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53698/devtools/browser/9d6bdd9a-700a-4fc5-a754-712e5042a72b
+1713357860722	Marionette	INFO	Stopped listening on port 53705
+Dynamically enable window occlusion 1
+1713357878376	geckodriver	INFO	Listening on 127.0.0.1:53743
+1713357881463	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53744" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile5hGOaF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713357881827	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713357881907	Marionette	INFO	Listening on port 53752
+WebDriver BiDi listening on ws://127.0.0.1:53744
+Read port: 53752
+1713357882103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53744/devtools/browser/8b2c0254-406d-404f-9136-aabdbfc6363d
+1713357886218	Marionette	INFO	Stopped listening on port 53752
+Dynamically enable window occlusion 1
+1713357920057	geckodriver	INFO	Listening on 127.0.0.1:53792
+1713357923170	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53793" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileGo2u47"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713357923994	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713357924066	Marionette	INFO	Listening on port 53800
+WebDriver BiDi listening on ws://127.0.0.1:53793
+Read port: 53800
+1713357924237	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53793/devtools/browser/55e4583f-5611-4d00-8890-df264fd476b4
+1713357927842	Marionette	INFO	Stopped listening on port 53800
+Dynamically enable window occlusion 1
+1713358062585	geckodriver	INFO	Listening on 127.0.0.1:53855
+1713358065652	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53856" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileusIehZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713358066008	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713358066079	Marionette	INFO	Listening on port 53863
+WebDriver BiDi listening on ws://127.0.0.1:53856
+Read port: 53863
+1713358066259	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53856/devtools/browser/0052afd2-1185-431e-b106-0f2d6d2303ad
+1713358070241	Marionette	INFO	Stopped listening on port 53863
+Dynamically enable window occlusion 1
+1713358098541	geckodriver	INFO	Listening on 127.0.0.1:53906
+1713358101603	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53907" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileOkPnHn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713358101934	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713358102012	Marionette	INFO	Listening on port 53914
+WebDriver BiDi listening on ws://127.0.0.1:53907
+Read port: 53914
+1713358102196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53907/devtools/browser/412b1b8c-b088-4ebb-9ef9-a5e567129e9f
+1713358106256	Marionette	INFO	Stopped listening on port 53914
+Dynamically enable window occlusion 1
+1713358250180	geckodriver	INFO	Listening on 127.0.0.1:53976
+1713358253267	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53977" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileHRPA3B"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713358253594	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713358253669	Marionette	INFO	Listening on port 53984
+Read port: 53984
+WebDriver BiDi listening on ws://127.0.0.1:53977
+1713358253738	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53977/devtools/browser/23689e30-53a6-417b-ae8d-c1f98bd182eb
+1713358258018	Marionette	INFO	Stopped listening on port 53984
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1713358387703	geckodriver	INFO	Listening on 127.0.0.1:54026
+1713358390798	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54027" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileDg9RHD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713358391205	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713358391280	Marionette	INFO	Listening on port 54036
+WebDriver BiDi listening on ws://127.0.0.1:54027
+Read port: 54036
+1713358391470	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54027/devtools/browser/4c027252-b8aa-4e07-adda-067d030dfa62
+1713358395959	Marionette	INFO	Stopped listening on port 54036
+Dynamically enable window occlusion 1
+console.error: (new Error("IndexedDB: main/translations-models list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1713358489248	geckodriver	INFO	Listening on 127.0.0.1:54085
+1713358492314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54086" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilequw7jn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713358492628	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713358492699	Marionette	INFO	Listening on port 54093
+WebDriver BiDi listening on ws://127.0.0.1:54086
+Read port: 54093
+1713358492878	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54086/devtools/browser/fb40cb3d-952a-43e8-94a6-46f03b6d5e9b
+1713358496463	Marionette	INFO	Stopped listening on port 54093
+Dynamically enable window occlusion 1
+1713358557274	geckodriver	INFO	Listening on 127.0.0.1:54128
+1713358560351	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54129" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileVYUJoU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713358560679	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713358560755	Marionette	INFO	Listening on port 54136
+WebDriver BiDi listening on ws://127.0.0.1:54129
+Read port: 54136
+1713358560940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54129/devtools/browser/2ff4fad3-6def-497b-adcf-c8fa449706f0
+1713358564459	Marionette	INFO	Stopped listening on port 54136
+Dynamically enable window occlusion 1
+1713358602002	geckodriver	INFO	Listening on 127.0.0.1:54180
+1713358605077	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54181" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilesbv4kQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713358605392	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713358605463	Marionette	INFO	Listening on port 54188
+WebDriver BiDi listening on ws://127.0.0.1:54181
+Read port: 54188
+1713358605650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54181/devtools/browser/a0923606-1e83-4c9a-a201-fa9363b480a3
+1713358609346	Marionette	INFO	Stopped listening on port 54188
+Dynamically enable window occlusion 1
+1713359136412	geckodriver	INFO	Listening on 127.0.0.1:54314
+1713359139488	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54315" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileFfgKZB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713359139808	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713359139882	Marionette	INFO	Listening on port 54322
+WebDriver BiDi listening on ws://127.0.0.1:54315
+Read port: 54322
+1713359140069	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54315/devtools/browser/60b636d2-a14c-4c01-aa4d-f7bfb8798791
+1713359143672	Marionette	INFO	Stopped listening on port 54322
+Dynamically enable window occlusion 1
+1713359442759	geckodriver	INFO	Listening on 127.0.0.1:54382
+1713359445821	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54383" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileiVqB7L"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713359446140	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713359446214	Marionette	INFO	Listening on port 54390
+WebDriver BiDi listening on ws://127.0.0.1:54383
+Read port: 54390
+1713359446391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54383/devtools/browser/4e157a95-ebd5-464c-80c4-5f0ada9387c8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713359476180	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.6/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.6/js/player.module.js:2:100594
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/y5/l/en_GB/QHboYVclAZ2.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1713359587328	Marionette	INFO	Stopped listening on port 54390
+Dynamically enable window occlusion 1
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))
+1713359651895	geckodriver	INFO	Listening on 127.0.0.1:54666
+1713359654971	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54667" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile3SdWUE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713359656056	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713359656168	Marionette	INFO	Listening on port 54674
+WebDriver BiDi listening on ws://127.0.0.1:54667
+Read port: 54674
+1713359656478	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54667/devtools/browser/c61da519-a2e5-4f91-84b3-41f4c6e3f96e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713359686074	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.6/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.6/js/player.module.js:2:100594
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.68, line 3454: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/y5/l/en_GB/QHboYVclAZ2.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.zdassets.com/web_widget/classic/latest/web-widget-main-7bc1c0f.js, line 2: Script terminated by timeout at:
+99640/l/t<@https://static.zdassets.com/web_widget/classic/latest/web-widget-main-7bc1c0f.js:2:853867
+l@https://static.zdassets.com/web_widget/classic/latest/web-widget-main-7bc1c0f.js:2:853868
+unload@https://static.zdassets.com/web_widget/classic/latest/web-widget-main-7bc1c0f.js:2:852821
+72738/i/<@https://static.zdassets.com/web_widget/classic/latest/web-widget-main-7bc1c0f.js:2:852037
+
+1713359772849	Marionette	INFO	Stopped listening on port 54674
+Dynamically enable window occlusion 1
+1713424141689	geckodriver	INFO	Listening on 127.0.0.1:54368
+1713424145535	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54369" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileHyAhra"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713424159216	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713424159382	Marionette	INFO	Listening on port 54414
+WebDriver BiDi listening on ws://127.0.0.1:54369
+Read port: 54414
+Read port: 54414
+Read port: 54414
+Read port: 54414
+Read port: 54414
+1713424174153	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.sys.mjs, line 34: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+1713424178416	Marionette	INFO	Stopped listening on port 54414
+Dynamically enable window occlusion 1
+1713424178442	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 643: TypeError: this.browsingContext is null
+JavaScript error: chrome://global/content/elements/browser-custom-element.js, line 643: TypeError: this.browsingContext is null
+console.error: "Could not load engine google@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for google@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine wikipedia@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for wikipedia@search.mozilla.org after shutdown was already granted"
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Could not load engine bing@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for bing@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine ddg@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for ddg@search.mozilla.org after shutdown was already granted"
+console.error: SearchService: "Could not find a replacement default engine."
+console.error: WebExtensions: 
+  Message: [Exception... "#init: abandoning init due to shutting down"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource://gre/modules/SearchService.sys.mjs :: #init :: line 1376"  data: no]
+  Stack:
+    #init@resource://gre/modules/SearchService.sys.mjs:1376:27
+
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1376: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1376: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1376: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  main/fingerprinting-protection-overrides Signature failed  TypeError: NetworkError: Network request failed
+Exiting due to channel error.
+Exiting due to channel error.
+1713424195653	geckodriver	INFO	Listening on 127.0.0.1:54512
+1713424198739	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54513" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileZTEfJT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713424200173	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713424200340	Marionette	INFO	Listening on port 54529
+WebDriver BiDi listening on ws://127.0.0.1:54513
+Read port: 54529
+1713424200522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1713424204291	Marionette	INFO	Stopped listening on port 54529
+Dynamically enable window occlusion 1
+1713424204321	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+1713425259780	geckodriver	INFO	Listening on 127.0.0.1:57644
+1713425262962	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57645" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileWgW8N1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713425264944	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713425265123	Marionette	INFO	Listening on port 57662
+WebDriver BiDi listening on ws://127.0.0.1:57645
+Read port: 57662
+1713425265305	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57645/devtools/browser/cd4e1529-122d-4924-b1db-340a6f0cbd18
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713425295082	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.7/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.7/js/player.module.js:2:100594
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.69, line 3454: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/y5/l/en_GB/QHboYVclAZ2.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1713425417608	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713425420387	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713425423158	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+[Child 6612, MediaDecoderStateMachine #1] WARNING: 25615fd95e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 6612, MediaDecoderStateMachine #1] WARNING: 2561d2955e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 6612, MediaDecoderStateMachine #1] WARNING: 2561f9aa280 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.69, line 3454: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.69, line 3454: unreachable code after return statement
+1713425663931	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713425666703	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713425669446	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+[Child 6612, MediaDecoderStateMachine #1] WARNING: 2561f9aa820 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.69, line 3454: unreachable code after return statement
+[Child 6612, MediaDecoderStateMachine #1] WARNING: 2561d251a60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 6612, MediaDecoderStateMachine #1] WARNING: 25615fd9b80 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 6612, MediaDecoderStateMachine #1] WARNING: 2561f5fb940 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Child 6612, MediaDecoderStateMachine #1] WARNING: Decoder=2561e3bc200 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 6612, MediaDecoderStateMachine #1] WARNING: Decoder=2561e3bc200 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+[Child 6612, MediaDecoderStateMachine #1] WARNING: Decoder=2561e4aa200 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 6612, MediaDecoderStateMachine #1] WARNING: Decoder=2561e4aa200 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+[Child 6612, MediaDecoderStateMachine #1] WARNING: Decoder=2561ece7100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 6612, MediaDecoderStateMachine #1] WARNING: Decoder=2561ece7100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+1713425930403	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713425933194	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713425935965	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+[Child 6612, MediaDecoderStateMachine #1] WARNING: 2561e364040 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 6612, MediaDecoderStateMachine #1] WARNING: 2561d2965e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 6612, MediaDecoderStateMachine #1] WARNING: 2561d2515e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713426062800	Marionette	INFO	Stopped listening on port 57662
+Dynamically enable window occlusion 1
+1713426092581	geckodriver	INFO	Listening on 127.0.0.1:59843
+1713426095644	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59844" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileDVej7S"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713426096569	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713426096643	Marionette	INFO	Listening on port 59858
+WebDriver BiDi listening on ws://127.0.0.1:59844
+Read port: 59858
+1713426096823	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59844/devtools/browser/0d9a801d-b550-4d66-bb64-0746e658bbca
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713426126601	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.7/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.7/js/player.module.js:2:100594
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.69, line 3454: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/y5/l/en_GB/QHboYVclAZ2.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1713426310134	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713426312906	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713426315709	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+[Child 1104, MediaDecoderStateMachine #1] WARNING: Decoder=146b010bf00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:372
+[Child 1104, MediaDecoderStateMachine #1] WARNING: Decoder=146b010bf00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006): file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:166
+[Child 1104, MediaDecoderStateMachine #1] WARNING: 146b20d8a60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 1104, MediaDecoderStateMachine #1] WARNING: 146b2f35940 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 1104, MediaDecoderStateMachine #1] WARNING: 146b021c5e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 1104, MediaDecoderStateMachine #1] WARNING: 146af0bcdc0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 1104, MediaDecoderStateMachine #1] WARNING: 146b0b803a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.69, line 3454: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.69, line 3454: unreachable code after return statement
+1713426513281	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713426649452	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713426652202	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713426654989	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+[Child 1104, MediaDecoderStateMachine #1] WARNING: 146b0186a60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.69, line 3454: unreachable code after return statement
+[Child 1104, MediaDecoderStateMachine #1] WARNING: 146b04183a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 1104, MediaDecoderStateMachine #1] WARNING: 146b023d4c0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 1104, MediaDecoderStateMachine #1] WARNING: 146b430fa60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1713426837124	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713427013646	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713427016431	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713427019203	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+[Child 1104, MediaDecoderStateMachine #1] WARNING: 146af0d1280 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713427144697	Marionette	INFO	Stopped listening on port 59858
+Dynamically enable window occlusion 1
+1713852873730	geckodriver	INFO	Listening on 127.0.0.1:62798
+1713852876836	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62799" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileI5byiE"
+1713852913192	geckodriver	INFO	Listening on 127.0.0.1:62925
+1713852916311	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62926" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileKLaAIQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713852917239	Marionette	INFO	Marionette enabled
+1713852917324	Marionette	INFO	Listening on port 62943
+WebDriver BiDi listening on ws://127.0.0.1:62926
+Read port: 62943
+1713852917598	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62926/devtools/browser/373277df-5ef3-4439-9b7e-e1a298f97fa1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713852947267	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.8/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.8/js/player.module.js:2:100607
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.101, line 3466: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yy/l/en_GB/Nh--YfycXmq.js?_nc_x=Ij3Wp8lg5Kz, line 16: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1713852995537	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713852996708	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713853134011	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713853136759	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713853139519	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+[Child 12384, MediaDecoderStateMachine #1] WARNING: 1820f3f5ca0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 12384, MediaDecoderStateMachine #1] WARNING: 182161db3a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 12384, MediaDecoderStateMachine #1] WARNING: 182125d94c0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 12384, MediaDecoderStateMachine #1] WARNING: 1821254dca0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 12384, MediaDecoderStateMachine #1] WARNING: 18214fb35e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 12384, MediaDecoderStateMachine #1] WARNING: 18213bf1a60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 12384, MediaDecoderStateMachine #1] WARNING: 18216198b80 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 12384, MediaDecoderStateMachine #1] WARNING: 182163eea60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 12384, MediaDecoderStateMachine #1] WARNING: 182159f5ee0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 12384, MediaDecoderStateMachine #1] WARNING: 18216595b80 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:357:17
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:357:17\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n"
+1713853212319	Marionette	INFO	Stopped listening on port 62943
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.google.com/js/th/suXtyypHr-kmcDv8BLab_zSS-cnpn4GzxWV-_PefaIU.js line 2 > eval line 2058 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1713854205828	geckodriver	INFO	Listening on 127.0.0.1:49938
+1713854208879	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49939" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilePOK1a8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713854210164	Marionette	INFO	Marionette enabled
+1713854210337	Marionette	INFO	Listening on port 49956
+WebDriver BiDi listening on ws://127.0.0.1:49939
+Read port: 49956
+1713854210670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49939/devtools/browser/598a1d04-132e-42d4-9cd3-0f8f0f7b4a7d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713854240166	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.8/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.8/js/player.module.js:2:100607
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.101, line 3466: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yy/l/en_GB/Nh--YfycXmq.js?_nc_x=Ij3Wp8lg5Kz, line 16: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1713854417211	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713854419976	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713854422773	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713854912302	Marionette	INFO	Stopped listening on port 49956
+Dynamically enable window occlusion 1
+JavaScript warning: https://www.google.com/js/th/suXtyypHr-kmcDv8BLab_zSS-cnpn4GzxWV-_PefaIU.js line 2 > eval line 2096 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1713856109383	geckodriver	INFO	Listening on 127.0.0.1:55017
+1713856112466	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55018" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileYY9DkM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713856113595	Marionette	INFO	Marionette enabled
+1713856113785	Marionette	INFO	Listening on port 55036
+Read port: 55036
+WebDriver BiDi listening on ws://127.0.0.1:55018
+1713856113902	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55018/devtools/browser/74c3a542-fa27-4c19-87a1-5e94d0f113be
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713856143600	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.8/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.8/js/player.module.js:2:100607
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.101, line 3455: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yy/l/en_GB/Nh--YfycXmq.js?_nc_x=Ij3Wp8lg5Kz, line 16: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:void(0)'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 719"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:719:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:566:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:465:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:429:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2208:33
+addAllSources@resource://devtools/server/actors/thread.js:1528:14
+watch@resource://devtools/server/actors/resources/sources.js:81:17
+watchResources@resource://devtools/server/actors/resources/index.js:340:15
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:19:21
+addOrSetSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:54:23
+_addOrSetSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:544:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:446:21
+Line: 719, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 719: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:void(0)'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1713856319590	Marionette	INFO	Stopped listening on port 55036
+Dynamically enable window occlusion 1
+1713856398973	geckodriver	INFO	Listening on 127.0.0.1:55947
+1713856402064	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55948" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileY313DG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713856403037	Marionette	INFO	Marionette enabled
+1713856403118	Marionette	INFO	Listening on port 55964
+WebDriver BiDi listening on ws://127.0.0.1:55948
+Read port: 55964
+1713856403330	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55948/devtools/browser/362b0ae7-0122-4041-84ae-527939bfcb2c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713856433194	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.8/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.8/js/player.module.js:2:100607
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.101, line 3455: unreachable code after return statement
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yy/l/en_GB/Nh--YfycXmq.js?_nc_x=Ij3Wp8lg5Kz, line 16: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1713856603039	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713856605792	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713856608560	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+[Child 15564, MediaDecoderStateMachine #1] WARNING: 2468b4b5940 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 15564, MediaDecoderStateMachine #1] WARNING: 24690352700 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+[Child 15564, MediaDecoderStateMachine #1] WARNING: 2468c58e3a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:76108
+
+1713856652506	Marionette	INFO	Stopped listening on port 55964
+Dynamically enable window occlusion 1
+1713857080830	geckodriver	INFO	Listening on 127.0.0.1:57094
+1713857083882	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57095" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile5VHcVP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713857084810	Marionette	INFO	Marionette enabled
+1713857084888	Marionette	INFO	Listening on port 57104
+WebDriver BiDi listening on ws://127.0.0.1:57095
+Read port: 57104
+1713857085100	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57095/devtools/browser/a22953e4-4780-4d44-b71c-ae2ba12302f0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713857114821	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.youtube-nocookie.com/s/player/1a390536/www-embed-player.vflset/www-embed-player.js, line 906: Script terminated by timeout at:
+T@https://www.youtube-nocookie.com/s/player/1a390536/www-embed-player.vflset/www-embed-player.js:906:226
+@https://www.youtube-nocookie.com/s/player/1a390536/www-embed-player.vflset/www-embed-player.js:1903:52
+al/<@https://www.youtube-nocookie.com/s/player/1a390536/www-embed-player.vflset/www-embed-player.js:886:63
+
+JavaScript warning: https://f.vimeocdn.com/p/4.29.8/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.8/js/player.module.js:2:100607
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.101, line 3466: unreachable code after return statement
+1713857133337	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yy/l/en_GB/Nh--YfycXmq.js?_nc_x=Ij3Wp8lg5Kz, line 16: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1713857284608	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713857296492	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713857299257	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713857302023	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713857392182	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.101, line 3466: unreachable code after return statement
+1713857443938	Marionette	INFO	Stopped listening on port 57104
+Dynamically enable window occlusion 1
+1713864132299	geckodriver	INFO	Listening on 127.0.0.1:60202
+1713864135286	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60203" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileAHuXOJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713864137454	Marionette	INFO	Marionette enabled
+1713864137548	Marionette	INFO	Listening on port 60213
+WebDriver BiDi listening on ws://127.0.0.1:60203
+Read port: 60213
+1713864137771	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60203/devtools/browser/63d60bcb-5948-4350-a1eb-7ac5a8d38cc7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+1713864144800	Marionette	INFO	Stopped listening on port 60213
+Dynamically enable window occlusion 1
+1713864178897	geckodriver	INFO	Listening on 127.0.0.1:60284
+1713864181961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60285" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilekI7CYL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713864183015	Marionette	INFO	Marionette enabled
+1713864183126	Marionette	INFO	Listening on port 60295
+WebDriver BiDi listening on ws://127.0.0.1:60285
+Read port: 60295
+1713864183337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60285/devtools/browser/adcd7d4f-86d0-4c08-9ad4-5ae243ee3d08
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713864213028	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.8/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.8/js/player.module.js:2:100607
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.1.103, line 3454: unreachable code after return statement
+1713864365322	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713864663836	geckodriver	INFO	Listening on 127.0.0.1:60765
+1713864666951	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60766" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileGxFPAo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713864668813	Marionette	INFO	Marionette enabled
+1713864668919	Marionette	INFO	Listening on port 60775
+WebDriver BiDi listening on ws://127.0.0.1:60766
+Read port: 60775
+1713864669287	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60766/devtools/browser/3997b135-4710-447d-8ae0-ca38eb1a5f97
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713864698845	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.2.1, line 3465: unreachable code after return statement
+1713864775172	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:76108
+
+1713864778894	Marionette	INFO	Stopped listening on port 60775
+Dynamically enable window occlusion 1
+1713865474208	geckodriver	INFO	Listening on 127.0.0.1:61337
+1713865477306	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61338" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile9raKBp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713865478219	Marionette	INFO	Marionette enabled
+1713865478304	Marionette	INFO	Listening on port 61347
+WebDriver BiDi listening on ws://127.0.0.1:61338
+Read port: 61347
+1713865478503	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61338/devtools/browser/59b25650-fef4-497a-8975-0177c9ead3a1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713865508235	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.8/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.8/js/player.module.js:2:100607
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.2.1, line 3465: unreachable code after return statement
+1713865560967	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713865563749	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713865576100	Marionette	INFO	Stopped listening on port 61347
+Dynamically enable window occlusion 1
+1713865660175	geckodriver	INFO	Listening on 127.0.0.1:61583
+1713865663470	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61584" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileqK7kYS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713865664424	Marionette	INFO	Marionette enabled
+1713865664507	Marionette	INFO	Listening on port 61592
+WebDriver BiDi listening on ws://127.0.0.1:61584
+Read port: 61592
+1713865664705	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61584/devtools/browser/428b6069-7a76-4833-a591-c5440eec831e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713865694443	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.8/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.8/js/player.module.js:2:100607
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.2.1, line 3465: unreachable code after return statement
+1713865747348	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713865752132	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js, line 2: Script terminated by timeout at:
+n.fn.extend@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:2:1538
+simulate@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:3:8789
+c@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:3:10306
+
+1713865765042	Marionette	INFO	Stopped listening on port 61592
+Dynamically enable window occlusion 1
+1713865803530	geckodriver	INFO	Listening on 127.0.0.1:61804
+1713865806593	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61805" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilemRy8gz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713865807651	Marionette	INFO	Marionette enabled
+1713865807762	Marionette	INFO	Listening on port 61814
+WebDriver BiDi listening on ws://127.0.0.1:61805
+Read port: 61814
+1713865807956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61805/devtools/browser/6ab9d042-e7ea-49c7-8b8d-9a7ca1ffdb60
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713865837674	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.8/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.8/js/player.module.js:2:100607
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.2.1, line 3465: unreachable code after return statement
+1713865891017	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713865897797	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js, line 2: Script terminated by timeout at:
+ga@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:2:7077
+find@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:2:23410
+n.fn.init@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:2:23954
+n@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:2:405
+@https://dev2.hypeddit.com/js/ad.js?v=124.2.1:465:10
+dispatch@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:3:6466
+add/r.handle@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:3:3241
+trigger@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:3:5574
+simulate@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:3:8862
+c@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:3:10306
+
+1713865900344	Marionette	INFO	Stopped listening on port 61814
+Dynamically enable window occlusion 1
+1713866121434	geckodriver	INFO	Listening on 127.0.0.1:62112
+1713866124508	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62113" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileailDEl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713866125368	Marionette	INFO	Marionette enabled
+1713866125453	Marionette	INFO	Listening on port 62123
+WebDriver BiDi listening on ws://127.0.0.1:62113
+Read port: 62123
+1713866125652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62113/devtools/browser/e08313f1-67fe-4c53-8652-498a7a88b751
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713866155398	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.8/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.8/js/player.module.js:2:100607
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://dev2.hypeddit.com/js/ad.js?v=124.2.1, line 3465: unreachable code after return statement
+1713866205843	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713866210618	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713866215400	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:357:17
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:357:17\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n"
+1713866232481	Marionette	INFO	Stopped listening on port 62123
+Dynamically enable window occlusion 1

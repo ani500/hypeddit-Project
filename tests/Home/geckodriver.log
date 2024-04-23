@@ -3811,3 +3811,229 @@ b@https://www.google.com/xjs/_/js/k=xjs.hd.en.pZZYlMlXLOY.O/am=AAAAAAAAAAAAAAAAA
 1705923009214	Marionette	INFO	Stopped listening on port 61771
 Dynamically enable window occlusion 1
 !!! error running onStopped callback: TypeError: callback is not a function
+1713424216524	geckodriver	INFO	Listening on 127.0.0.1:54586
+1713424219639	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54587" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileEO09rn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713424220579	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713424220653	Marionette	INFO	Listening on port 54604
+WebDriver BiDi listening on ws://127.0.0.1:54587
+Read port: 54604
+1713424220889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54587/devtools/browser/b70daedd-6d11-432e-a800-41c1189fcf8d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713424250612	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1713424253946	Marionette	INFO	Stopped listening on port 54604
+Dynamically enable window occlusion 1
+console.warn: services.settings: main/translations-identification-models sync interrupted by shutdown
+console.warn: services.settings: main/fingerprinting-protection-overrides sync interrupted by shutdown
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: main/translations-models sync interrupted by shutdown
+console.warn: services.settings: main/devtools-compatibility-browsers sync interrupted by shutdown
+console.warn: services.settings: security-state/cert-revocations sync interrupted by shutdown
+console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
+console.warn: services.settings: security-state/intermediates sync interrupted by shutdown
+1713424303962	geckodriver	INFO	Listening on 127.0.0.1:54929
+1713424307071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54930" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile11k03F"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713424308618	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713424308796	Marionette	INFO	Listening on port 54947
+WebDriver BiDi listening on ws://127.0.0.1:54930
+Read port: 54947
+1713424308980	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:54930/devtools/browser/a91eb3b5-374d-4c41-85b5-cfee638d680f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713424338665	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.7/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.7/js/player.module.js:2:100594
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1713424359818	Marionette	INFO	Stopped listening on port 54947
+Dynamically enable window occlusion 1
+1713424422375	geckodriver	INFO	Listening on 127.0.0.1:55310
+1713424425651	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55311" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilerMtZQQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713424426949	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713424427286	Marionette	INFO	Listening on port 55329
+WebDriver BiDi listening on ws://127.0.0.1:55311
+Read port: 55329
+1713424427478	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55311/devtools/browser/239e2fbc-6c55-4937-a624-cdc7e4bcac34
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713424456985	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.7/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.7/js/player.module.js:2:100594
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1713424506909	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713424537923	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713424554327	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript warning: https://socialplugin.facebook.net/v17.0/send_to_messenger.php?app_id=532160876956612&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df7c0cf86f1fc4ca7b%26domain%3Ddev2.hypeddit.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fdev2.hypeddit.com%252Fff2d82c300f73ab74%26relation%3Dparent.parent&color=blue&container_width=172&locale=en_US&messenger_app_id=532160876956612&page_id=109379167072055&ref=ManyChat&sdk=joey&size=xlarge, line 19: Script terminated by timeout at:
+d@https://socialplugin.facebook.net/v17.0/send_to_messenger.php?app_id=532160876956612&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df7c0cf86f1fc4ca7b%26domain%3Ddev2.hypeddit.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fdev2.hypeddit.com%252Fff2d82c300f73ab74%26relation%3Dparent.parent&color=blue&container_width=172&locale=en_US&messenger_app_id=532160876956612&page_id=109379167072055&ref=ManyChat&sdk=joey&size=xlarge:19:17586
+@https://socialplugin.facebook.net/v17.0/send_to_messenger.php?app_id=532160876956612&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df7c0cf86f1fc4ca7b%26domain%3Ddev2.hypeddit.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fdev2.hypeddit.com%252Fff2d82c300f73ab74%26relation%3Dparent.parent&color=blue&container_width=172&locale=en_US&messenger_app_id=532160876956612&page_id=109379167072055&ref=ManyChat&sdk=joey&size=xlarge:19:17824
+@https://socialplugin.facebook.net/v17.0/send_to_messenger.php?app_id=532160876956612&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df7c0cf86f1fc4ca7b%26domain%3Ddev2.hypeddit.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fdev2.hypeddit.com%252Fff2d82c300f73ab74%26relation%3Dparent.parent&color=blue&container_width=172&locale=en_US&messenger_app_id=532160876956612&page_id=109379167072055&ref=ManyChat&sdk=joey&size=xlarge:19:17829
+@https://socialplugin.facebook.net/v17.0/send_to_messenger.php?app_id=532160876956612&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df7c0cf86f1fc4ca7b%26domain%3Ddev2.hypeddit.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fdev2.hypeddit.com%252Fff2d82c300f73ab74%26relation%3Dparent.parent&color=blue&container_width=172&locale=en_US&messenger_app_id=532160876956612&page_id=109379167072055&ref=ManyChat&sdk=joey&size=xlarge:19:17836
+
+JavaScript warning: https://socialplugin.facebook.net/v17.0/send_to_messenger.php?app_id=532160876956612&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df7c0cf86f1fc4ca7b%26domain%3Ddev2.hypeddit.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fdev2.hypeddit.com%252Fff2d82c300f73ab74%26relation%3Dparent.parent&color=blue&container_width=172&locale=en_US&messenger_app_id=532160876956612&page_id=109379167072055&ref=ManyChat&sdk=joey&size=xlarge, line 19: Script terminated by timeout at:
+d@https://socialplugin.facebook.net/v17.0/send_to_messenger.php?app_id=532160876956612&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df7c0cf86f1fc4ca7b%26domain%3Ddev2.hypeddit.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fdev2.hypeddit.com%252Fff2d82c300f73ab74%26relation%3Dparent.parent&color=blue&container_width=172&locale=en_US&messenger_app_id=532160876956612&page_id=109379167072055&ref=ManyChat&sdk=joey&size=xlarge:19:17581
+@https://socialplugin.facebook.net/v17.0/send_to_messenger.php?app_id=532160876956612&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df7c0cf86f1fc4ca7b%26domain%3Ddev2.hypeddit.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fdev2.hypeddit.com%252Fff2d82c300f73ab74%26relation%3Dparent.parent&color=blue&container_width=172&locale=en_US&messenger_app_id=532160876956612&page_id=109379167072055&ref=ManyChat&sdk=joey&size=xlarge:19:17819
+@https://socialplugin.facebook.net/v17.0/send_to_messenger.php?app_id=532160876956612&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df7c0cf86f1fc4ca7b%26domain%3Ddev2.hypeddit.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fdev2.hypeddit.com%252Fff2d82c300f73ab74%26relation%3Dparent.parent&color=blue&container_width=172&locale=en_US&messenger_app_id=532160876956612&page_id=109379167072055&ref=ManyChat&sdk=joey&size=xlarge:19:17824
+@https://socialplugin.facebook.net/v17.0/send_to_messenger.php?app_id=532160876956612&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df7c0cf86f1fc4ca7b%26domain%3Ddev2.hypeddit.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fdev2.hypeddit.com%252Fff2d82c300f73ab74%26relation%3Dparent.parent&color=blue&container_width=172&locale=en_US&messenger_app_id=532160876956612&page_id=109379167072055&ref=ManyChat&sdk=joey&size=xlarge:19:17831
+
+1713424592376	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Qaia-XW3cFx.js?_nc_x=Ij3Wp8lg5Kz, line 279: Script terminated by timeout at:
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Qaia-XW3cFx.js?_nc_x=Ij3Wp8lg5Kz:279:166
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Qaia-XW3cFx.js?_nc_x=Ij3Wp8lg5Kz, line 279: Script terminated by timeout at:
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Qaia-XW3cFx.js?_nc_x=Ij3Wp8lg5Kz:279:166
+
+JavaScript error: https://secure.soundcloud.com/connect?display=popup&response_type=code&state=eyJpdiI6InJzTitKeUhPSjh2d1h6c0dEK0s1OXc9PSIsInZhbHVlIjoieUpBRTcyZGl6N1hPaCtoWmxSQ2gzQT09IiwibWFjIjoiNzgzZjQyZDdiYjgyYTg3Yzc1ZjRlZTYzY2M0M2M3YTRmZDg0NWIxYzU4Y2ZlYmMzYjMzYzNkOTYyMDVmODlhOCIsInRhZyI6IiJ9&client_id=d56b1cfc0485825035016fdb092013bf&scope=&redirect_uri=http%3A%2F%2Fdev2.hypeddit.com%2FsoundCloudConnect, line 23: SyntaxError: expected expression, got '<'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://secure.soundcloud.com."
+console.error: ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713424687452	Marionette	INFO	Stopped listening on port 55329
+Dynamically enable window occlusion 1
+1713424731425	geckodriver	INFO	Listening on 127.0.0.1:56201
+1713424734544	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56202" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile01coXz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713424735960	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1713424736192	Marionette	INFO	Listening on port 56218
+WebDriver BiDi listening on ws://127.0.0.1:56202
+Read port: 56218
+1713424736640	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56202/devtools/browser/58a222e3-a372-4154-bf62-5e1d551a5dcc
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://dev2.hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1713424765985	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.7/js/player.module.js, line 2: Script terminated by timeout at:
+da/<@https://f.vimeocdn.com/p/4.29.7/js/player.module.js:2:100594
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1713424822415	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713424853004	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+1713424869322	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Qaia-XW3cFx.js?_nc_x=Ij3Wp8lg5Kz, line 279: Script terminated by timeout at:
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Qaia-XW3cFx.js?_nc_x=Ij3Wp8lg5Kz:279:166
+
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Qaia-XW3cFx.js?_nc_x=Ij3Wp8lg5Kz, line 329: Script terminated by timeout at:
+w@https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Qaia-XW3cFx.js?_nc_x=Ij3Wp8lg5Kz:329:483
+d@https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Qaia-XW3cFx.js?_nc_x=Ij3Wp8lg5Kz:329:1683
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Qaia-XW3cFx.js?_nc_x=Ij3Wp8lg5Kz:279:197
+
+1713424905304	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Qaia-XW3cFx.js?_nc_x=Ij3Wp8lg5Kz, line 279: Script terminated by timeout at:
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Qaia-XW3cFx.js?_nc_x=Ij3Wp8lg5Kz:279:166
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Qaia-XW3cFx.js?_nc_x=Ij3Wp8lg5Kz, line 279: Script terminated by timeout at:
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/Qaia-XW3cFx.js?_nc_x=Ij3Wp8lg5Kz:279:166
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1713424965876	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+send@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:14953
+ajax@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:10712
+validateTrackUrlApi@https://dev2.hypeddit.com/js/trackObject.js?v=124.1.69:4526:15
+validateTrackUrl@https://dev2.hypeddit.com/js/trackObject.js?v=124.1.69:4225:118
+processLinkUrl@https://dev2.hypeddit.com/js/trackObject.js?v=124.1.69:3354:36
+success@https://dev2.hypeddit.com/js/trackObject.js?v=124.1.69:4800:49
+j@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:2:26925
+fireWith@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:2:27738
+x@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:11253
+send/b/<@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:14765
+1713424966650	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
+send@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:14953
+ajax@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:10712
+validateTrackUrlApi@https://dev2.hypeddit.com/js/trackObject.js?v=124.1.69:4526:15
+validateTrackUrl@https://dev2.hypeddit.com/js/trackObject.js?v=124.1.69:4312:37
+processLinkUrl@https://dev2.hypeddit.com/js/trackObject.js?v=124.1.69:3354:36
+success@https://dev2.hypeddit.com/js/trackObject.js?v=124.1.69:4800:49
+j@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:2:26925
+fireWith@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:2:27738
+x@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:11253
+send/b/<@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:14765
+send@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:14953
+ajax@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:10712
+validateTrackUrlApi@https://dev2.hypeddit.com/js/trackObject.js?v=124.1.69:4526:15
+validateTrackUrl@https://dev2.hypeddit.com/js/trackObject.js?v=124.1.69:4225:118
+processLinkUrl@https://dev2.hypeddit.com/js/trackObject.js?v=124.1.69:3354:36
+success@https://dev2.hypeddit.com/js/trackObject.js?v=124.1.69:4800:49
+j@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:2:26925
+fireWith@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:2:27738
+x@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:11253
+send/b/<@https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js:4:14765
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/y5/l/en_GB/QHboYVclAZ2.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 117: unreachable code after return statement
+Exiting due to channel error.

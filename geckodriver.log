@@ -10370,3 +10370,175 @@ interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mj
 webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
 1712147550257	Marionette	INFO	Stopped listening on port 63980
 Dynamically enable window occlusion 1
+1712752900605	geckodriver	INFO	Listening on 127.0.0.1:58349
+1712752903695	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58350" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileMpHsmR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712752904999	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712752905133	Marionette	INFO	Listening on port 58357
+WebDriver BiDi listening on ws://127.0.0.1:58350
+Read port: 58357
+1712752905724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1712752909940	Marionette	INFO	Stopped listening on port 58357
+Dynamically enable window occlusion 1
+1712752909974	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+console.error: "Could not load engine google@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for google@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine wikipedia@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for wikipedia@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine bing@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for bing@search.mozilla.org after shutdown was already granted"
+console.error: "Could not load engine ddg@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for ddg@search.mozilla.org after shutdown was already granted"
+console.error: SearchService: "Could not find a replacement default engine."
+console.error: WebExtensions: 
+  Message: [Exception... "#init: abandoning init due to shutting down"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource://gre/modules/SearchService.sys.mjs :: #init :: line 1376"  data: no]
+  Stack:
+    #init@resource://gre/modules/SearchService.sys.mjs:1376:27
+
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1376: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1376: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1376: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1254: Error: SearchService failed while it was initializing.
+JavaScript error: resource://activity-stream/lib/TopSitesFeed.sys.mjs, line 134: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "SearchService failed while it was initializing." {file: "resource://gre/modules/SearchService.sys.mjs" line: 1254}]'[JavaScript Error: "SearchService failed while it was initializing." {file: "resource://gre/modules/SearchService.sys.mjs" line: 1254}]' when calling method: [nsISearchService::defaultEngine]
+Exiting due to channel error.
+1712752921067	geckodriver	INFO	Listening on 127.0.0.1:58394
+1712752924184	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58395" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileH3AFru"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712752925277	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712752925431	Marionette	INFO	Listening on port 58402
+WebDriver BiDi listening on ws://127.0.0.1:58395
+Read port: 58402
+1712752925637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58395/devtools/browser/cecc7e4a-d94b-4691-8465-28bb4af08083
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1712752955519	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.1/js/player.module.js, line 2: Script terminated by timeout at:
+ia/<@https://f.vimeocdn.com/p/4.29.1/js/player.module.js:2:99891
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://hypeddit.com/js/ad.js?v=123.0.5, line 3454: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c, line 387: Script terminated by timeout at:
+Rn@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:387:353
+XF@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:622:731
+aa.am@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:626:356
+aa.Zl/</<@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:625:248
+ol@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:351:439
+Bl@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:354:153
+aa.Zl/<@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:625:234
+c@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:477:169
+tt@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:478:269
+aa.Zl@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:625:220
+c@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:646:675
+ym@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:361:298
+xm.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:364:284
+xm.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:362:207
+qm@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:359:636
+qG/<@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:647:178
+aa.tk/<@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:595:126
+aa.tk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:594:420
+
+1712753041293	Marionette	INFO	Stopped listening on port 58402
+Dynamically enable window occlusion 1
+1712753347520	geckodriver	INFO	Listening on 127.0.0.1:58775
+1712753350631	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58776" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileYezXzf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712753353160	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712753353348	Marionette	INFO	Listening on port 58793
+WebDriver BiDi listening on ws://127.0.0.1:58776
+Read port: 58793
+1712753354018	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58776/devtools/browser/60e62200-ea61-48b0-8798-ddd61a31a600
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1712753384113	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.1/js/player.module.js, line 2: Script terminated by timeout at:
+ia/<@https://f.vimeocdn.com/p/4.29.1/js/player.module.js:2:99891
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://hypeddit.com/js/ad.js?v=123.0.5, line 3454: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1712753883898	geckodriver	INFO	Listening on 127.0.0.1:59135
+1712753887008	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59136" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileCzQ865"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712753888618	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712753888753	Marionette	INFO	Listening on port 59143
+WebDriver BiDi listening on ws://127.0.0.1:59136
+Read port: 59143
+1712753889163	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59136/devtools/browser/d31549b5-abb4-442c-a73e-39861b45c479
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1712753918644	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://hypeddit.com/js/ad.js?v=123.0.5, line 3454: unreachable code after return statement
+1712754093389	geckodriver	INFO	Listening on 127.0.0.1:59452
+1712754096474	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59453" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileGVl2X7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712754097374	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712754097459	Marionette	INFO	Listening on port 59460
+WebDriver BiDi listening on ws://127.0.0.1:59453
+Read port: 59460
+1712754097700	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59453/devtools/browser/66d27f1a-4d61-433a-afc8-c5cd6d2747ef
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://hypeddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://player.vimeo.com/video/276950823, line 107: unreachable code after return statement
+1712754127442	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://f.vimeocdn.com/p/4.29.1/js/player.module.js, line 2: Script terminated by timeout at:
+ia/<@https://f.vimeocdn.com/p/4.29.1/js/player.module.js:2:99891
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://hypeddit.com/js/ad.js?v=123.0.5, line 3454: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c, line 596: Script terminated by timeout at:
+aa.Gf@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:596:180
+aa.ym@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:595:449
+aa.am@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:628:245
+aa.Zl/</<@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:625:248
+ol@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:351:439
+Bl@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:354:153
+aa.Zl/<@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:625:234
+c@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:477:169
+tt@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:478:269
+aa.Zl@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:625:220
+c@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:646:675
+ym@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:361:298
+xm.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:364:284
+xm.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:362:207
+qm@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:359:636
+qG/<@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:647:178
+aa.tk/<@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:595:126
+aa.tk/c/<@https://www.googletagmanager.com/gtag/js?id=G-L3SC8DYBDD&l=dataLayer&cx=c:594:420
+
+1712754198019	Marionette	INFO	Stopped listening on port 59460
+Dynamically enable window occlusion 1
+Exiting due to channel error.
+Exiting due to channel error.

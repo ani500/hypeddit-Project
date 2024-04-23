@@ -23912,3 +23912,258 @@
 04/03/2024 06:01:40 PM - AdPage - INFO: Cannot clicked on the Element Locator ://div[@class='checkbox']//label[@for='hypeddit_terms']LocatorType :xpath
 04/03/2024 06:01:40 PM - AdPage - INFO: Element Found Locator :next_box_button_confirmationLocatorType :id
 04/03/2024 06:01:40 PM - AdPage - INFO: Cannot clicked on the Element Locator :next_box_button_confirmationLocatorType :id
+04/10/2024 06:12:19 PM - FangatePage - INFO: Element Not Found Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+04/10/2024 06:12:19 PM - FangatePage - INFO: Not Wirte to the Element Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+04/10/2024 06:12:22 PM - FangatePage - INFO: Element Not Found Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+04/10/2024 06:12:22 PM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+04/10/2024 06:12:26 PM - LoginPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:12:27 PM - LoginPage - INFO: Element appeared on the web page
+04/10/2024 06:12:27 PM - LoginPage - INFO: Element Found Locator :LoginLocatorType :link
+04/10/2024 06:12:30 PM - LoginPage - INFO: Clicked on the Element Locator :LoginLocatorType :link
+04/10/2024 06:12:30 PM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+04/10/2024 06:12:30 PM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+04/10/2024 06:12:30 PM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+04/10/2024 06:12:30 PM - LoginPage - INFO: Send Keys Successfully Locator :login_emailLocatorType :id
+04/10/2024 06:12:30 PM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+04/10/2024 06:12:30 PM - LoginPage - INFO: Send Keys Successfully Locator :login_passwordLocatorType :id
+04/10/2024 06:12:30 PM - LoginPage - INFO: Element Found Locator :login_buttonLocatorType :id
+04/10/2024 06:12:45 PM - LoginPage - INFO: Clicked on the Element Locator :login_buttonLocatorType :id
+04/10/2024 06:12:55 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:12:55 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:12:55 PM - AdPage - INFO: Element Found Locator ://a[@href='https://hypeddit.com/promotemusic']LocatorType :xpath
+04/10/2024 06:12:57 PM - AdPage - INFO: Clicked on the Element Locator ://a[@href='https://hypeddit.com/promotemusic']LocatorType :xpath
+04/10/2024 06:12:57 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:12:57 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:12:57 PM - AdPage - INFO: Element Found Locator ://a[@href='https://hypeddit.com/ads/templates']LocatorType :xpath
+04/10/2024 06:12:58 PM - AdPage - INFO: Clicked on the Element Locator ://a[@href='https://hypeddit.com/ads/templates']LocatorType :xpath
+04/10/2024 06:12:58 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:12:58 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:12:58 PM - AdPage - INFO: Element Found Locator ://a[@href='https://hypeddit.com/ads/create/spotify-growth-track']LocatorType :xpath
+04/10/2024 06:13:05 PM - AdPage - INFO: Clicked on the Element Locator ://a[@href='https://hypeddit.com/ads/create/spotify-growth-track']LocatorType :xpath
+04/10/2024 06:13:05 PM - AdPage - INFO: Element Found Locator :next_box_button_facebook-account-connectLocatorType :id
+04/10/2024 06:13:05 PM - AdPage - INFO: Clicked on the Element Locator :next_box_button_facebook-account-connectLocatorType :id
+04/10/2024 06:13:05 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:13:05 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:13:05 PM - AdPage - INFO: Element Found Locator :track_urlLocatorType :id
+04/10/2024 06:13:05 PM - AdPage - INFO: Send Keys Successfully Locator :track_urlLocatorType :id
+04/10/2024 06:13:07 PM - AdPage - INFO: Element Found Locator ://div[@class='loader select-loading'][contains(@style,'display: block')]LocatorType :xpath
+04/10/2024 06:13:07 PM - AdPage - INFO: Element Found Locator ://div[@class='loader select-loading'][contains(@style,'display: block')]LocatorType :xpath
+04/10/2024 06:13:07 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:13:19 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:13:19 PM - AdPage - INFO: Element Found Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Select genre']LocatorType :xpath
+04/10/2024 06:13:20 PM - AdPage - INFO: Clicked on the Element Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Select genre']LocatorType :xpath
+04/10/2024 06:13:20 PM - AdPage - INFO: Element Found Locator ://ul[@class='dropdown-menu inner']//span[text()='Bass']LocatorType :xpath
+04/10/2024 06:13:20 PM - AdPage - INFO: Clicked on the Element Locator ://ul[@class='dropdown-menu inner']//span[text()='Bass']LocatorType :xpath
+04/10/2024 06:13:25 PM - AdPage - INFO: Element Found Locator :next_box_button_musicLocatorType :id
+04/10/2024 06:13:25 PM - AdPage - INFO: Clicked on the Element Locator :next_box_button_musicLocatorType :id
+04/10/2024 06:13:42 PM - AdPage - INFO: Element Found Locator :inputFileAudioAssetLocatorType :id
+04/10/2024 06:13:42 PM - AdPage - INFO: Not Wirte to the Element Locator :inputFileAudioAssetLocatorType :id
+04/10/2024 06:13:52 PM - AdPage - INFO: Element Not Found Locator ://img[@title='45 sec']LocatorType :xpath
+04/10/2024 06:13:52 PM - AdPage - INFO: Element Not Found Locator ://img[@title='45 sec']LocatorType :xpath
+04/10/2024 06:13:52 PM - AdPage - INFO: Element Found Locator :next_box_button_audio-videoLocatorType :id
+04/10/2024 06:13:52 PM - AdPage - INFO: Clicked on the Element Locator :next_box_button_audio-videoLocatorType :id
+04/10/2024 06:13:52 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:14:01 PM - AdPage - INFO: Element not appeared on the web page
+04/10/2024 06:14:01 PM - AdPage - INFO: Element Not Found Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Tier One and Two Countries ']LocatorType :xpath
+04/10/2024 06:14:01 PM - AdPage - INFO: Cannot clicked on the Element Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Tier One and Two Countries ']LocatorType :xpath
+04/10/2024 06:14:01 PM - AdPage - INFO: Element Not Found Locator ://ul[@class='dropdown-menu inner']//span[text()='All Countries']LocatorType :xpath
+04/10/2024 06:14:01 PM - AdPage - INFO: Cannot clicked on the Element Locator ://ul[@class='dropdown-menu inner']//span[text()='All Countries']LocatorType :xpath
+04/10/2024 06:14:06 PM - AdPage - INFO: Element Not Found Locator :next_box_button_countriesLocatorType :id
+04/10/2024 06:14:06 PM - AdPage - INFO: Cannot clicked on the Element Locator :next_box_button_countriesLocatorType :id
+04/10/2024 06:14:06 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:14:06 PM - AdPage - INFO: Element not appeared on the web page
+04/10/2024 06:14:06 PM - AdPage - INFO: Element Not Found Locator :add_spotify_artistLocatorType :id
+04/10/2024 06:14:06 PM - AdPage - INFO: Not Wirte to the Element Locator :add_spotify_artistLocatorType :id
+04/10/2024 06:14:08 PM - AdPage - INFO: Element Not Found Locator ://div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+04/10/2024 06:14:08 PM - AdPage - INFO: Element Not Found Locator ://div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+04/10/2024 06:14:10 PM - AdPage - INFO: Element Not Found Locator ://div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+04/10/2024 06:14:10 PM - AdPage - INFO: Element Not Found Locator ://div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+04/10/2024 06:14:12 PM - AdPage - INFO: Element Not Found Locator ://div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+04/10/2024 06:14:12 PM - AdPage - INFO: Element Not Found Locator ://div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+04/10/2024 06:14:14 PM - AdPage - INFO: Element Not Found Locator ://div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+04/10/2024 06:14:14 PM - AdPage - INFO: Element Not Found Locator ://div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+04/10/2024 06:19:28 PM - FangatePage - INFO: Element Not Found Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+04/10/2024 06:19:28 PM - FangatePage - INFO: Not Wirte to the Element Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+04/10/2024 06:19:31 PM - FangatePage - INFO: Element Not Found Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+04/10/2024 06:19:31 PM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+04/10/2024 06:19:35 PM - LoginPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:19:36 PM - LoginPage - INFO: Element appeared on the web page
+04/10/2024 06:19:36 PM - LoginPage - INFO: Element Found Locator :LoginLocatorType :link
+04/10/2024 06:19:38 PM - LoginPage - INFO: Clicked on the Element Locator :LoginLocatorType :link
+04/10/2024 06:19:38 PM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+04/10/2024 06:19:38 PM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+04/10/2024 06:19:38 PM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+04/10/2024 06:19:38 PM - LoginPage - INFO: Send Keys Successfully Locator :login_emailLocatorType :id
+04/10/2024 06:19:38 PM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+04/10/2024 06:19:38 PM - LoginPage - INFO: Send Keys Successfully Locator :login_passwordLocatorType :id
+04/10/2024 06:19:38 PM - LoginPage - INFO: Element Found Locator :login_buttonLocatorType :id
+04/10/2024 06:19:50 PM - LoginPage - INFO: Clicked on the Element Locator :login_buttonLocatorType :id
+04/10/2024 06:20:00 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:20:00 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:20:00 PM - AdPage - INFO: Element Found Locator ://a[@href='https://hypeddit.com/promotemusic']LocatorType :xpath
+04/10/2024 06:20:02 PM - AdPage - INFO: Clicked on the Element Locator ://a[@href='https://hypeddit.com/promotemusic']LocatorType :xpath
+04/10/2024 06:20:02 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:20:02 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:20:02 PM - AdPage - INFO: Element Found Locator ://a[@href='https://hypeddit.com/ads/templates']LocatorType :xpath
+04/10/2024 06:20:03 PM - AdPage - INFO: Clicked on the Element Locator ://a[@href='https://hypeddit.com/ads/templates']LocatorType :xpath
+04/10/2024 06:20:03 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:20:03 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:20:03 PM - AdPage - INFO: Element Found Locator ://a[@href='https://hypeddit.com/ads/create/spotify-growth-track']LocatorType :xpath
+04/10/2024 06:20:09 PM - AdPage - INFO: Clicked on the Element Locator ://a[@href='https://hypeddit.com/ads/create/spotify-growth-track']LocatorType :xpath
+04/10/2024 06:20:09 PM - AdPage - INFO: Element Found Locator :next_box_button_facebook-account-connectLocatorType :id
+04/10/2024 06:20:09 PM - AdPage - INFO: Clicked on the Element Locator :next_box_button_facebook-account-connectLocatorType :id
+04/10/2024 06:20:09 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:20:09 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:20:09 PM - AdPage - INFO: Element Found Locator :track_urlLocatorType :id
+04/10/2024 06:20:10 PM - AdPage - INFO: Send Keys Successfully Locator :track_urlLocatorType :id
+04/10/2024 06:20:12 PM - AdPage - INFO: Element Found Locator ://div[@class='loader select-loading'][contains(@style,'display: block')]LocatorType :xpath
+04/10/2024 06:20:12 PM - AdPage - INFO: Element Found Locator ://div[@class='loader select-loading'][contains(@style,'display: block')]LocatorType :xpath
+04/10/2024 06:20:12 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:20:20 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:20:20 PM - AdPage - INFO: Element Found Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Select genre']LocatorType :xpath
+04/10/2024 06:20:20 PM - AdPage - INFO: Clicked on the Element Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Select genre']LocatorType :xpath
+04/10/2024 06:20:20 PM - AdPage - INFO: Element Found Locator ://ul[@class='dropdown-menu inner']//span[text()='Bass']LocatorType :xpath
+04/10/2024 06:20:20 PM - AdPage - INFO: Clicked on the Element Locator ://ul[@class='dropdown-menu inner']//span[text()='Bass']LocatorType :xpath
+04/10/2024 06:20:25 PM - AdPage - INFO: Element Found Locator :next_box_button_musicLocatorType :id
+04/10/2024 06:20:26 PM - AdPage - INFO: Clicked on the Element Locator :next_box_button_musicLocatorType :id
+04/10/2024 06:20:43 PM - AdPage - INFO: Element Found Locator :inputFileAudioAssetLocatorType :id
+04/10/2024 06:20:43 PM - AdPage - INFO: Not Wirte to the Element Locator :inputFileAudioAssetLocatorType :id
+04/10/2024 06:20:52 PM - AdPage - INFO: Element Not Found Locator ://img[@title='45 sec']LocatorType :xpath
+04/10/2024 06:20:52 PM - AdPage - INFO: Element Not Found Locator ://img[@title='45 sec']LocatorType :xpath
+04/10/2024 06:20:52 PM - AdPage - INFO: Element Found Locator :next_box_button_audio-videoLocatorType :id
+04/10/2024 06:20:52 PM - AdPage - INFO: Clicked on the Element Locator :next_box_button_audio-videoLocatorType :id
+04/10/2024 06:20:52 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:21:24 PM - AdPage - INFO: Element not appeared on the web page
+04/10/2024 06:21:26 PM - AdPage - INFO: Element Not Found Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Tier One and Two Countries ']LocatorType :xpath
+04/10/2024 06:21:26 PM - AdPage - INFO: Cannot clicked on the Element Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Tier One and Two Countries ']LocatorType :xpath
+04/10/2024 06:21:42 PM - AdPage - INFO: Element Not Found Locator ://ul[@class='dropdown-menu inner']//span[text()='All Countries']LocatorType :xpath
+04/10/2024 06:21:42 PM - AdPage - INFO: Cannot clicked on the Element Locator ://ul[@class='dropdown-menu inner']//span[text()='All Countries']LocatorType :xpath
+04/10/2024 06:28:26 PM - FangatePage - INFO: Element Not Found Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+04/10/2024 06:28:26 PM - FangatePage - INFO: Not Wirte to the Element Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+04/10/2024 06:28:29 PM - FangatePage - INFO: Element Not Found Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+04/10/2024 06:28:29 PM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+04/10/2024 06:28:33 PM - LoginPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:28:33 PM - LoginPage - INFO: Element appeared on the web page
+04/10/2024 06:28:33 PM - LoginPage - INFO: Element Found Locator :LoginLocatorType :link
+04/10/2024 06:28:37 PM - LoginPage - INFO: Clicked on the Element Locator :LoginLocatorType :link
+04/10/2024 06:28:37 PM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+04/10/2024 06:28:37 PM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+04/10/2024 06:28:37 PM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+04/10/2024 06:28:37 PM - LoginPage - INFO: Send Keys Successfully Locator :login_emailLocatorType :id
+04/10/2024 06:28:37 PM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+04/10/2024 06:28:37 PM - LoginPage - INFO: Send Keys Successfully Locator :login_passwordLocatorType :id
+04/10/2024 06:28:37 PM - LoginPage - INFO: Element Found Locator :login_buttonLocatorType :id
+04/10/2024 06:28:48 PM - LoginPage - INFO: Clicked on the Element Locator :login_buttonLocatorType :id
+04/10/2024 06:28:58 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:28:58 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:28:58 PM - AdPage - INFO: Element Found Locator ://a[@href='https://hypeddit.com/promotemusic']LocatorType :xpath
+04/10/2024 06:28:59 PM - AdPage - INFO: Clicked on the Element Locator ://a[@href='https://hypeddit.com/promotemusic']LocatorType :xpath
+04/10/2024 06:28:59 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:28:59 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:28:59 PM - AdPage - INFO: Element Found Locator ://a[@href='https://hypeddit.com/ads/templates']LocatorType :xpath
+04/10/2024 06:29:01 PM - AdPage - INFO: Clicked on the Element Locator ://a[@href='https://hypeddit.com/ads/templates']LocatorType :xpath
+04/10/2024 06:29:01 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:29:01 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:29:01 PM - AdPage - INFO: Element Found Locator ://a[@href='https://hypeddit.com/ads/create/spotify-growth-track']LocatorType :xpath
+04/10/2024 06:29:07 PM - AdPage - INFO: Clicked on the Element Locator ://a[@href='https://hypeddit.com/ads/create/spotify-growth-track']LocatorType :xpath
+04/10/2024 06:29:07 PM - AdPage - INFO: Element Found Locator :next_box_button_facebook-account-connectLocatorType :id
+04/10/2024 06:29:07 PM - AdPage - INFO: Clicked on the Element Locator :next_box_button_facebook-account-connectLocatorType :id
+04/10/2024 06:29:07 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:29:07 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:29:07 PM - AdPage - INFO: Element Found Locator :track_urlLocatorType :id
+04/10/2024 06:29:07 PM - AdPage - INFO: Send Keys Successfully Locator :track_urlLocatorType :id
+04/10/2024 06:29:09 PM - AdPage - INFO: Element Found Locator ://div[@class='loader select-loading'][contains(@style,'display: block')]LocatorType :xpath
+04/10/2024 06:29:09 PM - AdPage - INFO: Element Found Locator ://div[@class='loader select-loading'][contains(@style,'display: block')]LocatorType :xpath
+04/10/2024 06:29:09 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:29:17 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:29:17 PM - AdPage - INFO: Element Found Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Select genre']LocatorType :xpath
+04/10/2024 06:29:17 PM - AdPage - INFO: Clicked on the Element Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Select genre']LocatorType :xpath
+04/10/2024 06:29:17 PM - AdPage - INFO: Element Found Locator ://ul[@class='dropdown-menu inner']//span[text()='Bass']LocatorType :xpath
+04/10/2024 06:29:17 PM - AdPage - INFO: Clicked on the Element Locator ://ul[@class='dropdown-menu inner']//span[text()='Bass']LocatorType :xpath
+04/10/2024 06:29:22 PM - AdPage - INFO: Element Found Locator :next_box_button_musicLocatorType :id
+04/10/2024 06:29:22 PM - AdPage - INFO: Clicked on the Element Locator :next_box_button_musicLocatorType :id
+04/10/2024 06:29:39 PM - AdPage - INFO: Element Found Locator :inputFileAudioAssetLocatorType :id
+04/10/2024 06:29:39 PM - AdPage - INFO: Not Wirte to the Element Locator :inputFileAudioAssetLocatorType :id
+04/10/2024 06:29:49 PM - AdPage - INFO: Element Not Found Locator ://img[@title='45 sec']LocatorType :xpath
+04/10/2024 06:29:49 PM - AdPage - INFO: Element Not Found Locator ://img[@title='45 sec']LocatorType :xpath
+04/10/2024 06:29:49 PM - AdPage - INFO: Element Found Locator :next_box_button_audio-videoLocatorType :id
+04/10/2024 06:29:49 PM - AdPage - INFO: Clicked on the Element Locator :next_box_button_audio-videoLocatorType :id
+04/10/2024 06:29:49 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:30:39 PM - AdPage - INFO: Element not appeared on the web page
+04/10/2024 06:30:39 PM - AdPage - INFO: Element Found Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Tier One and Two Countries ']LocatorType :xpath
+04/10/2024 06:30:39 PM - AdPage - INFO: Cannot clicked on the Element Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Tier One and Two Countries ']LocatorType :xpath
+04/10/2024 06:30:42 PM - AdPage - INFO: Element Not Found Locator ://ul[@class='dropdown-menu inner']//span[text()='All Countries']LocatorType :xpath
+04/10/2024 06:30:43 PM - AdPage - INFO: Cannot clicked on the Element Locator ://ul[@class='dropdown-menu inner']//span[text()='All Countries']LocatorType :xpath
+04/10/2024 06:30:48 PM - AdPage - INFO: Element Found Locator :next_box_button_countriesLocatorType :id
+04/10/2024 06:30:48 PM - AdPage - INFO: Cannot clicked on the Element Locator :next_box_button_countriesLocatorType :id
+04/10/2024 06:30:48 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:31:50 PM - FangatePage - INFO: Element Not Found Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+04/10/2024 06:31:50 PM - FangatePage - INFO: Not Wirte to the Element Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+04/10/2024 06:31:53 PM - FangatePage - INFO: Element Not Found Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+04/10/2024 06:31:53 PM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+04/10/2024 06:31:57 PM - LoginPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:31:57 PM - LoginPage - INFO: Element appeared on the web page
+04/10/2024 06:31:57 PM - LoginPage - INFO: Element Found Locator :LoginLocatorType :link
+04/10/2024 06:31:59 PM - LoginPage - INFO: Clicked on the Element Locator :LoginLocatorType :link
+04/10/2024 06:31:59 PM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+04/10/2024 06:31:59 PM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+04/10/2024 06:31:59 PM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+04/10/2024 06:31:59 PM - LoginPage - INFO: Send Keys Successfully Locator :login_emailLocatorType :id
+04/10/2024 06:31:59 PM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+04/10/2024 06:31:59 PM - LoginPage - INFO: Send Keys Successfully Locator :login_passwordLocatorType :id
+04/10/2024 06:31:59 PM - LoginPage - INFO: Element Found Locator :login_buttonLocatorType :id
+04/10/2024 06:32:11 PM - LoginPage - INFO: Clicked on the Element Locator :login_buttonLocatorType :id
+04/10/2024 06:32:21 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:32:21 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:32:21 PM - AdPage - INFO: Element Found Locator ://a[@href='https://hypeddit.com/promotemusic']LocatorType :xpath
+04/10/2024 06:32:22 PM - AdPage - INFO: Clicked on the Element Locator ://a[@href='https://hypeddit.com/promotemusic']LocatorType :xpath
+04/10/2024 06:32:22 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:32:22 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:32:22 PM - AdPage - INFO: Element Found Locator ://a[@href='https://hypeddit.com/ads/templates']LocatorType :xpath
+04/10/2024 06:32:23 PM - AdPage - INFO: Clicked on the Element Locator ://a[@href='https://hypeddit.com/ads/templates']LocatorType :xpath
+04/10/2024 06:32:23 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:32:23 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:32:23 PM - AdPage - INFO: Element Found Locator ://a[@href='https://hypeddit.com/ads/create/spotify-growth-track']LocatorType :xpath
+04/10/2024 06:32:29 PM - AdPage - INFO: Clicked on the Element Locator ://a[@href='https://hypeddit.com/ads/create/spotify-growth-track']LocatorType :xpath
+04/10/2024 06:32:29 PM - AdPage - INFO: Element Found Locator :next_box_button_facebook-account-connectLocatorType :id
+04/10/2024 06:32:29 PM - AdPage - INFO: Clicked on the Element Locator :next_box_button_facebook-account-connectLocatorType :id
+04/10/2024 06:32:29 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:32:29 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:32:29 PM - AdPage - INFO: Element Found Locator :track_urlLocatorType :id
+04/10/2024 06:32:29 PM - AdPage - INFO: Send Keys Successfully Locator :track_urlLocatorType :id
+04/10/2024 06:32:31 PM - AdPage - INFO: Element Found Locator ://div[@class='loader select-loading'][contains(@style,'display: block')]LocatorType :xpath
+04/10/2024 06:32:31 PM - AdPage - INFO: Element Found Locator ://div[@class='loader select-loading'][contains(@style,'display: block')]LocatorType :xpath
+04/10/2024 06:32:31 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:32:39 PM - AdPage - INFO: Element appeared on the web page
+04/10/2024 06:32:40 PM - AdPage - INFO: Element Found Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Select genre']LocatorType :xpath
+04/10/2024 06:32:40 PM - AdPage - INFO: Clicked on the Element Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Select genre']LocatorType :xpath
+04/10/2024 06:32:40 PM - AdPage - INFO: Element Found Locator ://ul[@class='dropdown-menu inner']//span[text()='Bass']LocatorType :xpath
+04/10/2024 06:32:40 PM - AdPage - INFO: Clicked on the Element Locator ://ul[@class='dropdown-menu inner']//span[text()='Bass']LocatorType :xpath
+04/10/2024 06:32:45 PM - AdPage - INFO: Element Found Locator :next_box_button_musicLocatorType :id
+04/10/2024 06:32:46 PM - AdPage - INFO: Clicked on the Element Locator :next_box_button_musicLocatorType :id
+04/10/2024 06:33:03 PM - AdPage - INFO: Element Found Locator :inputFileAudioAssetLocatorType :id
+04/10/2024 06:33:03 PM - AdPage - INFO: Not Wirte to the Element Locator :inputFileAudioAssetLocatorType :id
+04/10/2024 06:33:12 PM - AdPage - INFO: Element Not Found Locator ://img[@title='45 sec']LocatorType :xpath
+04/10/2024 06:33:12 PM - AdPage - INFO: Element Not Found Locator ://img[@title='45 sec']LocatorType :xpath
+04/10/2024 06:33:12 PM - AdPage - INFO: Element Found Locator :next_box_button_audio-videoLocatorType :id
+04/10/2024 06:33:12 PM - AdPage - INFO: Clicked on the Element Locator :next_box_button_audio-videoLocatorType :id
+04/10/2024 06:33:12 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:33:18 PM - AdPage - INFO: Element not appeared on the web page
+04/10/2024 06:33:18 PM - AdPage - INFO: Element Not Found Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Tier One and Two Countries ']LocatorType :xpath
+04/10/2024 06:33:18 PM - AdPage - INFO: Cannot clicked on the Element Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Tier One and Two Countries ']LocatorType :xpath
+04/10/2024 06:33:18 PM - AdPage - INFO: Element Not Found Locator ://ul[@class='dropdown-menu inner']//span[text()='All Countries']LocatorType :xpath
+04/10/2024 06:33:18 PM - AdPage - INFO: Cannot clicked on the Element Locator ://ul[@class='dropdown-menu inner']//span[text()='All Countries']LocatorType :xpath
+04/10/2024 06:33:23 PM - AdPage - INFO: Element Not Found Locator :next_box_button_countriesLocatorType :id
+04/10/2024 06:33:23 PM - AdPage - INFO: Cannot clicked on the Element Locator :next_box_button_countriesLocatorType :id
+04/10/2024 06:33:23 PM - AdPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+04/10/2024 06:33:23 PM - AdPage - INFO: Element not appeared on the web page
+04/10/2024 06:33:23 PM - AdPage - INFO: Element Not Found Locator :add_spotify_artistLocatorType :id
+04/10/2024 06:33:23 PM - AdPage - INFO: Not Wirte to the Element Locator :add_spotify_artistLocatorType :id
+04/10/2024 06:33:25 PM - AdPage - INFO: Element Not Found Locator ://div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+04/10/2024 06:33:25 PM - AdPage - INFO: Element Not Found Locator ://div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+04/10/2024 06:33:27 PM - AdPage - INFO: Element Not Found Locator ://div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+04/10/2024 06:33:27 PM - AdPage - INFO: Element Not Found Locator ://div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+04/10/2024 06:33:29 PM - AdPage - INFO: Element Not Found Locator ://div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+04/10/2024 06:33:29 PM - AdPage - INFO: Element Not Found Locator ://div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+04/10/2024 06:33:31 PM - AdPage - INFO: Element Not Found Locator ://div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+04/10/2024 06:33:31 PM - AdPage - INFO: Element Not Found Locator ://div[@id='add_spotify_loader'][contains(@class,'select-loading hide')]LocatorType :xpath

@@ -22,12 +22,12 @@ class CreateFangateTests(unittest.TestCase):
     def test_CreateFangate(self):
         print("running createfnagate")
         self.fp.devUnlock("BetterDevTest8675!")
-        self.lp.login("regression-sprint-123-100@baltech.in", "123456")
+        self.lp.login("regression-sprint-124@baltech.in", "123456")
 
         #self.fp.createFangate(Fg="fangate")
         self.fp.createFangate(Fg="linkgate")
-        #self.fp.createFangate(Fg="smartlink")
-        time.sleep(60)
+        self.fp.createFangate(Fg="smartlink")
+        time.sleep(30)
 
 
         # result = self.lp.verifyLoginSuccessful()
