@@ -405,6 +405,8 @@ class AdPage(SeleniumDriver):
         time.sleep(50)
 
     def goal(self):
+
+
         self.clickGoalNextButton()
 
     def accountprofile(self):
@@ -519,7 +521,7 @@ class AdPage(SeleniumDriver):
         #self.mp4SendKeys('C:\\workspace_python\\hypeddit-Project\\Files\\Hazard Lights - SGE Cover - Preview 1.mp4')
         time.sleep(4)
         self.cropaudio() # Crop audio
-        self.getNetworkResponse()
+        #self.getNetworkResponse()
         for i in range(500):
             if i > 100:
                 break

@@ -9,7 +9,7 @@ Example:
     wdf.getWebDriverInstance()
 """
 import traceback
-from seleniumwire import webdriver
+from selenium import webdriver
 import os
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from webdriver_manager.firefox import GeckoDriverManager

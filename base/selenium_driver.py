@@ -1,3 +1,4 @@
+
 from selenium.webdriver.common.by import By
 from traceback import print_stack
 from selenium.webdriver.support.ui import WebDriverWait
@@ -5,7 +6,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import *
 import logging
 import utilities.custom_logger as c1
-#from seleniumwire import webdriver
+
+
+
 
 
 
@@ -158,7 +161,13 @@ class SeleniumDriver():
             self.log.info("Element Not Found Locator :" + locator + "LocatorType :" + locatorType)
             return False
 
-    def getNetworkResponse(self):
-        for request in self.driver.requests:
-            if request.response:
-                print(request.response)
+
+
+    def networkResponse(self):
+
+        devtools = self.driver.getDevTools()
+        devtools.createSesions()
+
+        devtools.send(Network.enable(Optional.empty(),Optional.empty(),Optional.empty()))
+
+

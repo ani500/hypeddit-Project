@@ -1,0 +1,217 @@
+06/06/2024 10:30:25 AM - FangatePage - INFO: Element Found Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+06/06/2024 10:30:25 AM - FangatePage - INFO: Send Keys Successfully Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+06/06/2024 10:30:25 AM - FangatePage - INFO: Element Found Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+06/06/2024 10:30:34 AM - FangatePage - INFO: Clicked on the Element Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+06/06/2024 10:30:38 AM - LoginPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+06/06/2024 10:30:38 AM - LoginPage - INFO: Element appeared on the web page
+06/06/2024 10:30:38 AM - LoginPage - INFO: Element Found Locator :LoginLocatorType :link
+06/06/2024 10:30:40 AM - LoginPage - INFO: Clicked on the Element Locator :LoginLocatorType :link
+06/06/2024 10:30:40 AM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+06/06/2024 10:30:40 AM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+06/06/2024 10:30:40 AM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+06/06/2024 10:30:40 AM - LoginPage - INFO: Send Keys Successfully Locator :login_emailLocatorType :id
+06/06/2024 10:30:40 AM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+06/06/2024 10:30:40 AM - LoginPage - INFO: Send Keys Successfully Locator :login_passwordLocatorType :id
+06/06/2024 10:30:40 AM - LoginPage - INFO: Element Found Locator :login_buttonLocatorType :id
+06/06/2024 10:30:46 AM - LoginPage - INFO: Clicked on the Element Locator :login_buttonLocatorType :id
+06/06/2024 10:30:58 AM - FangatePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/06/2024 10:30:58 AM - FangatePage - INFO: Element appeared on the web page
+06/06/2024 10:30:58 AM - FangatePage - INFO: Element Found Locator :Share MusicLocatorType :link
+06/06/2024 10:31:00 AM - FangatePage - INFO: Clicked on the Element Locator :Share MusicLocatorType :link
+06/06/2024 10:31:01 AM - FangatePage - INFO: Element Found Locator ://a[@href='https://dev2.hypeddit.com/gate/create']LocatorType :xpath
+06/06/2024 10:31:07 AM - FangatePage - INFO: Clicked on the Element Locator ://a[@href='https://dev2.hypeddit.com/gate/create']LocatorType :xpath
+06/06/2024 10:31:07 AM - FangatePage - INFO: Element Found Locator :track_urlLocatorType :id
+06/06/2024 10:31:08 AM - FangatePage - INFO: Send Keys Successfully Locator :track_urlLocatorType :id
+06/06/2024 10:31:09 AM - FangatePage - INFO: Element Found Locator :next_box_button_sourceLocatorType :id
+06/06/2024 10:31:09 AM - FangatePage - INFO: Clicked on the Element Locator :next_box_button_sourceLocatorType :id
+06/06/2024 10:31:09 AM - FangatePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/06/2024 10:31:20 AM - FangatePage - INFO: Element appeared on the web page
+06/06/2024 10:31:20 AM - FangatePage - INFO: Element Found Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Select genre']LocatorType :xpath
+06/06/2024 10:31:20 AM - FangatePage - INFO: Clicked on the Element Locator ://button[@class='btn dropdown-toggle btn-default']//span[text()='Select genre']LocatorType :xpath
+06/06/2024 10:31:20 AM - FangatePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/06/2024 10:31:20 AM - FangatePage - INFO: Element appeared on the web page
+06/06/2024 10:31:20 AM - FangatePage - INFO: Element Found Locator ://ul[@class='dropdown-menu inner']//span[text()='Bass']LocatorType :xpath
+06/06/2024 10:31:20 AM - FangatePage - INFO: Clicked on the Element Locator ://ul[@class='dropdown-menu inner']//span[text()='Bass']LocatorType :xpath
+06/06/2024 10:31:20 AM - FangatePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/06/2024 10:31:20 AM - FangatePage - INFO: Element appeared on the web page
+06/06/2024 10:31:20 AM - FangatePage - INFO: Element Found Locator :next_box_button_genreLocatorType :id
+06/06/2024 10:31:21 AM - FangatePage - INFO: Cannot clicked on the Element Locator :next_box_button_genreLocatorType :id
+06/06/2024 10:31:23 AM - FangatePage - INFO: Element Not Found Locator :inputFilemp3LocatorType :id
+06/06/2024 10:31:23 AM - FangatePage - INFO: Not Wirte to the Element Locator :inputFilemp3LocatorType :id
+06/06/2024 10:31:26 AM - FangatePage - INFO: Element Not Found Locator :next_box_button_uploadLocatorType :id
+06/06/2024 10:31:26 AM - FangatePage - INFO: Cannot clicked on the Element Locator :next_box_button_uploadLocatorType :id
+06/06/2024 10:31:28 AM - FangatePage - INFO: Element Not Found Locator :artist_nameLocatorType :id
+06/06/2024 10:31:28 AM - FangatePage - INFO: Not Wirte to the Element Locator :artist_nameLocatorType :id
+06/06/2024 10:31:29 AM - FangatePage - INFO: Element Not Found Locator :track_titleLocatorType :id
+06/06/2024 10:31:29 AM - FangatePage - INFO: Not Wirte to the Element Locator :track_titleLocatorType :id
+06/06/2024 10:31:30 AM - FangatePage - INFO: Element Not Found Locator :next_box_button_titleLocatorType :id
+06/06/2024 10:31:30 AM - FangatePage - INFO: Cannot clicked on the Element Locator :next_box_button_titleLocatorType :id
+06/06/2024 10:31:32 AM - FangatePage - INFO: Element Not Found Locator ://div[@class='checkbox']//label[@for='dark_theme']LocatorType :xpath
+06/06/2024 10:31:32 AM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='checkbox']//label[@for='dark_theme']LocatorType :xpath
+06/06/2024 10:31:33 AM - FangatePage - INFO: Element Not Found Locator :next_box_button_designLocatorType :id
+06/06/2024 10:31:33 AM - FangatePage - INFO: Cannot clicked on the Element Locator :next_box_button_designLocatorType :id
+06/06/2024 10:31:36 AM - FangatePage - INFO: Element Not Found Locator ://div[@class='checkbox']//label[@for='collect_email']LocatorType :xpath
+06/06/2024 10:31:36 AM - FangatePage - INFO: Element Not Found Locator :collect_emailLocatorType :id
+06/06/2024 10:31:36 AM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='checkbox']//label[@for='collect_email']LocatorType :xpath
+06/06/2024 10:31:36 AM - FangatePage - INFO: Element Not Found Locator ://div[@class='checkbox']//label[@for='collect_email_names']LocatorType :xpath
+06/06/2024 10:31:36 AM - FangatePage - INFO: Element Not Found Locator :collect_email_namesLocatorType :id
+06/06/2024 10:31:36 AM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='checkbox']//label[@for='collect_email_names']LocatorType :xpath
+06/06/2024 10:31:36 AM - FangatePage - INFO: Element Not Found Locator ://div[@class='checkbox']//label[@for='skippable_email']LocatorType :xpath
+06/06/2024 10:31:36 AM - FangatePage - INFO: Element Not Found Locator :skippable_emailLocatorType :id
+06/06/2024 10:31:36 AM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='checkbox']//label[@for='skippable_email']LocatorType :xpath
+06/06/2024 10:31:39 AM - FangatePage - INFO: Element Not Found Locator ://div[@class='checkbox']//label[@for='follow_sc']LocatorType :xpath
+06/06/2024 10:31:39 AM - FangatePage - INFO: Element Not Found Locator :follow_scLocatorType :id
+06/06/2024 10:31:39 AM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='checkbox']//label[@for='follow_sc']LocatorType :xpath
+06/06/2024 10:31:39 AM - FangatePage - INFO: Element Not Found Locator ://div[@class='checkbox']//label[@for='comment_sc']LocatorType :xpath
+06/06/2024 10:31:39 AM - FangatePage - INFO: Element Not Found Locator :comment_scLocatorType :id
+06/06/2024 10:31:39 AM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='checkbox']//label[@for='comment_sc']LocatorType :xpath
+06/06/2024 10:31:39 AM - FangatePage - INFO: Element Not Found Locator ://div[@class='checkbox']//label[@for='like_sc']LocatorType :xpath
+06/06/2024 10:31:39 AM - FangatePage - INFO: Element Not Found Locator :like_scLocatorType :id
+06/06/2024 10:31:39 AM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='checkbox']//label[@for='like_sc']LocatorType :xpath
+06/06/2024 10:31:39 AM - FangatePage - INFO: Element Not Found Locator ://div[@class='checkbox']//label[@for='repost_sc']LocatorType :xpath
+06/06/2024 10:31:39 AM - FangatePage - INFO: Element Not Found Locator :repost_scLocatorType :id
+06/06/2024 10:31:39 AM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='checkbox']//label[@for='repost_sc']LocatorType :xpath
+06/06/2024 10:31:39 AM - FangatePage - INFO: Element Not Found Locator ://div[@class='checkbox']//label[@for='skippable_sc']LocatorType :xpath
+06/06/2024 10:31:39 AM - FangatePage - INFO: Element Not Found Locator :skippable_scLocatorType :id
+06/06/2024 10:31:39 AM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='checkbox']//label[@for='skippable_sc']LocatorType :xpath
+06/06/2024 10:31:39 AM - FangatePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/06/2024 10:31:39 AM - FangatePage - INFO: Element not appeared on the web page
+06/06/2024 10:31:39 AM - FangatePage - INFO: Element Not Found Locator :soundcloud_profile_add_buttonLocatorType :id
+06/06/2024 10:31:39 AM - FangatePage - INFO: Cannot clicked on the Element Locator :soundcloud_profile_add_buttonLocatorType :id
+06/06/2024 10:31:39 AM - FangatePage - INFO: Waiting for maximum :: 20 :: seconds for element to be clickable
+06/06/2024 10:31:39 AM - FangatePage - INFO: Element not appeared on the web page
+06/06/2024 10:31:39 AM - FangatePage - INFO: Element Not Found Locator :add_soundcloud_artistLocatorType :id
+06/06/2024 10:31:39 AM - FangatePage - INFO: Not Wirte to the Element Locator :add_soundcloud_artistLocatorType :id
+06/06/2024 10:31:41 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:41 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:43 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:43 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:45 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:45 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:47 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:47 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:49 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:49 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:51 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:51 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:53 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:53 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:55 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:55 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:57 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:57 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:59 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:31:59 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:01 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:01 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:03 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:03 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:05 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:05 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:07 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:07 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:09 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:09 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:11 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:11 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:13 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:13 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:15 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:15 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:17 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:17 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:19 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:19 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:21 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:21 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:23 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:23 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:25 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:25 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:27 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:27 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:29 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:29 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:31 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:31 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:33 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:33 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:35 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:35 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:37 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:37 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:39 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:39 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:41 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:41 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:43 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:43 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:45 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:45 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:47 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:47 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:49 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:49 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:51 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:51 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:53 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:53 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:55 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:55 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:57 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:57 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:59 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:32:59 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:01 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:01 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:03 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:03 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:05 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:05 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:07 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:07 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:09 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:09 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:11 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:11 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:13 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:13 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:15 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:15 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:17 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:17 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:19 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:19 AM - FangatePage - INFO: Element Not Found Locator ://div[@id='add_soundcloud_loader'][contains(@class,'select-loading hide')]LocatorType :xpath
+06/06/2024 10:33:22 AM - FangatePage - INFO: Element Not Found Locator :add_youtube_buttonLocatorType :id
+06/06/2024 10:33:22 AM - FangatePage - INFO: Cannot clicked on the Element Locator :add_youtube_buttonLocatorType :id
+06/06/2024 10:33:25 AM - FangatePage - INFO: Element Not Found Locator ://div[@class='checkbox']//label[@for='subscribe_yt']LocatorType :xpath
+06/06/2024 10:33:25 AM - FangatePage - INFO: Element Not Found Locator :subscribe_ytLocatorType :id
+06/06/2024 10:33:25 AM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='checkbox']//label[@for='subscribe_yt']LocatorType :xpath
+06/06/2024 10:33:25 AM - FangatePage - INFO: Element Not Found Locator ://div[@class='checkbox']//label[@for='skippable_yt']LocatorType :xpath
+06/06/2024 10:33:25 AM - FangatePage - INFO: Element Not Found Locator :skippable_ytLocatorType :id
+06/06/2024 10:33:25 AM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='checkbox']//label[@for='skippable_yt']LocatorType :xpath
+06/06/2024 10:33:25 AM - FangatePage - INFO: Element Not Found Locator :add_youtube_channel_custom_urlLocatorType :id
+06/06/2024 10:33:25 AM - FangatePage - INFO: Not Wirte to the Element Locator :add_youtube_channel_custom_urlLocatorType :id
+06/06/2024 10:33:25 AM - FangatePage - INFO: Element Not Found Locator :add_youtube_channel_custom_nameLocatorType :id
+06/06/2024 10:33:25 AM - FangatePage - INFO: Not Wirte to the Element Locator :add_youtube_channel_custom_nameLocatorType :id
+06/06/2024 10:33:25 AM - FangatePage - INFO: Element Not Found Locator :youtube_profile_add_buttonLocatorType :id
+06/06/2024 10:33:25 AM - FangatePage - INFO: Cannot clicked on the Element Locator :youtube_profile_add_buttonLocatorType :id
+06/06/2024 10:33:28 AM - FangatePage - INFO: Element Not Found Locator :add_apple_buttonLocatorType :id
+06/06/2024 10:33:28 AM - FangatePage - INFO: Cannot clicked on the Element Locator :add_apple_buttonLocatorType :id
+06/06/2024 10:33:30 AM - FangatePage - INFO: Element Not Found Locator :add_apple_buttonLocatorType :id
+06/06/2024 10:33:30 AM - FangatePage - INFO: Cannot clicked on the Element Locator :add_apple_buttonLocatorType :id
+06/06/2024 10:33:30 AM - FangatePage - INFO: Element Not Found Locator ://div[@class='checkbox']//label[@for='like_ap']LocatorType :xpath
+06/06/2024 10:33:30 AM - FangatePage - INFO: Element Not Found Locator :like_apLocatorType :id
+06/06/2024 10:33:30 AM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='checkbox']//label[@for='like_ap']LocatorType :xpath
+06/06/2024 10:33:30 AM - FangatePage - INFO: Element Not Found Locator ://div[@class='checkbox']//label[@for='save_track_ap']LocatorType :xpath
+06/06/2024 10:33:30 AM - FangatePage - INFO: Element Not Found Locator :save_track_apLocatorType :id
+06/06/2024 10:33:30 AM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='checkbox']//label[@for='save_track_ap']LocatorType :xpath
+06/06/2024 10:33:30 AM - FangatePage - INFO: Element Not Found Locator ://div[@class='checkbox']//label[@for='skippable_ap']LocatorType :xpath
+06/06/2024 10:33:30 AM - FangatePage - INFO: Element Not Found Locator :skippable_apLocatorType :id
+06/06/2024 10:33:30 AM - FangatePage - INFO: Cannot clicked on the Element Locator ://div[@class='checkbox']//label[@for='skippable_ap']LocatorType :xpath
+06/06/2024 10:33:30 AM - FangatePage - INFO: Element Not Found Locator :add_apple_artistLocatorType :id
+06/06/2024 10:33:30 AM - FangatePage - INFO: Not Wirte to the Element Locator :add_apple_artistLocatorType :id
+06/06/2024 10:37:10 AM - FangatePage - INFO: Element Found Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+06/06/2024 10:37:10 AM - FangatePage - INFO: Send Keys Successfully Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+06/06/2024 10:37:10 AM - FangatePage - INFO: Element Found Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+06/06/2024 10:37:16 AM - FangatePage - INFO: Clicked on the Element Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath

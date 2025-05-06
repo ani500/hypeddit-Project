@@ -1,0 +1,48 @@
+06/06/2024 06:38:51 PM - FangatePage - INFO: Element Found Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+06/06/2024 06:38:52 PM - FangatePage - INFO: Send Keys Successfully Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+06/06/2024 06:38:52 PM - FangatePage - INFO: Element Found Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+06/06/2024 06:38:58 PM - FangatePage - INFO: Clicked on the Element Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+06/06/2024 06:39:02 PM - LoginPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+06/06/2024 06:39:02 PM - LoginPage - INFO: Element appeared on the web page
+06/06/2024 06:39:02 PM - LoginPage - INFO: Element Found Locator :LoginLocatorType :link
+06/06/2024 06:39:04 PM - LoginPage - INFO: Clicked on the Element Locator :LoginLocatorType :link
+06/06/2024 06:39:04 PM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+06/06/2024 06:39:04 PM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+06/06/2024 06:39:04 PM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+06/06/2024 06:39:04 PM - LoginPage - INFO: Send Keys Successfully Locator :login_emailLocatorType :id
+06/06/2024 06:39:04 PM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+06/06/2024 06:39:04 PM - LoginPage - INFO: Send Keys Successfully Locator :login_passwordLocatorType :id
+06/06/2024 06:39:04 PM - LoginPage - INFO: Element Found Locator :login_buttonLocatorType :id
+06/06/2024 06:39:09 PM - LoginPage - INFO: Clicked on the Element Locator :login_buttonLocatorType :id
+06/06/2024 06:41:07 PM - FangatePage - INFO: Element Found Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+06/06/2024 06:41:07 PM - FangatePage - INFO: Send Keys Successfully Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+06/06/2024 06:41:07 PM - FangatePage - INFO: Element Found Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+06/06/2024 06:41:13 PM - FangatePage - INFO: Clicked on the Element Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+06/06/2024 06:41:17 PM - LoginPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+06/06/2024 06:41:17 PM - LoginPage - INFO: Element appeared on the web page
+06/06/2024 06:41:18 PM - LoginPage - INFO: Element Found Locator :LoginLocatorType :link
+06/06/2024 06:41:19 PM - LoginPage - INFO: Clicked on the Element Locator :LoginLocatorType :link
+06/06/2024 06:41:19 PM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+06/06/2024 06:41:19 PM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+06/06/2024 06:41:19 PM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+06/06/2024 06:41:19 PM - LoginPage - INFO: Send Keys Successfully Locator :login_emailLocatorType :id
+06/06/2024 06:41:19 PM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+06/06/2024 06:41:19 PM - LoginPage - INFO: Send Keys Successfully Locator :login_passwordLocatorType :id
+06/06/2024 06:41:19 PM - LoginPage - INFO: Element Found Locator :login_buttonLocatorType :id
+06/06/2024 06:41:24 PM - LoginPage - INFO: Clicked on the Element Locator :login_buttonLocatorType :id
+06/06/2024 06:42:22 PM - FangatePage - INFO: Element Found Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+06/06/2024 06:42:22 PM - FangatePage - INFO: Send Keys Successfully Locator ://form[@id='devlock']//input[@type='password']LocatorType :xpath
+06/06/2024 06:42:22 PM - FangatePage - INFO: Element Found Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+06/06/2024 06:42:45 PM - FangatePage - INFO: Clicked on the Element Locator ://div[@class='form-group']//button[@type='submit']LocatorType :xpath
+06/06/2024 06:42:49 PM - LoginPage - INFO: Waiting for maximum :: 50 :: seconds for element to be clickable
+06/06/2024 06:42:49 PM - LoginPage - INFO: Element appeared on the web page
+06/06/2024 06:42:49 PM - LoginPage - INFO: Element Found Locator :LoginLocatorType :link
+06/06/2024 06:42:51 PM - LoginPage - INFO: Clicked on the Element Locator :LoginLocatorType :link
+06/06/2024 06:42:51 PM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+06/06/2024 06:42:51 PM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+06/06/2024 06:42:51 PM - LoginPage - INFO: Element Found Locator :login_emailLocatorType :id
+06/06/2024 06:42:51 PM - LoginPage - INFO: Send Keys Successfully Locator :login_emailLocatorType :id
+06/06/2024 06:42:51 PM - LoginPage - INFO: Element Found Locator :login_passwordLocatorType :id
+06/06/2024 06:42:51 PM - LoginPage - INFO: Send Keys Successfully Locator :login_passwordLocatorType :id
+06/06/2024 06:42:51 PM - LoginPage - INFO: Element Found Locator :login_buttonLocatorType :id
+06/06/2024 06:42:57 PM - LoginPage - INFO: Clicked on the Element Locator :login_buttonLocatorType :id

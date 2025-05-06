@@ -1503,9 +1503,13 @@ TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
 TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:203:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:468:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:219:33
-1713864663836	geckodriver	INFO	Listening on 127.0.0.1:60765
-1713864666951	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60766" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileGxFPAo"
-console.warn: services.settings: Ignoring preference override of remote settings server
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:76108
+
+1713879587769	Marionette	INFO	Stopped listening on port 60295
+Dynamically enable window occlusion 1
+nsole.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
 Dynamically enable window occlusion 0
 1713864668813	Marionette	INFO	Marionette enabled
