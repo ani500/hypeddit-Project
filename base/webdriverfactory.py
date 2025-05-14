@@ -66,7 +66,7 @@ class WebDriverFactory():
             #driver = webdriver.Chrome(chromedriver)
             driver.set_window_size(1440, 900)
         else:
-            driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+            driver = webdriver.Firefox()
             #driver = webdriver.Firefox(executable_path='C:/workspace_python/drivers/drivers/geckodriver')
         # Setting Driver Implicit Time out for An Element
         driver.implicitly_wait(3)
