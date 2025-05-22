@@ -7,10 +7,10 @@ class ScreenTest(unittest.TestCase):
 
     @pytest.fixture(autouse=True)
     def classSetup(self):
-        self.scv = ScreenSave(self.driver)
+        self.scv = ScreenSave(self.driver, self.baseUrl)
 
     @pytest.mark.order2
     def test_case_100(self):
-        self.scv.takeScreen("https://hypeddit.com/")
+        self.scv.takeScreen()
 
 

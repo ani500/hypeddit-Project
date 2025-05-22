@@ -6,22 +6,23 @@ from urllib.parse import urlparse, urljoin
 
 class ScreenSave(SeleniumDriver):
     aLocator = 'a'
-    def __init__(self, driver):
+    def __init__(self, driver,baseUrl):
         super().__init__(driver)
 
         self.driver = driver
+        self.baseUrl = baseUrl
         self.SCREENSHOT_DIR = 'Files1'
         os.makedirs(self.SCREENSHOT_DIR, exist_ok=True)
 
 
-    def takeScreen(self, baseUrl):
+    def takeScreen(self):
 
         links = self.getElements(self.aLocator, "tagname")
         internal_links = set()
 
         for link in links:
             href = link.get_attribute('href')
-            if href and href.startswith(baseUrl):
+            if href and href.startswith(self.baseUrl):
                 clean_link = href.split('#')[0].rstrip('/')
                 internal_links.add(clean_link)
 
