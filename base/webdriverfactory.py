@@ -20,7 +20,7 @@ from selenium.webdriver.chrome import service
 
 class WebDriverFactory():
 
-    def __init__(self, browser):
+    def __init__(self, browser,baseURL):
         """
         Inits WebDriverFactory class
 
@@ -28,6 +28,7 @@ class WebDriverFactory():
             None
         """
         self.browser = browser
+        self.baseURL = baseURL
 
     """
         Set chrome driver and iexplorer environment based on OS
@@ -39,14 +40,14 @@ class WebDriverFactory():
         PREFERRED: Set the path on the machine where browser will be executed
     """
 
-    def getWebDriverInstance(self):
+    def getWebDriverInstance(self, ):
         """
        Get WebDriver Instance based on the browser configuration
 
         Returns:
             'WebDriver Instance'
         """
-        baseURL = "https://dev2.hypeddit.com/"
+        #baseURL = "https://dev2.hypeddit.com/"
         if self.browser == "edge":
             # Set ie driver
             driver = webdriver.Edge(EdgeChromiumDriverManager().install())
@@ -55,7 +56,7 @@ class WebDriverFactory():
             #driver = webdriver.Edge(edgedriver)
             driver.set_window_size(1440, 900)
         elif self.browser == "firefox":
-            driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+            driver = webdriver.Firefox()
             #driver = webdriver.Firefox(executable_path='C:/workspace_python/drivers/drivers/geckodriver')
         elif self.browser == "chrome":
             # Set chrome driver
@@ -73,5 +74,5 @@ class WebDriverFactory():
         # Maximize the window
         driver.maximize_window()
         # Loading browser with App URL
-        driver.get(baseURL)
+        driver.get(self.baseURL)
         return driver

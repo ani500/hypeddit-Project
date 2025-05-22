@@ -33,6 +33,8 @@ class SeleniumDriver():
             return By.CLASS_NAME
         elif locatorType == "link":
             return By.LINK_TEXT
+        elif locatorType=="tagname":
+            return By.TAG_NAME
         else:
             self.log.info("Locator type " + locatorType + "  not correct/supported")
         return False
@@ -150,7 +152,9 @@ class SeleniumDriver():
 
     def getElements(self, locator, locatorType):
         try:
-            elementList = self.driver.find_elements(locatorType, locator)
+            locatorType = locatorType.lower()
+            byType = self.getByType(locatorType)
+            elementList = self.driver.find_elements(byType, locator)
             if len(elementList) > 0:
                 self.log.info("Element Found Locator :" + locator + "LocatorType :" + locatorType)
                 return elementList
